@@ -1,0 +1,45 @@
+---
+import Welcome from "../components/Welcome.astro";
+import Footer from "../components/Footer.astro";
+import Layout from "../components/Layout.astro";
+import CardLoteryCundi from "../components/CardLotery/cardLoteryCundi.astro";
+import CardLoteryToli from "../components/CardLotery/cardLoteryToli.astro";
+import CardLoteryCruz from "../components/CardLotery/cardLoteryCruz.astro";
+import CardLoteryHuila from "../components/CardLotery/cardLoteryHuila.astro";
+import CardLoteryMeta from "../components/CardLotery/cardLoteryMeta.astro";
+import CardLoteryManizales from "../components/CardLotery/cardLoteryManizales.astro";
+import CardLoteryValle from "../components/CardLotery/cardLoteryValle.astro";
+import CardLoteryBogota from "../components/CardLotery/cardLoteryBogota.astro";
+import CardLoteryQuindio from "../components/CardLotery/cardLoteryQuindio.astro";
+import CardLoteryMedellin from "../components/CardLotery/cardLoteryMedellin.astro";
+import CardLoteryRisaralda from "../components/CardLotery/cardLoteryRisaralda.astro";
+import CardLoterySantander from "../components/CardLotery/cardLoterySantander.astro";
+import CardLoteryBoyaca from "../components/CardLotery/cardLoteryBoyaca.astro";
+import CardLoteryCauca from "../components/CardLotery/cardLoteryCauca.astro";
+import ButtonPrimary from "../components/buttonPrimary.astro";
+import ButtonSecondary from "../components/buttonSecondary.astro";
+---
+<Layout pageTitle={'Home'}>
+  <Welcome/>
+  <div class="min-w-full flex justify-center gap-3 my-10">
+    <ButtonPrimary titleButton={'Loterías diarias'} linkButton={'.'} />
+    <ButtonSecondary titleButton={'Loterías extras'} linkButton={'extras'} />
+  </div>
+  <div class="bg-gray-600 bg-opacity-50 rounded-2xl p-1 mx-5 lg:ml-24">
+    <p class="text-white p-3">Se muestran los 5 primeros resultados de cada lotería.</p>
+  </div>
+  <CardLoteryCundi titleLotery={'Cundinamarca'}/>
+  <CardLoteryToli titleLotery={'Tolima'}/>
+  <CardLoteryCruz titleLotery={'Cruz Roja'}/>
+  <CardLoteryHuila titleLotery={'Huila'}/>
+  <CardLoteryMeta titleLotery={'Meta'}/>
+  <CardLoteryManizales titleLotery={'Manizales'}/>
+  <CardLoteryValle titleLotery={'Valle'}/>
+  <CardLoteryBogota titleLotery={'Bogotá'}/>
+  <CardLoteryQuindio titleLotery={'Quindio'}/>
+  <CardLoteryMedellin titleLotery={'Medellín'}/>
+  <CardLoteryRisaralda titleLotery={'Risaralda'}/>
+  <CardLoterySantander titleLotery={'Santander'} />
+  <CardLoteryBoyaca titleLotery={'Boyacá'} />
+  <CardLoteryCauca titleLotery={'Cauca'}/>
+  </Layout>

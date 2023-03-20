@@ -1,0 +1,8 @@
+---
+interface Props{
+  loteryName:String
+  loteryLink?:URL
+}
+const {loteryName, loteryLink = ""} = Astro.props
+---
+<li><a class="text-white inline-block min-w-full h-10 whitespace-nowrap" href={loteryLink}>{loteryName}</a></li>

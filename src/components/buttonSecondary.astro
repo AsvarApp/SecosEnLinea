@@ -1,0 +1,8 @@
+---
+interface Props{
+  titleButton: String
+  linkButton: URL
+}
+const {titleButton = 'Botón', linkButton} = Astro.props
+---
+<a href={linkButton} class="px-5 py-3 bg-colorPrimary rounded-2xl text-white transition-all hover:shadow-purple-400/30 shadow-lg bg-opacity-50 hover:bg-opacity-100">{titleButton}</a>
