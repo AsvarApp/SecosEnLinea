@@ -1,0 +1,19 @@
+---
+import Layout from "../../components/Layout.astro";
+import CardLoteryIndex from "../../components/CardLotery/cardLoteryIndex.astro";
+import Welcome from "../../components/Welcome.astro";
+import ButtonPrimary from "../../components/buttonPrimary.astro";
+import ButtonSecondary from "../../components/buttonSecondary.astro";
+---
+
+<Layout pageTitle={'Bogotá'}>
+  <Welcome/>
+  <div class="min-w-full flex justify-center gap-3 my-10">
+    <ButtonSecondary titleButton={'Loterías diarias'} linkButton={'.'} />
+    <ButtonPrimary titleButton={'Loterías extras'} linkButton={'extras'} />
+  </div>
+  <div class="bg-gray-600 bg-opacity-50 rounded-2xl p-1 mx-5 lg:ml-24">
+    <p class="text-white p-3">Se muestran los 5 primeros resultados de cada lotería.</p>
+  </div>
+  <CardLoteryIndex titleLotery={'Extra de Colombia'} subRouting={'extras/'} nameLotery={'extracolombia'} />
+</Layout>
