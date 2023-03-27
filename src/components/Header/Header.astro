@@ -2,23 +2,23 @@
 import NavLi from "./NavLi.astro";
 ---
 
-<header class="min-w-full h-16 fixed z-10 bg-colorMenu transition-all top-0 left-0 hover:bg-opacity-70 lg:min-h-full lg:min-w-0 lg:w-16">
+<header class="h-16 min-w-full fixed z-10 bg-colorMenu transition-all top-0 left-0 hover:w-52 overflow-hidden ease-in duration-200 hover:bg-opacity-50 backdrop-blur-sm lg:min-h-full lg:min-w-0 lg:w-16">
   <nav>
-    <!-- <ul class="flex flex-col gap-1">
-      <NavLi loteryName={'Cundinamarca'}></NavLi>
-      <NavLi loteryName={'Tolima'}></NavLi>
-      <NavLi loteryName={'Cruz Roja'}></NavLi>
-      <NavLi loteryName={'Huila'}></NavLi>
-      <NavLi loteryName={'Meta'}></NavLi>
-      <NavLi loteryName={'Manizales'}></NavLi>
-      <NavLi loteryName={'Valle'}></NavLi>
-      <NavLi loteryName={'Bogotá'}></NavLi>
-      <NavLi loteryName={'Quindio'}></NavLi>
-      <NavLi loteryName={'Medellín'}></NavLi>
-      <NavLi loteryName={'Risaraldas'}></NavLi>
-      <NavLi loteryName={'Santander'}></NavLi>
-      <NavLi loteryName={'Boyacá'}></NavLi>
-      <NavLi loteryName={'Cauca'}></NavLi>
-    </ul> -->
+    <ul class="flex flex-col gap-1">
+      <NavLi className="opacity-0 lg:opacity-100" loteryName={'Cundinamarca'} loteryLink={'cundinamarca'} />
+      <NavLi className="opacity-0 lg:opacity-100" loteryName={'Tolima'} loteryLink={'tolima'} />
+      <NavLi className="opacity-0 lg:opacity-100" loteryName={'Cruz Roja'} loteryLink={'cruzroja'} />
+      <NavLi className="opacity-0 lg:opacity-100" loteryName={'Huila'} loteryLink={'huila'} />
+      <NavLi className="opacity-0 lg:opacity-100" loteryName={'Meta'} loteryLink={'meta'} />
+      <NavLi className="opacity-0 lg:opacity-100" loteryName={'Manizales'} loteryLink={'manizales'} />
+      <NavLi className="opacity-0 lg:opacity-100" loteryName={'Valle'} loteryLink={'valle'} />
+      <NavLi className="opacity-0 lg:opacity-100" loteryName={'Bogotá'} loteryLink={'bogota'} />
+      <NavLi className="opacity-0 lg:opacity-100" loteryName={'Quindio'} loteryLink={'quindio'} />
+      <NavLi className="opacity-0 lg:opacity-100" loteryName={'Medellín'} loteryLink={'medellin'} />
+      <NavLi className="opacity-0 lg:opacity-100" loteryName={'Risaralda'} loteryLink={'risaralda'} />
+      <NavLi className="opacity-0 lg:opacity-100" loteryName={'Santander'} loteryLink={'santander'} />
+      <NavLi className="opacity-0 lg:opacity-100" loteryName={'Boyacá'} loteryLink={'boyaca'} />
+      <NavLi className="opacity-0 lg:opacity-100" loteryName={'Cauca'} loteryLink={'cauca'} />
+    </ul>
   </nav>
 </header>
