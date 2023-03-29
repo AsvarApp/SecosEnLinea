@@ -1,5 +1,6 @@
 ---
 import Footer from "./Footer.astro";
+import CardModal from "../components/cardModal.astro";
 
 interface Props {
 	pageTitle: String;
@@ -44,6 +45,7 @@ import Header from "./Header/Header.astro";
 	<body class="bg-bgColor max-w-7xl m-auto">
 		<Header />
 		<main class="mx-5 mt-16 lg:ml-24 lg:mt-5">
+			<CardModal/>
 			<slot />
 		</main>
 		<Footer />
