@@ -1,0 +1,10 @@
+---
+interface Props{
+  title:String,
+  titleURL:String
+}
+
+const {title, titleURL} = Astro.props
+---
+
+<a class="p-2 inline-block hover:underline hover:text-purple-400 " href={titleURL}>{title}</a>

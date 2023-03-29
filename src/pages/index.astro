@@ -8,26 +8,30 @@ import ButtonSecondary from "../components/buttonSecondary.astro";
 ---
 <Layout pageTitle={'Inicio'}>
   <Welcome/>
+  <div class="bg-gray-600 bg-opacity-50 rounded-2xl p-1">
+    <p class="text-white px-3 py-3">Se muestran los 4 primeros resultados de cada lotería.</p>
+  </div>
   <div class="min-w-full flex justify-center gap-3 my-10">
     <ButtonPrimary titleButton={'Loterías diarias'} linkButton={'.'} />
     <ButtonSecondary titleButton={'Loterías extras'} linkButton={'extras'} />
   </div>
-  <div class="bg-gray-600 bg-opacity-50 rounded-2xl p-1 mx-5 lg:ml-24">
-    <p class="text-white p-3">Se muestran los 5 primeros resultados de cada lotería.</p>
-  </div>
-  <CardLoteryIndex titleLotery={'Cundinamarca'} nameLotery={'cundinamarca'}/>
-  <CardLoteryIndex titleLotery={'Tolima'} nameLotery={'tolima'}/>
-  <CardLoteryIndex titleLotery={'Cruz Roja'} nameLotery={'cruzroja'}/>
-  <CardLoteryIndex titleLotery={'Huila'} nameLotery={'huila'}/>
-  <CardLoteryIndex titleLotery={'Meta'} nameLotery={'meta'}/>
-  <CardLoteryIndex titleLotery={'Manizales'} nameLotery={'manizales'}/>
-  <CardLoteryIndex titleLotery={'Valle'} nameLotery={'valle'}/>
-  <CardLoteryIndex titleLotery={'Bogotá'} nameLotery={'bogota'}/>
-  <CardLoteryIndex titleLotery={'Quindio'} nameLotery={'quindio'}/>
-  <CardLoteryIndex titleLotery={'Medellín'} nameLotery={'medellin'}/>
-  <CardLoteryIndex titleLotery={'Risaralda'} nameLotery={'risaralda'}/>
-  <CardLoteryIndex titleLotery={'Santander'} nameLotery={'santander'}/>
-  <CardLoteryIndex titleLotery={'Boyacá'} nameLotery={'boyaca'}/>
-  <CardLoteryIndex titleLotery={'Cauca'} nameLotery={'cauca'}/>
-  
+  <section class="inline-block lg:w-full">
+    <CardLoteryIndex titleLotery={'Cundinamarca'} nameLotery={'cundinamarca'}/>
+    <CardLoteryIndex titleLotery={'Tolima'} nameLotery={'tolima'}/>
+    <CardLoteryIndex titleLotery={'Cruz Roja'} nameLotery={'cruzroja'}/>
+    <CardLoteryIndex titleLotery={'Huila'} nameLotery={'huila'}/>
+    <CardLoteryIndex titleLotery={'Meta'} nameLotery={'meta'}/>
+    <CardLoteryIndex titleLotery={'Manizales'} nameLotery={'manizales'}/>
+    <CardLoteryIndex titleLotery={'Valle'} nameLotery={'valle'}/>
+    <CardLoteryIndex titleLotery={'Bogotá'} nameLotery={'bogota'}/>
+    <CardLoteryIndex titleLotery={'Quindio'} nameLotery={'quindio'}/>
+    <CardLoteryIndex titleLotery={'Medellín'} nameLotery={'medellin'}/>
+    <CardLoteryIndex titleLotery={'Risaralda'} nameLotery={'risaralda'}/>
+    <CardLoteryIndex titleLotery={'Santander'} nameLotery={'santander'}/>
+    <CardLoteryIndex titleLotery={'Boyacá'} nameLotery={'boyaca'}/>
+    <CardLoteryIndex titleLotery={'Cauca'} nameLotery={'cauca'}/>
+  </section>
+  <!-- <aside class="h-10 bg-slate-900 inline-block lg:w-1/5">
+    <h6>Este es un aside</h6>
+  </aside> -->
   </Layout>

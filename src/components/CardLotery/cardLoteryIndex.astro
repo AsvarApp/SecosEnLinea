@@ -11,28 +11,28 @@ const response = await fetch(
 const lotery = await response.json();
 ---
 
-<section class="mx-5 my-5 lg:ml-24">
+<section>
   <div class="border-b-colorPrimary border-b-4 py-2">
-    <a href=`./${subRouting}${nameLotery}` class="min-w-full text-3xl font-bold text-white hover:text-purple-400 transition-all">{titleLotery}</a>
+    <a href=`./${subRouting}${nameLotery}` class="text-2xl font-bold text-white hover:bg-purple-500/30 rounded-2xl px-3 py-1 transition-all" title="Ver más resultados">{titleLotery} →</a>
   </div>
     <div class="flex gap-4 py-5 snap-x w-full overflow-x-auto">
   {
     lotery.slice(0,5).map((lotery: any) => (
-      <div class="shrink-0 overflow-hidden snap-center">
+      <article class="shrink-0 snap-center">
       <a target="_blank" href={lotery.img} class="gap-5">
           <img
-            class="rounded-2xl w-56 hover:scale-105 transition-all aspect-[9/10] object-cover cursor-pointer"
+            class="rounded-2xl h-56 max-h-56 hover:scale-105 transition-all aspect-[9/10] object-cover cursor-pointer"
             loading='lazy'
             src={lotery.img}
             alt={lotery.imgAlt}
             title={lotery.sorteo}
           />
         </a>
-        <div class="flex-wrap mt-4">
+        <footer class="flex-wrap mt-4">
           <h6 class="text-white"><span class="font-bold">Sorteo: </span>{lotery.sorteo}</h6>
           <h6 class="text-white"><span class="font-bold">Fecha: </span>{lotery.fecha}</h6>
-        </div>
-      </div>
+        </footer>
+      </article>
     ))
   }
   </div>
