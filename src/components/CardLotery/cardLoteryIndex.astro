@@ -18,10 +18,10 @@ const lotery = await response.json();
     <div class="flex gap-4 py-5 snap-x w-full overflow-x-auto">
   {
     lotery.slice(0,5).map((lotery: any) => (
-      <article class="shrink-0 snap-center">
+      <article class="mx-auto shrink-0 snap-center">
       <a target="_blank" href={lotery.img} class="gap-5">
           <img
-            class="rounded-2xl h-56 max-h-56 hover:scale-105 transition-all aspect-[9/10] object-cover cursor-pointer"
+            class="rounded-2xl w-48 hover:scale-105 aspect-[9/10] transition-all object-cover cursor-pointer"
             loading='lazy'
             src={lotery.img}
             alt={lotery.imgAlt}
