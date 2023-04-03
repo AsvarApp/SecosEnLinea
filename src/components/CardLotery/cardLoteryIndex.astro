@@ -13,7 +13,7 @@ const lotery = await response.json();
 
 <section>
   <div class="border-b-colorPrimary border-b-4 py-2">
-    <a href=`./${subRouting}${nameLotery}` class="text-2xl font-bold text-white hover:bg-purple-500/30 rounded-2xl px-3 py-1 transition-all" title="Ver más resultados">{titleLotery} →</a>
+    <h2 class="text-2xl font-bold text-white">{titleLotery}</h2>
   </div>
     <div class="flex gap-4 py-5 snap-x w-full overflow-x-auto">
   {
@@ -35,5 +35,8 @@ const lotery = await response.json();
       </article>
     ))
   }
+  </div>
+  <div class="flex justify-center my-2">
+    <a href=`./${subRouting}${nameLotery}` class="bg-purple-500/30 text-white px-10 py-2 rounded-2xl hover:bg-purple-500 transition-all">Ver más resultados →</a>
   </div>
 </section>
