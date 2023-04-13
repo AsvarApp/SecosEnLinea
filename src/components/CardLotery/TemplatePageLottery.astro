@@ -24,7 +24,7 @@ import ButtonAtras from '../buttonAtras.astro';
           <a target="_blank" href={lotery.img} class="gap-5">
             <img loading='lazy'
               class="rounded-2xl w-56 hover:scale-105 transition-all aspect-[9/10] object-cover cursor-pointer"
-              src={lotery.img}
+              src={lotery.imgThumbnail}
               alt={lotery.imgAlt}
               title={lotery.sorteo}
             />
@@ -32,7 +32,9 @@ import ButtonAtras from '../buttonAtras.astro';
           <section class="mt-4">
             <h3 class="text-white"><span class="font-bold">Sorteo: </span>{lotery.sorteo}</h3>
             <h3 class="text-white"><span class="font-bold">Fecha: </span>{lotery.fecha}</h3>
-            
+            <div class="flex mt-2 justify-center">
+              <a class="bg-purple-500/30 hover:bg-purple-500 transition-all rounded-2xl px-4 py-1 text-white" href={lotery.downloadImg} download>Descargar</a>
+            </div>
           </section>
         </article>
       ))
