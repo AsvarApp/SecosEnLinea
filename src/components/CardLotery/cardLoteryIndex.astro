@@ -28,9 +28,10 @@ const lotery = await response.json();
             title={lotery.sorteo}
           />
         </a>
-        <footer class="flex-wrap mt-4">
-          <h6 class="text-white"><span class="font-bold">Sorteo: </span>{lotery.sorteo}</h6>
-          <h6 class="text-white"><span class="font-bold">Fecha: </span>{lotery.fecha}</h6>
+        <footer class="flex-wrap mt-4 place-self-center">
+          <h3 class="text-white"><span class="font-bold">Sorteo: </span>{lotery.sorteo}</h3>
+          <h3 class="text-white"><span class="font-bold">Fecha: </span>{lotery.fecha}</h3>
+            
         </footer>
       </article>
     ))
