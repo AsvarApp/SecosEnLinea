@@ -1,6 +1,7 @@
 ---
 import Footer from "./Footer.astro";
 import CardModal from "../components/cardModal.astro";
+import { SEO } from "astro-seo";
 
 interface Props {
 	pageTitle: String;
@@ -11,15 +12,20 @@ import Header from "./Header/Header.astro";
 
 <html lang="es">
 	<head>
-		<meta charset="utf-8" />
+		<SEO
+		title={`Secos en Línea | ${pageTitle}`}
+		desciption="Encuentra en un solo sitio las imágenes de los secos de todas las loterías de Colombia y sus premios adicionales desde el año 2023 hasta el día de hoy." 
+		noindex="false"
+		nofollow="false"
+		charset="UTF-8"
+		twitter={{
+			creator: "@casvaru"
+		}}
+		/>
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="sitemap" href="/sitemap-index.xml">
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Secos en Línea | {pageTitle}</title>
-		<meta
-			name="description"
-			content="Encuentra en un solo sitio las imágenes de los secos de todas las loterías de Colombia y sus premios adicionales desde el año 2023 hasta el día de hoy."
-		/>
 		<meta
 			name="keywords"
 			content="Secos, Secos en linea, Lotería, Resultado lotería, Resultado lotería hoy, Cundinamarca, Tolima, Cruz Roja, Huila, Meta, Manizales, Valle, Bogotá, Quindio, Medellín, Risaralda, Santander, Boyacá, Cauca, Extra de Colombia, Extra de Medellín, Extra de Boyacá, Extra de Navidad, Lotería hoy, Lotería de Colombia, Colombia, Qué resultado cayó la lotería de cundinamarca, Qué resultado cayó la lotería del tolima, Qué resultado cayó la lotería de la Cruz Roja, Qué resultado cayó la lotería de Huila, Qué resultado cayó la lotería del Meta, Qué resultado cayó la lotería de manizales, Qué resultado cayó la lotería del valle, Qué resultado cayó la lotería de bogotá, Qué resultado cayó la lotería del quindio, Qué resultado cayó la lotería de medellín, Qué resultado cayó la lotería de risaralda, Qué resultado cayó la lotería de santander, Qué resultado cayó la lotería de boyacá, Qué resultado cayó la lotería de cauca, Secos lotería colombia,"

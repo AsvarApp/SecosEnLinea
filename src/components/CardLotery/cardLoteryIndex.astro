@@ -1,4 +1,5 @@
 ---
+import { Picture } from '@astrojs/image/components';
 interface Props {
   titleLotery: String,
   nameLotery:String,
@@ -20,10 +21,17 @@ const lotery = await response.json();
     lotery.slice(0,5).map((lotery: any) => (
       <article class="mx-auto shrink-0 snap-center">
       <a target="_blank" href={lotery.img} class="gap-5">
-          <img
-            class="rounded-2xl w-48 hover:scale-105 aspect-[9/10] transition-all object-cover cursor-pointer"
+          <Picture
+            width={300}
+            sizes="300"
+            format={'webp'}
+            widths={[200,300,400]}
+            aspectRatio="16:9"
+            aria-placeholder="imagen-loteria"
+            fit="inside"
+            class="bg-slate-800 rounded-2xl w-48 hover:scale-105 aspect-[9/10] transition-all object-cover cursor-pointer"
             loading='lazy'
-            src={lotery.imgThumbnail}
+            src={lotery.img}
             alt={lotery.imgAlt}
             title={lotery.sorteo}
           />
