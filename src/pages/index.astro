@@ -11,25 +11,25 @@ import ButtonSecondary from "../components/buttonSecondary.astro";
   <div class="bg-gray-600 bg-opacity-50 rounded-2xl p-1">
     <p class="text-white px-3 py-3">Se muestran los 5 primeros resultados de cada lotería.</p>
   </div>
-  <div class="min-w-full flex justify-center gap-3 my-10">
+  <div class="min-w-full flex justify-center gap-3 my-5">
     <ButtonPrimary titleButton={'Loterías diarias'} linkButton={'.'} />
     <ButtonSecondary titleButton={'Loterías extras'} linkButton={'extras'} />
   </div>
   <section class=" w-full inline-block lg:w-full">
-    <CardLoteryIndex titleLotery={'Cundinamarca'} nameLotery={'cundinamarca'}/>
-    <CardLoteryIndex titleLotery={'Tolima'} nameLotery={'tolima'}/>
-    <CardLoteryIndex titleLotery={'Cruz Roja'} nameLotery={'cruzroja'}/>
-    <CardLoteryIndex titleLotery={'Huila'} nameLotery={'huila'}/>
-    <CardLoteryIndex titleLotery={'Meta'} nameLotery={'meta'}/>
-    <CardLoteryIndex titleLotery={'Manizales'} nameLotery={'manizales'}/>
-    <CardLoteryIndex titleLotery={'Valle'} nameLotery={'valle'}/>
-    <CardLoteryIndex titleLotery={'Bogotá'} nameLotery={'bogota'}/>
-    <CardLoteryIndex titleLotery={'Quindio'} nameLotery={'quindio'}/>
-    <CardLoteryIndex titleLotery={'Medellín'} nameLotery={'medellin'}/>
-    <CardLoteryIndex titleLotery={'Risaralda'} nameLotery={'risaralda'}/>
-    <CardLoteryIndex titleLotery={'Santander'} nameLotery={'santander'}/>
-    <CardLoteryIndex titleLotery={'Boyacá'} nameLotery={'boyaca'}/>
-    <CardLoteryIndex titleLotery={'Cauca'} nameLotery={'cauca'}/>
+    <CardLoteryIndex titleLotery={'Cundinamarca'} nameLotery={'cundinamarca'} loading={''}/>
+    <CardLoteryIndex titleLotery={'Tolima'} nameLotery={'tolima'} loading={''}/>
+    <CardLoteryIndex titleLotery={'Cruz Roja'} nameLotery={'cruzroja'} loading={''}/>
+    <CardLoteryIndex titleLotery={'Huila'} nameLotery={'huila'} loading={'lazy'}/>
+    <CardLoteryIndex titleLotery={'Meta'} nameLotery={'meta'} loading={'lazy'}/>
+    <CardLoteryIndex titleLotery={'Manizales'} nameLotery={'manizales'} loading={'lazy'}/>
+    <CardLoteryIndex titleLotery={'Valle'} nameLotery={'valle'} loading={'lazy'}/>
+    <CardLoteryIndex titleLotery={'Bogotá'} nameLotery={'bogota'} loading={'lazy'}/>
+    <CardLoteryIndex titleLotery={'Quindio'} nameLotery={'quindio'} loading={'lazy'}/>
+    <CardLoteryIndex titleLotery={'Medellín'} nameLotery={'medellin'} loading={'lazy'}/>
+    <CardLoteryIndex titleLotery={'Risaralda'} nameLotery={'risaralda'} loading={'lazy'}/>
+    <CardLoteryIndex titleLotery={'Santander'} nameLotery={'santander'} loading={'lazy'}/>
+    <CardLoteryIndex titleLotery={'Boyacá'} nameLotery={'boyaca'} loading={'lazy'}/>
+    <CardLoteryIndex titleLotery={'Cauca'} nameLotery={'cauca'} loading={'lazy'}/>
   </section>
   <!-- <aside class="h-10 bg-slate-900 inline-block lg:w-1/5">
     <h6>Este es un aside</h6>
