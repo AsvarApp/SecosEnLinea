@@ -1,5 +1,6 @@
 ---
 import { Picture } from "@astrojs/image/components";
+import Modal from "../Modal.astro";
 
 interface Props {
   nameLotery: String;
@@ -11,40 +12,48 @@ const response = await fetch(
 );
 const lotery = await response.json();
 ---
-<article class="my-5 m-auto">
+
+<section class="m-auto">
   {
     lotery.map((lotery: any) => (
-      <a target="_blank" href={lotery.img} class="">
-        <article class="inline-grid p-5 my-4 rounded-2xl m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60">
-          <Picture
-            width={300}
-            sizes="300"
-            format={"webp"}
-            widths={[200, 300, 400]}
-            aspectRatio="16:9"
-            fit="inside"
-            class="bg-slate-800 rounded-2xl w-44 aspect-[9/10] object-cover"
-            loading="lazy"
-            src={`${lotery.img}`}
-            alt={lotery.imgAlt}
-            title={lotery.sorteo}
-          />
-          <div class="mt-4">
-            <h2 class="text-gray-400">
-              <span class="text-white">Sorteo:</span>
-              {lotery.sorteo}
-            </h2>
-            <h2 class="text-gray-400">
-              <span class="text-white">Fecha:</span>
-              {lotery.fecha}
-            </h2>
-            <div  class="flex mt-2 justify-center">
-              <a class="bg-purple-500/30 hover:bg-purple-500 transition-all rounded-2xl px-10 py-1 text-white"href={lotery.downloadImg} download>Descargar</a>
+      <>
+      <article class="px-1 inline-grid relative rounded-2xl hover:bg-gradient-to-b from-purple-900/60 hover:shadow-purple-400/30 transition-all hover:scale-105">
+        <a target="_blank" href={lotery.img} class="p-3 h-[370px]">
+            <Picture
+              width={300}
+              sizes="300"
+              format={"webp"}
+              widths={[200, 300, 400]}
+              aspectRatio="16:9"
+              fit="inside"
+              class="bg-slate-800 rounded-xl w-44 aspect-[9/10] object-cover"
+              loading="lazy"
+              src={`${lotery.img}`}
+              alt={lotery.imgAlt}
+              title={lotery.sorteo}
+            />
+            <div class="mt-4">
+              <h2 class="text-gray-400">
+                <span class="text-white">Sorteo:</span>
+                {lotery.sorteo}
+              </h2>
+              <h2 class="text-gray-400">
+                <span class="text-white">Fecha:</span>
+                {lotery.fecha}
+              </h2>
             </div>
-          </div>
-        </article>
-      </a>
-      
+            </a>
+            <div class="flex mt-[290px] justify-center w-full absolute">
+              <a
+                class="bg-purple-500/30 hover:bg-purple-500 transition-all rounded-2xl px-10 py-1 text-white"
+                href={lotery.downloadImg}
+                download
+              >
+                Descargar
+              </a>
+            </div>
+            </article>
+      </>
     ))
   }
 </article>

@@ -17,11 +17,11 @@ const lotery = await response.json();
   <div class="border-b-colorPrimary border-b-4 py-2">
     <h2 class="text-2xl font-bold text-white">{titleLotery}</h2>
   </div>
-  <div class="flex gap-4 py-5 snap-x w-full overflow-x-auto">
+  <section class="flex gap-4 py-5 snap-x w-full lg:h-[380px] overflow-x-auto overflow-y-hidden">
     {
       lotery.slice(0, 5).map((lotery: any) => (
-        <article class="inline-grid p-4 rounded-2xl m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60">
-          <a target="_blank" href={lotery.img} class="gap-5">
+        <article class="inline-grid rounded-2xl m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+          <a target="_blank" href={lotery.img} class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16">
             <Picture
               width={300}
               sizes="300"
@@ -44,7 +44,9 @@ const lotery = await response.json();
                 <span class="text-white">Fecha:</span>
                 {lotery.fecha}
               </h3>
-              <div class="flex mt-2 justify-center">
+            </section>
+          </a>
+          <div class="flex mt-2 justify-center lg:absolute lg:w-full lg:mt-[280px]">
                 <a
                   class="bg-purple-500/30 hover:bg-purple-500 transition-all rounded-2xl px-10 py-1 text-white"
                   href={lotery.downloadImg}
@@ -53,12 +55,10 @@ const lotery = await response.json();
                   Descargar
                 </a>
               </div>
-            </section>
-          </a>
         </article>
       ))
     }
-  </div>
+  </section>
   <div class="flex justify-center my-2">
     <a
       href=`./${subRouting}${nameLotery}`
