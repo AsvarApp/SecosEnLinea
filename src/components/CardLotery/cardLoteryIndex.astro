@@ -22,20 +22,22 @@ const lotery = await response.json();
     {
       lotery.slice(0, 5).map((lotery: any) => (
         <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
-          <a target="_blank" href={lotery.img} class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16">
-            <Picture
-              width={300}
-              sizes="300"
-              format={"webp"}
-              widths={[200, 300, 400]}
-              aspectRatio="16:9"
-              fit="inside"
-              class="bg-slate-800 rounded-2xl w-44 aspect-[9/10] object-cover max-h-[210px]"
-              loading={loading}
-              src={`${lotery.img}`}
-              alt={lotery.imgAlt}
-              title={lotery.sorteo}
-            />
+          <a target="_blank" href={lotery.img} class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16 ">
+            <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+              <Picture
+                width={300}
+                sizes="300"
+                format={"webp"}
+                widths={[200, 300, 400]}
+                aspectRatio="16:9"
+                fit="inside"
+                class="bg-slate-800 w-44 h-48 object-cover"
+                loading={loading}
+                src={`${lotery.img}`}
+                alt={lotery.imgAlt}
+                title={lotery.sorteo}
+              />
+              </div>
             <section class="mt-4">
               <h3 class="text-gray-400">
                 <span class="text-white">Sorteo:</span>
