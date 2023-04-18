@@ -4,6 +4,10 @@ import { MenuIcon, MenuIconCLose } from "../iconSvg"
 function MenuMobile() {
   const [MenuIsOn, setMenuIsOn] = useState(false)
 
+  function handleMenuClick() {
+    setMenuVisible(!MenuIsOn);
+  }
+
   return (
     <div onClick={() => setMenuIsOn(!MenuIsOn)} class="cursor-pointer w-14 p-1">
       {
