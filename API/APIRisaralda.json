@@ -1,9 +1,17 @@
 [
   {
+    "sorteo": "2793",
+    "fecha": "28-04-2023",
+    "img": "https://i.postimg.cc/wBbK1TqL/risaralda2793.jpg",
+    "imgThumbnail": "",
+    "downloadImg":"https://i.postimg.cc/fwMMgJ12/risaralda2793.jpg?dl=1",
+    "imgAlt": "Seco Risaralda 2793"
+  },
+  {
     "sorteo": "2792",
     "fecha": "21-04-2023",
     "img": "https://i.postimg.cc/RhCPLTC7/risaralda2792.jpg",
-    "imgThumbnail": "a",
+    "imgThumbnail": "",
     "downloadImg":"https://i.postimg.cc/JrZ9mT92/risaralda2792.jpg?dl=1",
     "imgAlt": "Seco Risaralda 2792"
   },
