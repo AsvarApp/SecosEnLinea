@@ -15,10 +15,8 @@ const lotery = await response.json();
 <section class="flex flex-wrap justify-center">
   {
     lotery.map((lotery: any) => (
-      <>
-      <article class="relative rounded-2xl hover:bg-gradient-to-b from-purple-900/60 hover:shadow-purple-400/30 transition-all hover:scale-105 inline-grid content-center">
-        <a target="_blank" href={lotery.img} class="p-3 h-[370px]">
-          <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+      <article class="relative p-3 rounded-2xl hover:bg-gradient-to-b from-purple-900/60 hover:shadow-purple-400/30 transition-all hover:scale-105 inline-grid content-center">
+        <a target="_blank" href={lotery.img} class="h-[370px]">
             <Picture
               width={300}
               sizes="300"
@@ -26,23 +24,21 @@ const lotery = await response.json();
               widths={[200, 300, 400]}
               aspectRatio="16:9"
               fit="inside"
-              class="bg-slate-800 w-44 h-48 object-cover"
+              class="bg-slate-800 w-44 h-48 object-cover overflow-hidden rounded-2xl"
               loading="lazy"
               src={`${lotery.img}`}
               alt={lotery.imgAlt}
               title={lotery.sorteo}
             />
-            </div>
-            <div class="mt-4">
+            <footer class="mt-4">
               <h2 class="text-gray-400">
                 <span class="text-white">Sorteo:</span>
                 {lotery.sorteo}
               </h2>
-              <h2 class="text-gray-400">
-                <span class="text-white">Fecha:</span>
-                {lotery.fecha}
-              </h2>
-            </div>
+              <h3>
+                <p class="text-white">Fecha: <time class="text-gray-400" datetime={lotery.fecha}>{lotery.fecha}</time></p>
+              </h3>
+            </footer>
             </a>
             <div class="flex mt-[290px] justify-center w-full absolute">
               <a
@@ -54,7 +50,6 @@ const lotery = await response.json();
               </a>
             </div>
             </article>
-      </>
     ))
   }
 </article>

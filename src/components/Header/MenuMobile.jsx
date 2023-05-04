@@ -12,6 +12,7 @@ function MenuMobile() {
     <div onClick={() => setMenuIsOn(!MenuIsOn)} class="cursor-pointer w-14 p-1">
       {
         MenuIsOn ? <MenuIconCLose/> : <MenuIcon/>
+        
       }
       
     </div>

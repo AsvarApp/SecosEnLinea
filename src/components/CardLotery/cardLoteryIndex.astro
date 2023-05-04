@@ -4,7 +4,7 @@ import Modal from "../Modal.astro";
 interface Props {
   titleLotery: String;
   nameLotery: String;
-  loading: String
+  loading: String;
 }
 const { titleLotery, nameLotery, subRouting = "", loading } = Astro.props;
 
@@ -18,11 +18,17 @@ const lotery = await response.json();
   <div class="border-b-colorPrimary border-b-4 py-2">
     <h2 class="text-2xl font-bold text-white">{titleLotery}</h2>
   </div>
-  <section class="flex gap-2 py-5 snap-x w-full lg:h-[400px] overflow-x-auto overflow-y-auto">
+  <section
+    class="flex gap-2 py-5 snap-x w-full lg:h-[400px] overflow-x-auto overflow-y-auto"
+  >
     {
       lotery.slice(0, 5).map((lotery: any) => (
         <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
-          <a target="_blank" href={lotery.img} class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16 ">
+          <a
+            target="_blank"
+            href={lotery.img}
+            class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16 "
+          >
             <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
               <Picture
                 width={300}
@@ -37,27 +43,31 @@ const lotery = await response.json();
                 alt={lotery.imgAlt}
                 title={lotery.sorteo}
               />
-              </div>
-            <section class="mt-4">
-              <h3 class="text-gray-400">
+            </div>
+            <footer class="mt-4">
+              <h2 class="text-gray-400">
                 <span class="text-white">Sorteo:</span>
                 {lotery.sorteo}
+              </h2>
+              <h3>
+                <p class="text-white">
+                  Fecha:{" "}
+                  <time class="text-gray-400" datetime={lotery.fecha}>
+                    {lotery.fecha}
+                  </time>
+                </p>
               </h3>
-              <h3 class="text-gray-400">
-                <span class="text-white">Fecha:</span>
-                {lotery.fecha}
-              </h3>
-            </section>
+            </footer>
           </a>
           <div class="flex mt-2 justify-center lg:absolute lg:w-full lg:mt-[280px]">
-                <a
-                  class="bg-purple-500/30 hover:bg-purple-500 transition-all rounded-2xl px-10 py-1 text-white shadow-lg hover:shadow-purple-300/50"
-                  href={lotery.downloadImg}
-                  download
-                >
-                  Descargar
-                </a>
-              </div>
+            <a
+              class="bg-purple-500/30 hover:bg-purple-500 transition-all rounded-2xl px-10 py-1 text-white shadow-lg hover:shadow-purple-300/50"
+              href={lotery.downloadImg}
+              download
+            >
+              Descargar
+            </a>
+          </div>
         </article>
       ))
     }
