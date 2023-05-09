@@ -15,7 +15,7 @@ function MenuMobile() {
       class="cursor-pointer w-14 p-1"
     >
       {MenuIsOn ? <MenuIconCLose /> : <MenuIcon />}
-      <nav className={MenuIsOn?"fixed h-[345px] w-full bg-colorMenu/90 z-10 left-0 transition-all duration-300 overflow-hidden":"fixed h-[0px] w-full bg-colorMenu/90 left-0 overflow-hidden transition-all duration-500"}>
+      <nav className={MenuIsOn?"fixed h-[400px] w-full bg-colorMenu/90 z-10 left-0 transition-all duration-300 overflow-hidden":"fixed h-[0px] w-full bg-colorMenu/90 left-0 overflow-hidden transition-all duration-500"}>
         <ul>
           <li><a href="cundinamarca" className="inline-block p-3 outline-1 border-b-purple-700/70 border-l-0 border-t-0 border-r-0 border text-white w-2/4 float-left"><img className="m-auto w-8 h-8 inline-block mr-2" src='../cundi.webp' alt="Logo de la loteria de cundinamarca colombia" /> Cundinamarca</a></li>
           <li><a href="bogota" className="block mr-2 p-3 outline-1 border-b-purple-700/70 border-l-0 border-r-0 border-t-0 border text-white w-full"><img className="m-auto w-8 h-8 inline-block mr-2" src='../bogota.webp' alt="Logo de la loteria de bogotá colombia" />Bogotá</a></li>
