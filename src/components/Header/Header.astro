@@ -3,12 +3,12 @@ import NavLi from "./NavLi.astro";
 import MenuMobile from "./MenuMobile";
 ---
 
-<header class="h-14 min-w-full fixed z-20 bg-colorMenu transition-all top-0 left-0 hover:w-52 overflow-hidden ease-in duration-200 hover:bg-opacity-50 backdrop-blur-sm lg:min-h-full lg:min-w-0 lg:w-16">
+<header class="h-14 min-w-full fixed z-20 bg-colorMenu transition-all top-0 left-0 hover:w-52 ease-in duration-200 hover:bg-opacity-50 backdrop-blur-sm lg:min-h-full lg:min-w-0 lg:w-16 lg:overflow-hidden">
   <div class="lg:hidden">
-    <!-- <MenuMobile client:load> -->
+    <MenuMobile client:load>
   </div>
-    <nav>
-      <ul class="flex-col gap-1 hidden lg:flex">
+    <nav class="hidden lg:block">
+      <ul class="flex-col gap-1 lg:flex bg-colorMenu lg:bg-transparent">
         <NavLi className="" loteryName={'Cundinamarca'} loteryLink={'cundinamarca'} imgName={'cundi'} />
         <NavLi className="" loteryName={'Tolima'} loteryLink={'tolima'} imgName={'toli'} />
         <NavLi className="" loteryName={'Cruz Roja'} loteryLink={'cruzroja'} imgName={'cruz'} />

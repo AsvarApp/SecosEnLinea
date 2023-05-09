@@ -1,14 +1,19 @@
 ---
-interface Props{
-  loteryName:String
-  loteryLink?:any
-  className:any
-  imgName:String
+interface Props {
+  loteryName: String;
+  loteryLink?: any;
+  className: any;
+  imgName: String;
 }
-const {loteryName, loteryLink = "", className, imgName} = Astro.props
+const { loteryName, loteryLink = "", className, imgName } = Astro.props;
 ---
-<li class={className}><a class="text-white hover:bg-gradient-to-r from-purple-600/60 hover:shadow-xl inline-block w-52 py-1 -mb-1 -ml-5 pl-9 whitespace-nowrap hover:translate-x-5 hover:text-opacity-100 transition-all duration-300 ease-out" href={loteryLink}><div class="inline-block align-middle w-8 h-8 rounded-full">
-  <img
-  class="m-auto w-8 h-8" 
-  src=`../${imgName}.webp` 
-  alt=""> </div><span class="inline-block ml-3 p-1 text-opacity-0">{loteryName}</span></a></li>
+
+<li class={className}>
+  <a
+    class="text-white hover:bg-gradient-to-r from-purple-600/60 hover:shadow-xl inline-block w-52 py-1 -mb-1 -ml-5 pl-9 whitespace-nowrap hover:translate-x-5 hover:text-opacity-100 transition-all duration-300 ease-out"
+    href={loteryLink}
+    ><div class="inline-block align-middle w-8 h-8 rounded-full">
+      <img class="m-auto w-8 h-8" src=`../${imgName}.webp` alt="Logos de las loterías de Colombia" />
+    </div><span class="inline-block ml-3 p-1 text-opacity-0">{loteryName}</span
+    ></a>
+</li>
