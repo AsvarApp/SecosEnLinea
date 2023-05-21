@@ -1,9 +1,17 @@
 [
   {
+    "sorteo": "2455",
+    "fecha": "20-05-2023",
+    "img": "https://i.postimg.cc/t44M44yV/cauca2455.jpg",
+    "imgThumbnail": "",
+    "downloadImg":"https://i.postimg.cc/CSGTJRQJ/cauca2455.jpg?dl=1",
+    "imgAlt": "Seco Cauca 2455"
+  },
+  {
     "sorteo": "2454",
     "fecha": "13-05-2023",
     "img": "https://i.postimg.cc/6pLRYMK4/cauca2454.webp",
-    "imgThumbnail": "a",
+    "imgThumbnail": "",
     "downloadImg":"https://i.postimg.cc/bp4TY5Fg/cauca2454.webp?dl=1",
     "imgAlt": "Seco Cauca 2454"
   },
