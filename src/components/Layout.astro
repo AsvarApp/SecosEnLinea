@@ -1,6 +1,7 @@
 ---
 import Footer from "./Footer.astro";
 import CardModal from "../components/cardModal.astro";
+import HeaderTop from "./Header/HeaderTop.astro";
 import { SEO } from "astro-seo";
 
 interface Props {
@@ -43,8 +44,9 @@ import Header from "./Header/Header.astro";
 </script>
 	</head>
 	<body class="bg-bgColor max-w-7xl m-auto">
+<HeaderTop />
 		<Header />
-		<main class="mx-5 mt-16 lg:ml-24 lg:mt-5 lg:mx-20">
+		<main class="mx-5 mt-16 lg:ml-24 lg:mt-10 lg:mx-20">
 			<CardModal/>
 			<slot />
 		</main>
