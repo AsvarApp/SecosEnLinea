@@ -8,16 +8,13 @@ import ButtonSecondary from "../components/buttonSecondary.astro";
 ---
 <Layout pageTitle={'Inicio'}>
   <Welcome/>
-  <div class="bg-gray-600 bg-opacity-50 rounded-2xl p-1">
-    <p class="text-white px-3 py-3">Se muestran los 5 primeros resultados de cada lotería.</p>
-  </div>
-  <div class="min-w-full flex justify-center gap-3 my-5">
+  <div class="min-w-full flex justify-center gap-3 py-4 bg-slate-500/10 rounded-2xl">
     <ButtonPrimary titleButton={'Loterías diarias'} linkButton={'.'} />
     <ButtonSecondary titleButton={'Loterías extras'} linkButton={'extras'} />
   </div>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1430916407444614"
+  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1430916407444614"
      crossorigin="anonymous"></script>
-<!-- Horizontal -->
+Horizontal Google ADS
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-1430916407444614"
@@ -26,7 +23,7 @@ import ButtonSecondary from "../components/buttonSecondary.astro";
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
   <section class=" w-full inline-block lg:w-full">
     <CardLoteryIndex titleLotery={'Cundinamarca'} nameLotery={'cundinamarca'} loading={''}/>
     <CardLoteryIndex titleLotery={'Tolima'} nameLotery={'tolima'} loading={''}/>

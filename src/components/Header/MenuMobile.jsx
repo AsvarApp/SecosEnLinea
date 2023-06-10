@@ -12,7 +12,7 @@ function MenuMobile() {
   return (
     <div
       onClick={() => setMenuIsOn(!MenuIsOn)}
-      class="cursor-pointer w-14 p-1"
+      className="cursor-pointer w-14 p-1"
     >
       {MenuIsOn ? <MenuIconCLose /> : <MenuIcon />}
       <nav className={MenuIsOn?"fixed h-[400px] w-full bg-colorMenu/90 z-10 left-0 transition-all duration-300 overflow-hidden":"fixed h-[0px] w-full bg-colorMenu/90 left-0 overflow-hidden transition-all duration-500"}>
