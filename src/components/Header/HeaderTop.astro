@@ -1,12 +1,15 @@
 ---
-
+ import MenuMobile from "./MenuMobile";
 ---
 
-<div class="bg-bgColor/90 h-12 z-10 text-white justify-between place-content-center hidden lg:flex lg:border-b border-purple-600 sticky top-0 mb-8">
+<div class="bg-bgColor/90 h-[59px] w-full z-10 text-white justify-between place-content-center flex border-b border-purple-600 sticky top-0 mb-8 lg:h-12">
+ <div class="lg:hidden">
+  <MenuMobile client:load>
+</div>
  <div class="flex">
   <a class="hover:text-purple-600" href="https://www.secosenlinea.com"><h1 class="py-2 text-2xl font-bold inline-flex">Secosenlinea</h1><span>.com</span></a>
  </div>
  <ul class="flex gap-x-2">
-  <li><a class="py-3 px-4 flex-1 inline-block transition-all hover:bg-gradient-to-t from-purple-900/50" href="sobrenosotros">Sobre nosotros</a></li>
+  <li><a class="hidden py-3 px-4 lg:flex-1 transition-all hover:bg-gradient-to-t from-purple-900/50 lg:flex" href="sobrenosotros">Sobre nosotros</a></li>
  </ul>
 </div>

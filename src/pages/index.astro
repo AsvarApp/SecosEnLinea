@@ -8,7 +8,7 @@ import ButtonSecondary from "../components/buttonSecondary.astro";
 ---
 <Layout pageTitle={'Inicio'}>
   <Welcome/>
-  <div class="min-w-full flex justify-center gap-3 py-4 bg-slate-500/10 rounded-2xl">
+  <div class="mx-5 flex justify-center gap-3 py-4 bg-slate-500/10 rounded-2xl lg:mx-0">
     <ButtonPrimary titleButton={'Loterías diarias'} linkButton={'.'} />
     <ButtonSecondary titleButton={'Loterías extras'} linkButton={'extras'} />
   </div>
@@ -24,7 +24,7 @@ import ButtonSecondary from "../components/buttonSecondary.astro";
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-  <section class=" w-full inline-block lg:w-full">
+  <section class="px-5 w-full lg:w-full lg:px-0">
     <CardLoteryIndex titleLotery={'Cundinamarca'} nameLotery={'cundinamarca'} loading={''}/>
     <CardLoteryIndex titleLotery={'Tolima'} nameLotery={'tolima'} loading={''}/>
     <CardLoteryIndex titleLotery={'Cruz Roja'} nameLotery={'cruzroja'} loading={''}/>

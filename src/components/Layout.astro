@@ -2,13 +2,13 @@
 import Footer from "./Footer.astro";
 import CardModal from "../components/cardModal.astro";
 import HeaderTop from "./Header/HeaderTop.astro";
+import Header from "./Header/Header.astro";
 import { SEO } from "astro-seo";
 
 interface Props {
 	pageTitle: String;
 }
 const { pageTitle } = Astro.props;
-import Header from "./Header/Header.astro";
 ---
 
 <html lang="es">
@@ -54,7 +54,7 @@ import Header from "./Header/Header.astro";
 	</head>
 	<body class="bg-bgColor max-w-7xl m-auto">
 		<Header />
-		<main class="mx-5 mt-16 lg:ml-24 lg:mt-0 lg:mx-20 relative">
+		<main class="mt-0 lg:ml-24 lg:mt-0 lg:mx-20 relative">
 			<HeaderTop />
 			<CardModal/>
 			<slot />
