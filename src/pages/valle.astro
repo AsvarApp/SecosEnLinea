@@ -1,8 +1,50 @@
 ---
 import Layout from "../components/Layout.astro";
 import TemplatePageLottery from "../components/CardLotery/TemplatePageLottery.astro";
+import { Picture } from "@astrojs/image/components";
+import { valle } from "../data/APILottery";
 ---
 
 <Layout pageTitle={'Valle'}>
-  <TemplatePageLottery pageTitle={'Valle'} nameLotery={'valle'}/>
+  <TemplatePageLottery pageTitle={'Valle'} nameLotery={'valle'}>
+    {
+      valle === undefined ? <h5>Error al cargar</h5> : valle.map((lotery: any) => (
+        <article class="relative p-3 rounded-2xl hover:bg-gradient-to-b from-purple-900/60 hover:shadow-purple-400/30 transition-all hover:scale-105 inline-grid content-center">
+          <a target="_blank" href={lotery.img} class="h-[370px]">
+              <Picture
+                width={300}
+                sizes="300"
+                format={"webp"}
+                widths={[200, 300, 400]}
+                aspectRatio="16:9"
+                fit="inside"
+                class="bg-slate-200 w-44 h-48 object-cover overflow-hidden rounded-2xl"
+                loading="lazy"
+                src={`${lotery.img}`}
+                alt={lotery.imgAlt}
+                title={lotery.sorteo}
+              />
+              <footer class="mt-4">
+                <h2 class="text-gray-400">
+                  <span class="text-white">Sorteo:</span>
+                  {lotery.sorteo}
+                </h2>
+                <h3>
+                  <p class="text-white">Fecha: <time class="text-gray-400" datetime={lotery.fecha}>{lotery.fecha}</time></p>
+                </h3>
+              </footer>
+              </a>
+              <div class="flex mt-[290px] justify-center w-full absolute">
+                <a
+                  class="bg-purple-500/30 hover:bg-purple-500 transition-all rounded-2xl px-10 py-1 text-white shadow-lg hover:shadow-purple-300/50"
+                  href={lotery.downloadImg}
+                  download
+                >
+                  Descargar
+                </a>
+              </div>
+              </article>
+      ))
+    }
+  </TemplatePageLottery>
 </Layout>
