@@ -7,7 +7,7 @@ import { Picture } from "@astrojs/image/components";
 
 <Layout pageTitle={'Cundinamarca'}>
   <TemplatePageLottery pageTitle={'Cundinamarca'} nameLotery={'cundinamarca'}>
-    {cundinamarca.slice(0, 5).map((lotery: any) => (
+    {cundinamarca === undefined ? <h5>Error al cargar</h5> :  cundinamarca.map((lotery: any) => (
       <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
         <a
           target="_blank"
