@@ -452,6 +452,13 @@ export const tolima = [
 ]
 export const cruzRoja = [
   {
+    "sorteo": "3006",
+    "fecha": "18-07-2023",
+    "img": "https://i.postimg.cc/wMw3k1qW/cruzroja3006.jpg",
+    "downloadImg":"https://i.postimg.cc/h4BxcmHq/cruzroja3006.jpg?dl=1",
+    "imgAlt": "Seco Cruz Roja 3006"
+  },
+  {
     "sorteo": "3005",
     "fecha": "11-07-2023",
     "img": "https://i.postimg.cc/s2ShCk0x/cruzroja3005.jpg",
@@ -671,6 +678,13 @@ export const cruzRoja = [
   }
 ]
 export const huila = [
+  {
+    "sorteo": "4608",
+    "fecha": "18-07-2023",
+    "img": "https://i.postimg.cc/Nj6vhWTt/huila4608.jpg",
+    "downloadImg":"https://i.postimg.cc/PTcXDH5C/huila4608.jpg?dl=1",
+    "imgAlt": "Seco Huila 4608"
+  },
   {
     "sorteo": "4607",
     "fecha": "11-07-2023",
