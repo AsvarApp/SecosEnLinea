@@ -907,6 +907,13 @@ export const huila = [
 // cambiamos el nombre de meta a metalottery porque genera conflicto con algún método interno que lleva el mismo nombre.
 export const metalottery = [
   {
+    "sorteo": "3151",
+    "fecha": "19-07-2023",
+    "img": "https://i.postimg.cc/prvqpnCs/meta3151.jpg",
+    "downloadImg":"https://i.postimg.cc/GL8NgFyn/meta3151.jpg?dl=1",
+    "imgAlt": "Seco Meta 3151"
+  },
+  {
     "sorteo": "3150",
     "fecha": "12-07-2023",
     "img": "https://i.postimg.cc/RZtHdZfX/meta3150.jpg",
@@ -1125,6 +1132,13 @@ export const metalottery = [
   }
 ]
 export const manizales = [
+  {
+    "sorteo": "4808",
+    "fecha": "19-07-2023",
+    "img": "https://i.postimg.cc/NLqYyDVW/manizales4808.jpg",
+    "downloadImg":"https://i.postimg.cc/59jtRkmN/manizales4808.jpg?dl=1",
+    "imgAlt": "Seco Manizales 4808"
+  },
   {
     "sorteo": "4807",
     "fecha": "12-07-2023",
@@ -1345,6 +1359,13 @@ export const manizales = [
 ]
 export const valle = [
   {
+    "sorteo": "4701",
+    "fecha": "19-07-2023",
+    "img": "https://i.postimg.cc/DyMpcmww/valle4701.jpg",
+    "downloadImg":"https://i.postimg.cc/PTXGTwGY/valle4701.jpg?dl=1",
+    "imgAlt": "Seco Valle 4701"
+  },
+  {
     "sorteo": "4700",
     "fecha": "12-07-2023",
     "img": "https://i.postimg.cc/t4GM27wg/valle4700.jpg",
@@ -1563,6 +1584,13 @@ export const valle = [
   }
 ]
 export const bogota = [
+  {
+    "sorteo": "2699",
+    "fecha": "18-07-2023",
+    "img": "https://i.postimg.cc/L6YMzc3L/bogota2699.jpg",
+    "downloadImg":"https://i.postimg.cc/HH3sCHJZ/bogota2699.jpg?dl=1",
+    "imgAlt": "Seco Bogotá 2699, lotería de colombia, ultimo sorteo de la loteria loteria de Bogotá, secos en linea, premios y secos de la lotería de Bogotá"
+  },
   {
     "sorteo": "2698",
     "fecha": "13-07-2023",
