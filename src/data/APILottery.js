@@ -1803,6 +1803,13 @@ export const bogota = [
 ]
 export const quindio = [
   {
+    "sorteo": "2870",
+    "fecha": "22-07-2023",
+    "img": "https://i.postimg.cc/kgYDhGYP/quindio2870.jpg",
+    "downloadImg":"https://i.postimg.cc/9cCT0qG0/quindio2870.jpg?dl=1",
+    "imgAlt": "Seco Quindio sorteo 2870, lotería de colombia, ultimo sorteo de la loteria loteria del quindio, secos en linea, premios y secos de la lotería del Quindio"
+  },
+  {
     "sorteo": "2869",
     "fecha": "13-07-2023",
     "img": "https://i.postimg.cc/jdfcVKtM/quindio2869.jpg",
@@ -2684,6 +2691,13 @@ export const santander = [
 ]
 export const boyaca = [
   {
+    "sorteo": "4477",
+    "fecha": "22-07-2023",
+    "img": "https://i.postimg.cc/Jn9gzNTc/boyaca4477.jpg",
+    "downloadImg":"https://i.postimg.cc/0kQqZZD3/boyaca4477.jpg?dl=1",
+    "imgAlt": "Seco Boyacá 4477"
+  },
+  {
     "sorteo": "4476",
     "fecha": "15-07-2023",
     "img": "https://i.postimg.cc/XNP3xXTj/boyaca4476.jpg",
@@ -2902,6 +2916,13 @@ export const boyaca = [
   }
 ]
 export const cauca = [
+  {
+    "sorteo": "2464",
+    "fecha": "22-07-2023",
+    "img": "https://i.postimg.cc/5yKXztC3/cauca2464.jpg",
+    "downloadImg":"https://i.postimg.cc/MZqVhMZh/cauca2464.jpg?dl=1",
+    "imgAlt": "Seco Cauca 2464"
+  },
   {
     "sorteo": "2463",
     "fecha": "15-07-2023",
