@@ -1,5 +1,12 @@
 export const cundinamarca = [
   {
+    "sorteo": "4656",
+    "fecha": "24-07-2023",
+    "img": "https://i.postimg.cc/kXGMBsw-H/cundinamarca4656.jpg",
+    "downloadImg": "https://i.postimg.cc/7DM5tQzq/cundinamarca4656.jpg?dl=1",
+    "imgAlt": "Seco Cundinamarca 4656"
+  },
+  {
     "sorteo": "4655",
     "fecha": "17-07-2023",
     "img": "https://i.postimg.cc/5NPJHRX3/cundinamarca4655.jpg",
@@ -225,6 +232,13 @@ export const cundinamarca = [
   }
 ]
 export const tolima = [
+  {
+    "sorteo": "4023",
+    "fecha": "24-07-2023",
+    "img": "https://i.postimg.cc/JhwC1VT1/tolima4023.jpg",
+    "downloadImg":"https://i.postimg.cc/rqsVNqxt/tolima4023.jpg?dl=1",
+    "imgAlt": "Seco Tolima 4023"
+  },
   {
     "sorteo": "4022",
     "fecha": "17-07-2023",
