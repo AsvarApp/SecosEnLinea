@@ -935,6 +935,13 @@ export const huila = [
 // cambiamos el nombre de meta a metalottery porque genera conflicto con algún método interno que lleva el mismo nombre.
 export const metalottery = [
   {
+    "sorteo": "3152",
+    "fecha": "26-07-2023",
+    "img": "https://i.postimg.cc/JhLk61sh/meta3152.jpg",
+    "downloadImg":"https://i.postimg.cc/mTcyrkR7/meta3152.jpg?dl=1",
+    "imgAlt": "Seco Meta 3152"
+  },
+  {
     "sorteo": "3151",
     "fecha": "19-07-2023",
     "img": "https://i.postimg.cc/prvqpnCs/meta3151.jpg",
@@ -1161,6 +1168,13 @@ export const metalottery = [
 ]
 export const manizales = [
   {
+    "sorteo": "4809",
+    "fecha": "26-07-2023",
+    "img": "https://i.postimg.cc/qMkhcwZC/manizales4809.jpg",
+    "downloadImg":"https://i.postimg.cc/wHNXpbXF/manizales4809.jpg?dl=1",
+    "imgAlt": "Seco Manizales 4809"
+  },
+  {
     "sorteo": "4808",
     "fecha": "19-07-2023",
     "img": "https://i.postimg.cc/NLqYyDVW/manizales4808.jpg",
@@ -1386,6 +1400,13 @@ export const manizales = [
   }
 ]
 export const valle = [
+  {
+    "sorteo": "4702",
+    "fecha": "26-07-2023",
+    "img": "https://i.postimg.cc/CKYG62YC/valle4702.jpg",
+    "downloadImg":"https://i.postimg.cc/bqSmdXB5/valle4702.jpg?dl=1",
+    "imgAlt": "Seco Valle 4702"
+  },
   {
     "sorteo": "4701",
     "fecha": "19-07-2023",
