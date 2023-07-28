@@ -1634,6 +1634,13 @@ export const valle = [
 ]
 export const bogota = [
   {
+    "sorteo": "2700",
+    "fecha": "27-07-2023",
+    "img": "https://i.postimg.cc/FRjC64H3/bogota2700.jpg",
+    "downloadImg":"https://i.postimg.cc/csjqr1q9/bogota2700.jpg?dl=1",
+    "imgAlt": "Seco Bogotá 2700, lotería de colombia, ultimo sorteo de la loteria loteria de Bogotá, secos en linea, premios y secos de la lotería de Bogotá"
+  },
+  {
     "sorteo": "2699",
     "fecha": "18-07-2023",
     "img": "https://i.postimg.cc/L6YMzc3L/bogota2699.jpg",
@@ -1851,6 +1858,13 @@ export const bogota = [
   }
 ]
 export const quindio = [
+  {
+    "sorteo": "2871",
+    "fecha": "27-07-2023",
+    "img": "https://i.postimg.cc/7LTXdkZX/quindio2871.jpg",
+    "downloadImg":"https://i.postimg.cc/Km0VKcSX/quindio2871.jpg?dl=1",
+    "imgAlt": "Seco Quindio sorteo 2871, lotería de colombia, ultimo sorteo de la loteria loteria del quindio, secos en linea, premios y secos de la lotería del Quindio"
+  },
   {
     "sorteo": "2870",
     "fecha": "22-07-2023",
