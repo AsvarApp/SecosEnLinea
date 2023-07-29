@@ -2076,6 +2076,13 @@ export const quindio = [
 ]
 export const medellin = [
   {
+    "sorteo": "4689",
+    "fecha": "28-07-2023",
+    "img": "https://i.postimg.cc/MKw91ZC7/medellin4689.jpg",
+    "downloadImg":"https://i.postimg.cc/gdX1Fn4T/medellin4689.jpg?dl=1",
+    "imgAlt": "Seco Medellín 4689 "
+  },
+  {
     "sorteo": "4688",
     "fecha": "21-07-2023",
     "img": "https://i.postimg.cc/g0FtgDJv/medellin4688.png",
@@ -2302,6 +2309,13 @@ export const medellin = [
 ]
 export const risaralda = [
   {
+    "sorteo": "2806",
+    "fecha": "28-07-2023",
+    "img": "https://i.postimg.cc/prPCKqmf/risaralda2806.jpg",
+    "downloadImg":"https://i.postimg.cc/cxnzyzZb/risaralda2806.jpg?dl=1",
+    "imgAlt": "Seco Risaralda 2806"
+  },
+  {
     "sorteo": "2805",
     "fecha": "21-07-2023",
     "img": "https://i.postimg.cc/hhRQkf73/risaralda2805.jpg",
@@ -2527,6 +2541,13 @@ export const risaralda = [
   }
 ]
 export const santander = [
+  {
+    "sorteo": "4924",
+    "fecha": "28-07-2023",
+    "img": "https://i.postimg.cc/SK3NXvtP/santander4924.gif",
+    "downloadImg":"https://i.postimg.cc/dqt7fMRJ/santander4924.gif?dl=1",
+    "imgAlt": "Seco Santander 4924"
+  },
   {
     "sorteo": "4923",
     "fecha": "21-07-2023",
