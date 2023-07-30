@@ -19,7 +19,9 @@ import {
   risaralda,
   santander,
   boyaca,
-  cauca
+  cauca,
+extraBogota,
+extraColombia
 } from '../data/APILottery'
 import { Picture } from "@astrojs/image/components";
 ---
@@ -29,6 +31,699 @@ import { Picture } from "@astrojs/image/components";
     <ButtonPrimary titleButton={'Loterías diarias'} linkButton={'.'} />
     <ButtonSecondary titleButton={'Loterías extras'} linkButton={'extras'} />
   </div>
+  <h2 class="text-white font-bold text-2xl py-3 border-b-4 border-green-500">Últimos sorteos</h2>
+  <section class="flex rounded-2xl justify-center">
+    <article class="flex py-5">
+      {cundinamarca.slice(0,1).map((lotery:any)=>(
+        lotery.ultimoSorteo
+        ?
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+          <a
+                target="_blank"
+                href={lotery.img}
+                class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-1 "
+              >
+                <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+                  <Picture
+                    width={300}
+                    sizes="300"
+                    format={"webp"}
+                    widths={[200, 300, 400]}
+                    aspectRatio="16:9"
+                    fit="inside"
+                    class="bg-slate-200 w-44 h-48 object-cover"
+                    loading=""
+                    src={`${lotery.img}`}
+                    alt={lotery.imgAlt}
+                    title={lotery.sorteo}
+                  />
+                </div>
+                <footer class="mt-4">
+                  <h2 class="text-gray-400">
+                    <span class="text-white">Sorteo:</span>
+                    {lotery.sorteo}
+                  </h2>
+                  <h3>
+                    <p class="text-white">
+                      Fecha:{" "}
+                      <time class="text-gray-400" datetime={lotery.fecha}>
+                        {lotery.fecha}
+                      </time>
+                    </p>
+                  </h3>
+                </footer>
+              </a>
+        </article>
+        :
+        null
+      ))}
+      {tolima.slice(0,1).map((lotery:any)=>(
+        lotery.ultimoSorteo
+        ?
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+          <a
+                target="_blank"
+                href={lotery.img}
+                class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-1 "
+              >
+                <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+                  <Picture
+                    width={300}
+                    sizes="300"
+                    format={"webp"}
+                    widths={[200, 300, 400]}
+                    aspectRatio="16:9"
+                    fit="inside"
+                    class="bg-slate-200 w-44 h-48 object-cover"
+                    loading=""
+                    src={`${lotery.img}`}
+                    alt={lotery.imgAlt}
+                    title={lotery.sorteo}
+                  />
+                </div>
+                <footer class="mt-4">
+                  <h2 class="text-gray-400">
+                    <span class="text-white">Sorteo:</span>
+                    {lotery.sorteo}
+                  </h2>
+                  <h3>
+                    <p class="text-white">
+                      Fecha:{" "}
+                      <time class="text-gray-400" datetime={lotery.fecha}>
+                        {lotery.fecha}
+                      </time>
+                    </p>
+                  </h3>
+                </footer>
+              </a>
+        </article>
+        :
+        null
+      ))}
+      {cruzRoja.slice(0,1).map((lotery:any)=>(
+        lotery.ultimoSorteo
+        ?
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+          <a
+                target="_blank"
+                href={lotery.img}
+                class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-1 "
+              >
+                <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+                  <Picture
+                    width={300}
+                    sizes="300"
+                    format={"webp"}
+                    widths={[200, 300, 400]}
+                    aspectRatio="16:9"
+                    fit="inside"
+                    class="bg-slate-200 w-44 h-48 object-cover"
+                    loading=""
+                    src={`${lotery.img}`}
+                    alt={lotery.imgAlt}
+                    title={lotery.sorteo}
+                  />
+                </div>
+                <footer class="mt-4">
+                  <h2 class="text-gray-400">
+                    <span class="text-white">Sorteo:</span>
+                    {lotery.sorteo}
+                  </h2>
+                  <h3>
+                    <p class="text-white">
+                      Fecha:{" "}
+                      <time class="text-gray-400" datetime={lotery.fecha}>
+                        {lotery.fecha}
+                      </time>
+                    </p>
+                  </h3>
+                </footer>
+              </a>
+        </article>
+        :
+        null
+      ))}
+      {huila.slice(0,1).map((lotery:any)=>(
+        lotery.ultimoSorteo
+        ?
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+          <a
+                target="_blank"
+                href={lotery.img}
+                class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-1 "
+              >
+                <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+                  <Picture
+                    width={300}
+                    sizes="300"
+                    format={"webp"}
+                    widths={[200, 300, 400]}
+                    aspectRatio="16:9"
+                    fit="inside"
+                    class="bg-slate-200 w-44 h-48 object-cover"
+                    loading=""
+                    src={`${lotery.img}`}
+                    alt={lotery.imgAlt}
+                    title={lotery.sorteo}
+                  />
+                </div>
+                <footer class="mt-4">
+                  <h2 class="text-gray-400">
+                    <span class="text-white">Sorteo:</span>
+                    {lotery.sorteo}
+                  </h2>
+                  <h3>
+                    <p class="text-white">
+                      Fecha:{" "}
+                      <time class="text-gray-400" datetime={lotery.fecha}>
+                        {lotery.fecha}
+                      </time>
+                    </p>
+                  </h3>
+                </footer>
+              </a>
+        </article>
+        :
+        null
+      ))}
+      {metalottery.slice(0,1).map((lotery:any)=>(
+        lotery.ultimoSorteo
+        ?
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+          <a
+                target="_blank"
+                href={lotery.img}
+                class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-1 "
+              >
+                <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+                  <Picture
+                    width={300}
+                    sizes="300"
+                    format={"webp"}
+                    widths={[200, 300, 400]}
+                    aspectRatio="16:9"
+                    fit="inside"
+                    class="bg-slate-200 w-44 h-48 object-cover"
+                    loading=""
+                    src={`${lotery.img}`}
+                    alt={lotery.imgAlt}
+                    title={lotery.sorteo}
+                  />
+                </div>
+                <footer class="mt-4">
+                  <h2 class="text-gray-400">
+                    <span class="text-white">Sorteo:</span>
+                    {lotery.sorteo}
+                  </h2>
+                  <h3>
+                    <p class="text-white">
+                      Fecha:{" "}
+                      <time class="text-gray-400" datetime={lotery.fecha}>
+                        {lotery.fecha}
+                      </time>
+                    </p>
+                  </h3>
+                </footer>
+              </a>
+        </article>
+        :
+        null
+      ))}
+      {manizales.slice(0,1).map((lotery:any)=>(
+        lotery.ultimoSorteo
+        ?
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+          <a
+                target="_blank"
+                href={lotery.img}
+                class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-1 "
+              >
+                <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+                  <Picture
+                    width={300}
+                    sizes="300"
+                    format={"webp"}
+                    widths={[200, 300, 400]}
+                    aspectRatio="16:9"
+                    fit="inside"
+                    class="bg-slate-200 w-44 h-48 object-cover"
+                    loading=""
+                    src={`${lotery.img}`}
+                    alt={lotery.imgAlt}
+                    title={lotery.sorteo}
+                  />
+                </div>
+                <footer class="mt-4">
+                  <h2 class="text-gray-400">
+                    <span class="text-white">Sorteo:</span>
+                    {lotery.sorteo}
+                  </h2>
+                  <h3>
+                    <p class="text-white">
+                      Fecha:{" "}
+                      <time class="text-gray-400" datetime={lotery.fecha}>
+                        {lotery.fecha}
+                      </time>
+                    </p>
+                  </h3>
+                </footer>
+              </a>
+        </article>
+        :
+        null
+      ))}
+      {valle.slice(0,1).map((lotery:any)=>(
+        lotery.ultimoSorteo
+        ?
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+          <a
+                target="_blank"
+                href={lotery.img}
+                class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-1 "
+              >
+                <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+                  <Picture
+                    width={300}
+                    sizes="300"
+                    format={"webp"}
+                    widths={[200, 300, 400]}
+                    aspectRatio="16:9"
+                    fit="inside"
+                    class="bg-slate-200 w-44 h-48 object-cover"
+                    loading=""
+                    src={`${lotery.img}`}
+                    alt={lotery.imgAlt}
+                    title={lotery.sorteo}
+                  />
+                </div>
+                <footer class="mt-4">
+                  <h2 class="text-gray-400">
+                    <span class="text-white">Sorteo:</span>
+                    {lotery.sorteo}
+                  </h2>
+                  <h3>
+                    <p class="text-white">
+                      Fecha:{" "}
+                      <time class="text-gray-400" datetime={lotery.fecha}>
+                        {lotery.fecha}
+                      </time>
+                    </p>
+                  </h3>
+                </footer>
+              </a>
+        </article>
+        :
+        null
+      ))}
+      {bogota.slice(0,1).map((lotery:any)=>(
+        lotery.ultimoSorteo
+        ?
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+          <a
+                target="_blank"
+                href={lotery.img}
+                class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-1 "
+              >
+                <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+                  <Picture
+                    width={300}
+                    sizes="300"
+                    format={"webp"}
+                    widths={[200, 300, 400]}
+                    aspectRatio="16:9"
+                    fit="inside"
+                    class="bg-slate-200 w-44 h-48 object-cover"
+                    loading=""
+                    src={`${lotery.img}`}
+                    alt={lotery.imgAlt}
+                    title={lotery.sorteo}
+                  />
+                </div>
+                <footer class="mt-4">
+                  <h2 class="text-gray-400">
+                    <span class="text-white">Sorteo:</span>
+                    {lotery.sorteo}
+                  </h2>
+                  <h3>
+                    <p class="text-white">
+                      Fecha:{" "}
+                      <time class="text-gray-400" datetime={lotery.fecha}>
+                        {lotery.fecha}
+                      </time>
+                    </p>
+                  </h3>
+                </footer>
+              </a>
+        </article>
+        :
+        null
+      ))}
+      {quindio.slice(0,1).map((lotery:any)=>(
+        lotery.ultimoSorteo
+        ?
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+          <a
+                target="_blank"
+                href={lotery.img}
+                class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-1 "
+              >
+                <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+                  <Picture
+                    width={300}
+                    sizes="300"
+                    format={"webp"}
+                    widths={[200, 300, 400]}
+                    aspectRatio="16:9"
+                    fit="inside"
+                    class="bg-slate-200 w-44 h-48 object-cover"
+                    loading=""
+                    src={`${lotery.img}`}
+                    alt={lotery.imgAlt}
+                    title={lotery.sorteo}
+                  />
+                </div>
+                <footer class="mt-4">
+                  <h2 class="text-gray-400">
+                    <span class="text-white">Sorteo:</span>
+                    {lotery.sorteo}
+                  </h2>
+                  <h3>
+                    <p class="text-white">
+                      Fecha:{" "}
+                      <time class="text-gray-400" datetime={lotery.fecha}>
+                        {lotery.fecha}
+                      </time>
+                    </p>
+                  </h3>
+                </footer>
+              </a>
+        </article>
+        :
+        null
+      ))}
+      {medellin.slice(0,1).map((lotery:any)=>(
+        lotery.ultimoSorteo
+        ?
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+          <a
+                target="_blank"
+                href={lotery.img}
+                class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-1 "
+              >
+                <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+                  <Picture
+                    width={300}
+                    sizes="300"
+                    format={"webp"}
+                    widths={[200, 300, 400]}
+                    aspectRatio="16:9"
+                    fit="inside"
+                    class="bg-slate-200 w-44 h-48 object-cover"
+                    loading=""
+                    src={`${lotery.img}`}
+                    alt={lotery.imgAlt}
+                    title={lotery.sorteo}
+                  />
+                </div>
+                <footer class="mt-4">
+                  <h2 class="text-gray-400">
+                    <span class="text-white">Sorteo:</span>
+                    {lotery.sorteo}
+                  </h2>
+                  <h3>
+                    <p class="text-white">
+                      Fecha:{" "}
+                      <time class="text-gray-400" datetime={lotery.fecha}>
+                        {lotery.fecha}
+                      </time>
+                    </p>
+                  </h3>
+                </footer>
+              </a>
+        </article>
+        :
+        null
+      ))}
+      {risaralda.slice(0,1).map((lotery:any)=>(
+        lotery.ultimoSorteo
+        ?
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+          <a
+                target="_blank"
+                href={lotery.img}
+                class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-1 "
+              >
+                <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+                  <Picture
+                    width={300}
+                    sizes="300"
+                    format={"webp"}
+                    widths={[200, 300, 400]}
+                    aspectRatio="16:9"
+                    fit="inside"
+                    class="bg-slate-200 w-44 h-48 object-cover"
+                    loading=""
+                    src={`${lotery.img}`}
+                    alt={lotery.imgAlt}
+                    title={lotery.sorteo}
+                  />
+                </div>
+                <footer class="mt-4">
+                  <h2 class="text-gray-400">
+                    <span class="text-white">Sorteo:</span>
+                    {lotery.sorteo}
+                  </h2>
+                  <h3>
+                    <p class="text-white">
+                      Fecha:{" "}
+                      <time class="text-gray-400" datetime={lotery.fecha}>
+                        {lotery.fecha}
+                      </time>
+                    </p>
+                  </h3>
+                </footer>
+              </a>
+        </article>
+        :
+        null
+      ))}
+      {santander.slice(0,1).map((lotery:any)=>(
+        lotery.ultimoSorteo
+        ?
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+          <a
+                target="_blank"
+                href={lotery.img}
+                class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-1 "
+              >
+                <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+                  <Picture
+                    width={300}
+                    sizes="300"
+                    format={"webp"}
+                    widths={[200, 300, 400]}
+                    aspectRatio="16:9"
+                    fit="inside"
+                    class="bg-slate-200 w-44 h-48 object-cover"
+                    loading=""
+                    src={`${lotery.img}`}
+                    alt={lotery.imgAlt}
+                    title={lotery.sorteo}
+                  />
+                </div>
+                <footer class="mt-4">
+                  <h2 class="text-gray-400">
+                    <span class="text-white">Sorteo:</span>
+                    {lotery.sorteo}
+                  </h2>
+                  <h3>
+                    <p class="text-white">
+                      Fecha:{" "}
+                      <time class="text-gray-400" datetime={lotery.fecha}>
+                        {lotery.fecha}
+                      </time>
+                    </p>
+                  </h3>
+                </footer>
+              </a>
+        </article>
+        :
+        null
+      ))}
+      {boyaca.slice(0,1).map((lotery:any)=>(
+        lotery.ultimoSorteo
+        ?
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+          <a
+                target="_blank"
+                href={lotery.img}
+                class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-1 "
+              >
+                <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+                  <Picture
+                    width={300}
+                    sizes="300"
+                    format={"webp"}
+                    widths={[200, 300, 400]}
+                    aspectRatio="16:9"
+                    fit="inside"
+                    class="bg-slate-200 w-44 h-48 object-cover"
+                    loading=""
+                    src={`${lotery.img}`}
+                    alt={lotery.imgAlt}
+                    title={lotery.sorteo}
+                  />
+                </div>
+                <footer class="mt-4">
+                  <h2 class="text-gray-400">
+                    <span class="text-white">Sorteo:</span>
+                    {lotery.sorteo}
+                  </h2>
+                  <h3>
+                    <p class="text-white">
+                      Fecha:{" "}
+                      <time class="text-gray-400" datetime={lotery.fecha}>
+                        {lotery.fecha}
+                      </time>
+                    </p>
+                  </h3>
+                </footer>
+              </a>
+        </article>
+        :
+        null
+      ))}
+      {cauca.slice(0,1).map((lotery:any)=>(
+        lotery.ultimoSorteo
+        ?
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+          <a
+                target="_blank"
+                href={lotery.img}
+                class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-1 "
+              >
+                <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+                  <Picture
+                    width={300}
+                    sizes="300"
+                    format={"webp"}
+                    widths={[200, 300, 400]}
+                    aspectRatio="16:9"
+                    fit="inside"
+                    class="bg-slate-200 w-44 h-48 object-cover"
+                    loading=""
+                    src={`${lotery.img}`}
+                    alt={lotery.imgAlt}
+                    title={lotery.sorteo}
+                  />
+                </div>
+                <footer class="mt-4">
+                  <h2 class="text-gray-400">
+                    <span class="text-white">Sorteo:</span>
+                    {lotery.sorteo}
+                  </h2>
+                  <h3>
+                    <p class="text-white">
+                      Fecha:{" "}
+                      <time class="text-gray-400" datetime={lotery.fecha}>
+                        {lotery.fecha}
+                      </time>
+                    </p>
+                  </h3>
+                </footer>
+              </a>
+        </article>
+        :
+        null
+      ))}
+      {extraColombia.slice(0,1).map((lotery:any)=>(
+        lotery.ultimoSorteo
+        ?
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+          <a
+                target="_blank"
+                href={lotery.img}
+                class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-1 "
+              >
+                <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+                  <Picture
+                    width={300}
+                    sizes="300"
+                    format={"webp"}
+                    widths={[200, 300, 400]}
+                    aspectRatio="16:9"
+                    fit="inside"
+                    class="bg-slate-200 w-44 h-48 object-cover"
+                    loading=""
+                    src={`${lotery.img}`}
+                    alt={lotery.imgAlt}
+                    title={lotery.sorteo}
+                  />
+                </div>
+                <footer class="mt-4">
+                  <h2 class="text-gray-400">
+                    <span class="text-white">Sorteo:</span>
+                    {lotery.sorteo}
+                  </h2>
+                  <h3>
+                    <p class="text-white">
+                      Fecha:{" "}
+                      <time class="text-gray-400" datetime={lotery.fecha}>
+                        {lotery.fecha}
+                      </time>
+                    </p>
+                  </h3>
+                </footer>
+              </a>
+        </article>
+        :
+        null
+      ))}
+      {extraBogota.slice(0,1).map((lotery:any)=>(
+        lotery.ultimoSorteo
+        ?
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+          <a
+                target="_blank"
+                href={lotery.img}
+                class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-1 "
+              >
+                <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+                  <Picture
+                    width={300}
+                    sizes="300"
+                    format={"webp"}
+                    widths={[200, 300, 400]}
+                    aspectRatio="16:9"
+                    fit="inside"
+                    class="bg-slate-200 w-44 h-48 object-cover"
+                    loading=""
+                    src={`${lotery.img}`}
+                    alt={lotery.imgAlt}
+                    title={lotery.sorteo}
+                  />
+                </div>
+                <footer class="mt-4">
+                  <h2 class="text-gray-400">
+                    <span class="text-white">Sorteo:</span>
+                    {lotery.sorteo}
+                  </h2>
+                  <h3>
+                    <p class="text-white">
+                      Fecha:{" "}
+                      <time class="text-gray-400" datetime={lotery.fecha}>
+                        {lotery.fecha}
+                      </time>
+                    </p>
+                  </h3>
+                </footer>
+              </a>
+        </article>
+        :
+        null
+      ))}
+    </article>
+  </section>
   <section class="px-5 w-full lg:w-full lg:px-0">
     <CardLoteryIndex titleLotery={'Cundinamarca'} nameLotery={'cundinamarca'} loading={''}>
       {cundinamarca === undefined ? <h5>Error al cargar</h5> : cundinamarca.slice(0, 5).map((lotery: any) => (

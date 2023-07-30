@@ -2546,7 +2546,7 @@ export const santander = [
     "fecha": "28-07-2023",
     "img": "https://i.postimg.cc/SK3NXvtP/santander4924.gif",
     "downloadImg":"https://i.postimg.cc/dqt7fMRJ/santander4924.gif?dl=1",
-    "imgAlt": "Seco Santander 4924"
+    "imgAlt": "Seco Santander 4924",
   },
   {
     "sorteo": "4923",
@@ -2779,7 +2779,8 @@ export const boyaca = [
     "fecha": "29-07-2023",
     "img": "https://i.postimg.cc/rpyPfHjj/boyaca4478.jpg",
     "downloadImg":"https://i.postimg.cc/6BCxpJGk/boyaca4478.jpg?dl=1",
-    "imgAlt": "Seco Boyacá 4478"
+    "imgAlt": "Seco Boyacá 4478",
+    "ultimoSorteo": true
   },
   {
     "sorteo": "4477",
@@ -3012,7 +3013,8 @@ export const cauca = [
     "fecha": "29-07-2023",
     "img": "https://i.postimg.cc/B6jsVbpm/cauca2465.jpg",
     "downloadImg":"https://i.postimg.cc/hSrjh7dR/cauca2465.jpg?dl=1",
-    "imgAlt": "Seco Cauca 2465"
+    "imgAlt": "Seco Cauca 2465",
+    "ultimoSorteo": true
   },
   {
     "sorteo": "2464",
@@ -3268,7 +3270,8 @@ export const extraColombia = [
     "fecha": "29-07-2023",
     "img": "https://i.postimg.cc/nVQpKsCz/extracolombia2217.jpg",
     "downloadImg":"https://i.postimg.cc/0vVjsDvp/extracolombia2217.jpg?dl=1",
-    "imgAlt": "Seco Extra de Colombia 2217"
+    "imgAlt": "Seco Extra de Colombia 2217",
+    "ultimoSorteo": true
   },
   {
     "sorteo": "2216",
