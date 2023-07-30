@@ -4,8 +4,9 @@ interface Props {
   nameLotery: String;
   loading: String;
   subRouting: String;
+  verMas?: Boolean
 }
-const { titleLotery, nameLotery, subRouting = "" } = Astro.props;
+const { titleLotery, nameLotery, subRouting = "", verMas = true } = Astro.props;
 ---
 
 <section>
@@ -17,10 +18,15 @@ const { titleLotery, nameLotery, subRouting = "" } = Astro.props;
   >
     <slot/>
   </section>
+  {verMas
+  ?
   <div class="flex justify-center mb-8">
     <a
       href=`./${subRouting}${nameLotery}`
-      class="bg-purple-500/30 text-white px-10 py-2 rounded-2xl hover:bg-purple-500 transition-all shadow-lg hover:shadow-purple-300/50"
+      class="bg-purple-500/30 text-white px-10 py-2 rounded-2xl hover:bg-purple-500 transition-all shadow-lg hover:shadow-purple-300/20"
       >Ver más resultados →</a>
   </div>
+  :
+  null
+  }
 </section>

@@ -31,13 +31,16 @@ import { Picture } from "@astrojs/image/components";
     <ButtonPrimary titleButton={'Loterías diarias'} linkButton={'.'} />
     <ButtonSecondary titleButton={'Loterías extras'} linkButton={'extras'} />
   </div>
-  <h2 class="text-white font-bold text-2xl py-3 border-b-4 border-green-500">Últimos sorteos</h2>
-  <section class="flex rounded-2xl justify-center">
-    <article class="flex py-5">
+  <section class="px-5 w-full lg:w-full lg:px-0">
+    <CardLoteryIndex
+      titleLotery={'Últimos sorteos'}
+      nameLotery={''}
+      loading={''}
+      verMas={false}>
       {cundinamarca.slice(0,1).map((lotery:any)=>(
         lotery.ultimoSorteo
         ?
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-green-500/40 lg:relative pb-5">
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
           <a
                 target="_blank"
                 href={lotery.img}
@@ -80,7 +83,7 @@ import { Picture } from "@astrojs/image/components";
       {tolima.slice(0,1).map((lotery:any)=>(
         lotery.ultimoSorteo
         ?
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-green-500/40 lg:relative pb-5">
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
           <a
                 target="_blank"
                 href={lotery.img}
@@ -123,7 +126,7 @@ import { Picture } from "@astrojs/image/components";
       {cruzRoja.slice(0,1).map((lotery:any)=>(
         lotery.ultimoSorteo
         ?
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-green-500/40 lg:relative pb-5">
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
           <a
                 target="_blank"
                 href={lotery.img}
@@ -166,7 +169,7 @@ import { Picture } from "@astrojs/image/components";
       {huila.slice(0,1).map((lotery:any)=>(
         lotery.ultimoSorteo
         ?
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-green-500/40 lg:relative pb-5">
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
           <a
                 target="_blank"
                 href={lotery.img}
@@ -209,7 +212,7 @@ import { Picture } from "@astrojs/image/components";
       {metalottery.slice(0,1).map((lotery:any)=>(
         lotery.ultimoSorteo
         ?
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-green-500/40 lg:relative pb-5">
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
           <a
                 target="_blank"
                 href={lotery.img}
@@ -252,7 +255,7 @@ import { Picture } from "@astrojs/image/components";
       {manizales.slice(0,1).map((lotery:any)=>(
         lotery.ultimoSorteo
         ?
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-green-500/40 lg:relative pb-5">
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
           <a
                 target="_blank"
                 href={lotery.img}
@@ -295,7 +298,7 @@ import { Picture } from "@astrojs/image/components";
       {valle.slice(0,1).map((lotery:any)=>(
         lotery.ultimoSorteo
         ?
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-green-500/40 lg:relative pb-5">
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
           <a
                 target="_blank"
                 href={lotery.img}
@@ -338,7 +341,7 @@ import { Picture } from "@astrojs/image/components";
       {bogota.slice(0,1).map((lotery:any)=>(
         lotery.ultimoSorteo
         ?
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-green-500/40 lg:relative pb-5">
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
           <a
                 target="_blank"
                 href={lotery.img}
@@ -381,7 +384,7 @@ import { Picture } from "@astrojs/image/components";
       {quindio.slice(0,1).map((lotery:any)=>(
         lotery.ultimoSorteo
         ?
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-green-500/40 lg:relative pb-5">
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
           <a
                 target="_blank"
                 href={lotery.img}
@@ -424,7 +427,7 @@ import { Picture } from "@astrojs/image/components";
       {medellin.slice(0,1).map((lotery:any)=>(
         lotery.ultimoSorteo
         ?
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-green-500/40 lg:relative pb-5">
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
           <a
                 target="_blank"
                 href={lotery.img}
@@ -467,7 +470,7 @@ import { Picture } from "@astrojs/image/components";
       {risaralda.slice(0,1).map((lotery:any)=>(
         lotery.ultimoSorteo
         ?
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-green-500/40 lg:relative pb-5">
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
           <a
                 target="_blank"
                 href={lotery.img}
@@ -510,7 +513,7 @@ import { Picture } from "@astrojs/image/components";
       {santander.slice(0,1).map((lotery:any)=>(
         lotery.ultimoSorteo
         ?
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-green-500/40 lg:relative pb-5">
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
           <a
                 target="_blank"
                 href={lotery.img}
@@ -553,7 +556,7 @@ import { Picture } from "@astrojs/image/components";
       {boyaca.slice(0,1).map((lotery:any)=>(
         lotery.ultimoSorteo
         ?
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-green-500/40 lg:relative pb-5">
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
           <a
                 target="_blank"
                 href={lotery.img}
@@ -596,7 +599,7 @@ import { Picture } from "@astrojs/image/components";
       {cauca.slice(0,1).map((lotery:any)=>(
         lotery.ultimoSorteo
         ?
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-green-500/40 lg:relative pb-5">
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
           <a
                 target="_blank"
                 href={lotery.img}
@@ -639,7 +642,7 @@ import { Picture } from "@astrojs/image/components";
       {extraColombia.slice(0,1).map((lotery:any)=>(
         lotery.ultimoSorteo
         ?
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-green-500/40 lg:relative pb-5">
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
           <a
                 target="_blank"
                 href={lotery.img}
@@ -682,7 +685,7 @@ import { Picture } from "@astrojs/image/components";
       {extraBogota.slice(0,1).map((lotery:any)=>(
         lotery.ultimoSorteo
         ?
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-green-500/40 lg:relative pb-5">
+        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
           <a
                 target="_blank"
                 href={lotery.img}
@@ -722,9 +725,7 @@ import { Picture } from "@astrojs/image/components";
         :
         null
       ))}
-    </article>
-  </section>
-  <section class="px-5 w-full lg:w-full lg:px-0">
+    </CardLoteryIndex>
     <CardLoteryIndex titleLotery={'Cundinamarca'} nameLotery={'cundinamarca'} loading={''}>
       {cundinamarca === undefined ? <h5>Error al cargar</h5> : cundinamarca.slice(0, 5).map((lotery: any) => (
         <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
