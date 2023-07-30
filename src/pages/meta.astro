@@ -3,6 +3,7 @@ import Layout from "../components/Layout.astro";
 import TemplatePageLottery from "../components/CardLotery/TemplatePageLottery.astro";
 import { Picture } from "@astrojs/image/components";
 import { metalottery } from "../data/APILottery";
+import ButtonSecondary from "../components/buttonSecondary.astro";
 ---
 
 <Layout pageTitle={'Meta'}>
@@ -35,13 +36,10 @@ import { metalottery } from "../data/APILottery";
               </footer>
               </a>
               <div class="flex mt-[290px] justify-center w-full absolute">
-                <a
-                  class="bg-purple-500/30 hover:bg-purple-500 transition-all rounded-2xl px-10 py-1 text-white shadow-lg hover:shadow-purple-300/50"
-                  href={lotery.downloadImg}
-                  download
-                >
-                  Descargar
-                </a>
+                <ButtonSecondary
+                  linkButton={lotery.downloadImg}
+                  titleButton='Descargar'
+                />
               </div>
               </article>
       ))

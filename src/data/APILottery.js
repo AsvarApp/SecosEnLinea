@@ -2775,6 +2775,13 @@ export const santander = [
 ]
 export const boyaca = [
   {
+    "sorteo": "4478",
+    "fecha": "29-07-2023",
+    "img": "https://i.postimg.cc/rpyPfHjj/boyaca4478.jpg",
+    "downloadImg":"https://i.postimg.cc/6BCxpJGk/boyaca4478.jpg?dl=1",
+    "imgAlt": "Seco Boyacá 4478"
+  },
+  {
     "sorteo": "4477",
     "fecha": "22-07-2023",
     "img": "https://i.postimg.cc/Jn9gzNTc/boyaca4477.jpg",
@@ -3000,6 +3007,13 @@ export const boyaca = [
   }
 ]
 export const cauca = [
+  {
+    "sorteo": "2465",
+    "fecha": "29-07-2023",
+    "img": "https://i.postimg.cc/B6jsVbpm/cauca2465.jpg",
+    "downloadImg":"https://i.postimg.cc/hSrjh7dR/cauca2465.jpg?dl=1",
+    "imgAlt": "Seco Cauca 2465"
+  },
   {
     "sorteo": "2464",
     "fecha": "22-07-2023",
@@ -3249,6 +3263,13 @@ export const extraBogota = [
   }
 ]
 export const extraColombia = [
+  {
+    "sorteo": "2217",
+    "fecha": "29-07-2023",
+    "img": "https://i.postimg.cc/nVQpKsCz/extracolombia2217.jpg",
+    "downloadImg":"https://i.postimg.cc/0vVjsDvp/extracolombia2217.jpg?dl=1",
+    "imgAlt": "Seco Extra de Colombia 2217"
+  },
   {
     "sorteo": "2216",
     "fecha": "24-06-2023",
