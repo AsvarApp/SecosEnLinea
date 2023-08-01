@@ -1,5 +1,13 @@
 export const cundinamarca = [
   {
+    "sorteo": "4657",
+    "fecha": "31-07-2023",
+    "img": "https://i.postimg.cc/50z1QKHr/cundinamarca4657.jpg",
+    "downloadImg": "https://i.postimg.cc/MWPG4hzz/cundinamarca4657.jpg?dl=1",
+    "imgAlt": "Seco Cundinamarca 4657"
+    "ultimoSorteo": true
+  },
+  {
     "sorteo": "4656",
     "fecha": "24-07-2023",
     "img": "https://i.postimg.cc/kXGMBsw-H/cundinamarca4656.jpg",
@@ -232,6 +240,14 @@ export const cundinamarca = [
   }
 ]
 export const tolima = [
+  {
+    "sorteo": "4024",
+    "fecha": "31-07-2023",
+    "img": "https://i.postimg.cc/bJTBV4BW/tolima4024.jpg",
+    "downloadImg":"https://i.postimg.cc/JrVC0Lcr/tolima4024.jpg?dl=1",
+    "imgAlt": "Seco Tolima 4024",
+    "ultimoSorteo": true
+  },
   {
     "sorteo": "4023",
     "fecha": "24-07-2023",
@@ -2780,7 +2796,6 @@ export const boyaca = [
     "img": "https://i.postimg.cc/rpyPfHjj/boyaca4478.jpg",
     "downloadImg":"https://i.postimg.cc/6BCxpJGk/boyaca4478.jpg?dl=1",
     "imgAlt": "Seco Boyacá 4478",
-    "ultimoSorteo": true
   },
   {
     "sorteo": "4477",
@@ -3014,7 +3029,6 @@ export const cauca = [
     "img": "https://i.postimg.cc/B6jsVbpm/cauca2465.jpg",
     "downloadImg":"https://i.postimg.cc/hSrjh7dR/cauca2465.jpg?dl=1",
     "imgAlt": "Seco Cauca 2465",
-    "ultimoSorteo": true
   },
   {
     "sorteo": "2464",
@@ -3271,7 +3285,6 @@ export const extraColombia = [
     "img": "https://i.postimg.cc/nVQpKsCz/extracolombia2217.jpg",
     "downloadImg":"https://i.postimg.cc/0vVjsDvp/extracolombia2217.jpg?dl=1",
     "imgAlt": "Seco Extra de Colombia 2217",
-    "ultimoSorteo": true
   },
   {
     "sorteo": "2216",
