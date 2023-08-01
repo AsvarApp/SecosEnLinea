@@ -4,7 +4,7 @@ export const cundinamarca = [
     "fecha": "31-07-2023",
     "img": "https://i.postimg.cc/50z1QKHr/cundinamarca4657.jpg",
     "downloadImg": "https://i.postimg.cc/MWPG4hzz/cundinamarca4657.jpg?dl=1",
-    "imgAlt": "Seco Cundinamarca 4657"
+    "imgAlt": "Seco Cundinamarca 4657",
     "ultimoSorteo": true
   },
   {
