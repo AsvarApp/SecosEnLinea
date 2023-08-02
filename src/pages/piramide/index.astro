@@ -6,7 +6,7 @@ import Layout from '../../components/Layout.astro'
   <section class="flex justify-center gap-3 px-4">
     <div class="">
       <input
-        type="text"
+        type="number"
         id="inputNumber"
         placeholder="501201082023"
         aria-required="true"
@@ -24,6 +24,16 @@ import Layout from '../../components/Layout.astro'
     </div>
   </section>
 </Layout>
+<style>
+  input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+</style>
   <script>
     const Button = document.getElementById('btn')
     btn.addEventListener('click', ()=> (
