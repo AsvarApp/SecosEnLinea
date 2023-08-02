@@ -5,7 +5,6 @@ export const cundinamarca = [
     "img": "https://i.postimg.cc/50z1QKHr/cundinamarca4657.jpg",
     "downloadImg": "https://i.postimg.cc/MWPG4hzz/cundinamarca4657.jpg?dl=1",
     "imgAlt": "Seco Cundinamarca 4657",
-    "ultimoSorteo": true
   },
   {
     "sorteo": "4656",
@@ -246,7 +245,6 @@ export const tolima = [
     "img": "https://i.postimg.cc/bJTBV4BW/tolima4024.jpg",
     "downloadImg":"https://i.postimg.cc/JrVC0Lcr/tolima4024.jpg?dl=1",
     "imgAlt": "Seco Tolima 4024",
-    "ultimoSorteo": true
   },
   {
     "sorteo": "4023",
@@ -482,6 +480,14 @@ export const tolima = [
 ]
 export const cruzRoja = [
   {
+    "sorteo": "3008",
+    "fecha": "01-08-2023",
+    "img": "https://i.postimg.cc/yN5Cssz5/cruzroja3008.jpg",
+    "downloadImg":"https://i.postimg.cc/w6xq5j46/cruzroja3008.jpg?dl=1",
+    "imgAlt": "Seco Cruz Roja 3008",
+    "ultimoSorteo": true
+  },
+  {
     "sorteo": "3007",
     "fecha": "25-07-2023",
     "img": "https://i.postimg.cc/2j2Ds6rs/cruzroja3007.jpg",
@@ -715,6 +721,14 @@ export const cruzRoja = [
   }
 ]
 export const huila = [
+  {
+    "sorteo": "4610",
+    "fecha": "01-08-2023",
+    "img": "https://i.postimg.cc/sgQtmbW4/huila4610.jpg",
+    "downloadImg":"https://i.postimg.cc/fDBDzNTp/huila4610.jpg?dl=1",
+    "imgAlt": "Seco Huila 4610",
+    "ultimoSorteo": true
+  },
   {
     "sorteo": "4609",
     "fecha": "25-07-2023",
