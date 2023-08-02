@@ -1,0 +1,62 @@
+---
+import Layout from '../../components/Layout.astro'
+---
+<Layout pageTitle={'Piramide'}>
+  <h1 class="font-bold text-white text-center pb-10 text-3xl">Crea tu piramide de números</h1>
+  <section class="flex justify-center gap-3 px-4">
+    <div class="">
+      <input
+        type="text"
+        id="inputNumber"
+        placeholder="501201082023"
+        aria-required="true"
+        pattern="[0-9]+"
+        class="py-2 px-8 rounded-2xl border-transparent focus:border-purple-500 text-lg">
+      <button
+        id="btn"
+        class="px-8 py-2 text-center bg-colorPrimary rounded-2xl text-white transition-all hover:shadow-purple-300/20 shadow-lg bg-opacity-50 hover:bg-opacity-100">Calcular</button>
+    </div>
+  </section>
+  <section class="m-auto rounded-2xl min-h-[100px] max-w-lg mt-5 bg-gray-900/80 border border-purple-500/80 hover:border-purple-500 transition-colors px-4">
+    <div
+      id="result"
+      class="text-white flex-col justify-center px-14 py-5 text-lg tracking-wider">
+    </div>
+  </section>
+</Layout>
+  <script>
+    const Button = document.getElementById('btn')
+    btn.addEventListener('click', ()=> (
+    processNumber()
+    ))
+    function processNumber() {
+    const inputNumber = document.getElementById('inputNumber').value;
+    let strNum = inputNumber.toString();
+    const resultDiv = document.getElementById('result');
+      resultDiv.innerHTML = ''; // Limpiar resultados previos
+
+    // Insertar el número original en el div de resultados
+    const originalNumberSpan = document.createElement('span');
+    originalNumberSpan.innerText = strNum;
+    resultDiv.appendChild(originalNumberSpan);
+    resultDiv.appendChild(document.createElement('br'));
+
+    while (strNum.length > 1) {
+      let result = '';
+      for (let i = 0; i < strNum.length - 1; i++) {
+        const digit1 = parseInt(strNum[i]);
+        const digit2 = parseInt(strNum[i + 1]);
+        const sum = digit1 + digit2;
+        result += (sum >= 10 ? sum % 10 : sum).toString();
+      }
+
+      // Insertar la fila actual en el div de resultados
+      const rowSpan = document.createElement('span');
+      rowSpan.innerText = result;
+      resultDiv.appendChild(rowSpan);
+      resultDiv.appendChild(document.createElement('br'));
+
+      strNum = result;
+  }
+}
+  </script>
