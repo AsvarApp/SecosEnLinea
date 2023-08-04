@@ -2,9 +2,11 @@
 import Layout from '../../components/Layout.astro'
 ---
 <Layout pageTitle={'Piramide'}>
-  <h1 class="font-bold text-white text-center pb-10 text-3xl">Crea tu piramide de números</h1>
+  <h1 class="font-bold text-white text-center pb-5 text-3xl">Crea tu piramide de números</h1>
+  <p class="text-gray-400 text-center max-w-3xl pb-1 m-auto text-sm">La pirámide de números es un sistema de combinación de números posibles a caer donde ingresas el último resultado de la lotería que desea jugar seguidamente del dia, mes y año que del día que juega.</p>
   <section class="flex justify-center gap-3 px-4">
-    <div class="">
+    <div class="flex-col">
+      <label class="text-white flex py-2 justify-center text-lg font-bold" for="inputNumber">Inserte sus números:</label>
       <input
         type="number"
         id="inputNumber"
@@ -12,15 +14,12 @@ import Layout from '../../components/Layout.astro'
         aria-required="true"
         pattern="[0-9]+"
         class="py-2 px-8 rounded-2xl border-transparent focus:border-purple-500 text-lg">
-      <button
-        id="btn"
-        class="px-8 py-2 text-center bg-colorPrimary rounded-2xl text-white transition-all hover:shadow-purple-300/20 shadow-lg bg-opacity-50 hover:bg-opacity-100">Calcular</button>
     </div>
   </section>
-  <section class="m-auto rounded-2xl min-h-[100px] max-w-lg mt-5 bg-gray-900/80 border border-purple-500/80 hover:border-purple-500 transition-colors px-4">
+  <section class="m-auto rounded-2xl min-h-[100px] max-w-md mt-5 bg-gray-900/80 border border-purple-500/80 hover:border-purple-500 transition-colors px-4 text-right">
     <div
       id="result"
-      class="text-white flex-col justify-center px-14 py-5 text-lg tracking-wider">
+      class="text-white flex-col justify-center px-14 py-5 text-lg tracking-widest">
     </div>
   </section>
 </Layout>
@@ -36,7 +35,7 @@ input[type="number"] {
 </style>
   <script>
     const Button = document.getElementById('btn')
-    btn.addEventListener('click', ()=> (
+    inputNumber.addEventListener('keyup', ()=> (
     processNumber()
     ))
     function processNumber() {

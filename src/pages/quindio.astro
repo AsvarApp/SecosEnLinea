@@ -23,12 +23,12 @@ import ButtonSecondary from "../components/buttonSecondary.astro";
                 loading="lazy"
                 src={`${lotery.img}`}
                 alt={lotery.imgAlt}
-                title={lotery.sorteo}
+                title={lotery.drawingNumber}
               />
               <footer class="mt-4">
                 <h2 class="text-gray-400">
                   <span class="text-white">Sorteo:</span>
-                  {lotery.sorteo}
+                  {lotery.drawingNumber}
                 </h2>
                 <h3>
                   <p class="text-white">Fecha: <time class="text-gray-400" datetime={lotery.fecha}>{lotery.fecha}</time></p>
