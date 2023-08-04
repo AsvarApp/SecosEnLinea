@@ -18,7 +18,7 @@ function MenuMobile() {
       <nav className={MenuIsOn?"fixed h-[515px] top-0 mt-[59px] w-full bg-colorMenu/90 z-10 left-0 transition-all duration-300 overflow-hidden":"fixed h-[0px] top-0 mt-[59px] 12 w-full bg-colorMenu/90 left-0 overflow-hidden transition-all duration-500"}>
         <ul>
           <div className="flex-col text-center mb-2">
-          <li><a className="flex justify-center py-3 px-4 text-lg bg-purple-900/20 lg:flex-1 transition-all hover:bg-gradient-to-t from-purple-900/50 outline-1 border-b-purple-700/70 border-l-0 border-t-0 border-r-0 border lg:flex" href="piramide">Piramide</a></li>
+          <li><a className="flex justify-center py-3 px-4 text-lg bg-purple-900/20 lg:flex-1 transition-all hover:bg-gradient-to-t from-purple-900/50 outline-1 border-b-purple-700/70 border-l-0 border-t-0 border-r-0 border lg:flex" href="piramide">Pirámide</a></li>
           <li><a className="flex justify-center py-3 px-4 text-lg bg-purple-900/20 lg:flex-1 transition-all hover:bg-gradient-to-t from-purple-900/50 outline-1 border-b-purple-700/70 border-l-0 border-t-0 border-r-0 border lg:flex" href="sobrenosotros">Sobre nosotros</a></li>
           </div>
           <li><a href="cundinamarca" className="inline-block p-3 outline-1 border-b-purple-700/70 border-l-0 border-t-0 border-r-0 border text-white w-2/4 float-left"><img className="m-auto w-8 h-8 inline-block mr-2" src='../cundi.webp' alt="Logo de la loteria de cundinamarca colombia" /> Cundinamarca</a></li>
