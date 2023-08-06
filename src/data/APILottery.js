@@ -3568,13 +3568,22 @@ export const santander = [
 ]
 export const boyaca = [
   {
+    "drawingNumber": "4479",
+    "fecha": "05-08-2023",
+    "img": "https://i.postimg.cc/bwjgTkw4/boyaca4479.jpg",
+    "downloadImg":"https://i.postimg.cc/pRmSPBbV/boyaca4479.jpg?dl=1",
+    "imgAlt": "Seco Boyacá 4479",
+    "lotteryName": "Boyacá",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4478",
     "fecha": "29-07-2023",
     "img": "https://i.postimg.cc/rpyPfHjj/boyaca4478.jpg",
     "downloadImg":"https://i.postimg.cc/6BCxpJGk/boyaca4478.jpg?dl=1",
     "imgAlt": "Seco Boyacá 4478",
     "lotteryName": "Boyacá",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4477",
@@ -3861,13 +3870,22 @@ export const boyaca = [
 ]
 export const cauca = [
   {
+    "drawingNumber": "2466",
+    "fecha": "05-08-2023",
+    "img": "https://i.postimg.cc/RZXtHH67/cauca2466.jpg",
+    "downloadImg":"https://i.postimg.cc/VzcW29zV/cauca2466.jpg?dl=1",
+    "imgAlt": "Seco Cauca 2466",
+    "lotteryName": "Cauca",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "2465",
     "fecha": "29-07-2023",
     "img": "https://i.postimg.cc/B6jsVbpm/cauca2465.jpg",
     "downloadImg":"https://i.postimg.cc/hSrjh7dR/cauca2465.jpg?dl=1",
     "imgAlt": "Seco Cauca 2465",
     "lotteryName": "Cauca",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2464",
