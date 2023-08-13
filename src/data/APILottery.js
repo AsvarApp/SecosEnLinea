@@ -3988,8 +3988,8 @@ export const cauca = [
   {
     "drawingNumber": "2467",
     "fecha": "12-08-2023",
-    "img": "https://i.postimg.cc/YCGnKbzQ/cauca2447.png",
-    "downloadImg":"https://i.postimg.cc/c0TV3zKk/cauca2447.png?dl=1",
+    "img": "https://i.postimg.cc/rpByqn4W/cauca2447.jpg",
+    "downloadImg":"https://i.postimg.cc/CF1RH9Lv/cauca2447.jpg?dl=1",
     "imgAlt": "Seco Cauca 2467",
     "lotteryName": "Cauca",
     "lastDraw": true
