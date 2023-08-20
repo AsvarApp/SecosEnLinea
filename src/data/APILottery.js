@@ -2217,7 +2217,7 @@ export const bogota = [
     "fecha": "17-08-2023",
     "img": "https://i.postimg.cc/B6CXB1c8/bogota2703.jpg",
     "downloadImg":"https://i.postimg.cc/MWCVx7nY/bogota2703.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2703, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2703, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": true
   },
@@ -2226,7 +2226,7 @@ export const bogota = [
     "fecha": "10-08-2023",
     "img": "https://i.postimg.cc/d1TX9r03/bogota2702.jpg",
     "downloadImg":"https://i.postimg.cc/4J8gs1k6/bogota2702.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2702, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2702, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2235,7 +2235,7 @@ export const bogota = [
     "fecha": "03-08-2023",
     "img": "https://i.postimg.cc/bYFg3yK3/bogota2701.jpg",
     "downloadImg":"https://i.postimg.cc/rcqHyzgX/bogota2701.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2701, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2701, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2244,7 +2244,7 @@ export const bogota = [
     "fecha": "27-07-2023",
     "img": "https://i.postimg.cc/FRjC64H3/bogota2700.jpg",
     "downloadImg":"https://i.postimg.cc/csjqr1q9/bogota2700.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2700, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2700, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2253,7 +2253,7 @@ export const bogota = [
     "fecha": "18-07-2023",
     "img": "https://i.postimg.cc/L6YMzc3L/bogota2699.jpg",
     "downloadImg":"https://i.postimg.cc/HH3sCHJZ/bogota2699.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2699, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2699, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2262,7 +2262,7 @@ export const bogota = [
     "fecha": "13-07-2023",
     "img": "https://i.postimg.cc/2SPBCf65/bogota2698.png",
     "downloadImg":"https://i.postimg.cc/t9gdtqGF/bogota2698.png?dl=1",
-    "imgAlt": "Seco Bogotá 2698, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2698, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2271,7 +2271,7 @@ export const bogota = [
     "fecha": "06-07-2023",
     "img": "https://i.postimg.cc/R0zcW8YW/bogota2697.jpg",
     "downloadImg":"https://i.postimg.cc/QjFSyZkJ/bogota2697.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2697, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2697, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2280,7 +2280,7 @@ export const bogota = [
     "fecha": "29-06-2023",
     "img": "https://i.postimg.cc/L4NxNrV5/bogota2696.jpg",
     "downloadImg":"https://i.postimg.cc/tyH8CbZ3/bogota2696.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2696, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2696, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2289,7 +2289,7 @@ export const bogota = [
     "fecha": "22-06-2023",
     "img": "https://i.postimg.cc/MTHZvk3j/bogota2695.jpg",
     "downloadImg":"https://i.postimg.cc/5xqXKbwp/bogota2695.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2695, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2695, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2298,7 +2298,7 @@ export const bogota = [
     "fecha": "15-06-2023",
     "img": "https://i.postimg.cc/50sJNpRF/bogota2694.jpg",
     "downloadImg":"https://i.postimg.cc/vYsZhN7X/bogota2694.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2694, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2694, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2307,7 +2307,7 @@ export const bogota = [
     "fecha": "08-06-2023",
     "img": "https://i.postimg.cc/4ybtF8Wz/bogota2693.jpg",
     "downloadImg":"https://i.postimg.cc/DvRg0HsY/bogota2693.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2693, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2693, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2316,7 +2316,7 @@ export const bogota = [
     "fecha": "01-06-2023",
     "img": "https://i.postimg.cc/R0QT3XpY/bogota2692.jpg",
     "downloadImg":"https://i.postimg.cc/Rv2pDY7v/bogota2692.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2692, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2692, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2326,7 +2326,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/dtB3WNyv/bogota2691.jpg",
     "imgThumbnail": "",
     "downloadImg":"https://i.postimg.cc/CSy8xWMZ/bogota2691.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2691, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2691, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2336,7 +2336,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/KYqWtrkH/bogota2690.jpg",
     "imgThumbnail": "",
     "downloadImg":"https://i.postimg.cc/Bq4G9mq4/bogota2690.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2690, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2690, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2346,7 +2346,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/9MvRQMHm/bogota2689.jpg",
     "imgThumbnail": "",
     "downloadImg":"https://i.postimg.cc/54twpYPC/bogota2689.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2689, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2689, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2356,7 +2356,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/nzb21vds/bogota2688.jpg",
     "imgThumbnail": "",
     "downloadImg":"https://i.postimg.cc/69TPtcnh/bogota2688.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2688, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2688, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2366,7 +2366,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/QNW02Y96/bogota2687.jpg",
     "imgThumbnail": "",
     "downloadImg":"https://i.postimg.cc/dF5pTzqK/bogota2687.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2687, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2687, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2376,7 +2376,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/s2wZqgyJ/bogota2686.jpg",
     "imgThumbnail": "",
     "downloadImg":"https://i.postimg.cc/gYPqwxT1/bogota2686.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2686, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2686, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2386,7 +2386,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/HnH1f7kn/bogota2685.jpg",
     "imgThumbnail": "",
     "downloadImg":"https://i.postimg.cc/54Q9QBcB/bogota2685.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2685, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2685, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2396,7 +2396,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/zXnzDBLT/bogota2684.webp",
     "imgThumbnail": "https://i.postimg.cc/JntpNNRx/Bogota-Thumb2684.webp",
     "downloadImg":"https://i.postimg.cc/GrfHQTdg/bogota2684.webp?dl=1",
-    "imgAlt": "Seco Bogotá 2684, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2684, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2406,7 +2406,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/c474HzQ7/bogota2683.jpg",
     "imgThumbnail": "https://i.postimg.cc/VNK70GP5/Bogota-Thumb2683.webp",
     "downloadImg":"https://i.postimg.cc/YkZ4XK0P/bogota2683.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2683, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2683, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2416,7 +2416,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/wTb3w2Gk/bogota2682.jpg",
     "imgThumbnail": "https://i.postimg.cc/fbz2L4F6/Bogota-Thumb2682.webp",
     "downloadImg":"https://i.postimg.cc/pRP8X1Q3/bogota2682.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2682, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2682, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2426,7 +2426,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/WzqSqNRh/bogota2681.webp",
     "imgThumbnail": "https://i.postimg.cc/rwCZMyh1/Bogota-Thumb2681.webp",
     "downloadImg":"https://i.postimg.cc/wq0rPM0c/bogota2681.webp?dl=1",
-    "imgAlt": "Seco Bogotá 2681, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2681, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2436,7 +2436,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/50RntHRh/bogota2680.webp",
     "imgThumbnail": "https://i.postimg.cc/JzWYfHQ7/Bogota-Thumb2680.webp",
     "downloadImg":"https://i.postimg.cc/vYQj3fLZ/bogota2680.webp?dl=1",
-    "imgAlt": "Seco Bogotá 2680, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2680, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2446,7 +2446,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/VkQZMCk1/bogota2679.webp",
     "imgThumbnail": "https://i.postimg.cc/kMBHKm4C/Bogota-Thumb2679.webp",
     "downloadImg":"https://i.postimg.cc/pRywwQN9/bogota2679.webp?dl=1",
-    "imgAlt": "Seco Bogotá 2679, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2679, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2456,7 +2456,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/59rR4GcX/bogota2678.webp",
     "imgThumbnail": "https://i.postimg.cc/j27wQ9pc/Bogota-Thumb2678.webp",
     "downloadImg":"https://i.postimg.cc/xYjDRDt3/bogota2678.webp?dl=1",
-    "imgAlt": "Seco Bogotá 2678, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2678, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2466,7 +2466,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/KYm9phTH/bogota2677.webp",
     "imgThumbnail": "https://i.postimg.cc/mhWcdjRs/Bogota-Thumb2677.webp",
     "downloadImg":"https://i.postimg.cc/qp39Rkv4/bogota2677.webp?dl=1",
-    "imgAlt": "Seco Bogotá 2677, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2677, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2476,7 +2476,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/4yjLWKv6/bogota2676.webp",
     "imgThumbnail": "https://i.postimg.cc/gcQTKTXZ/Bogota-Thumb2676.webp",
     "downloadImg":"https://i.postimg.cc/gc2Ck8nT/bogota2676.webp?dl=1",
-    "imgAlt": "Seco Bogotá 2676, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2676, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2486,7 +2486,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/VkqGFkJt/bogota2675.webp",
     "imgThumbnail": "https://i.postimg.cc/Y9VLFksj/Bogota-Thumb2675.webp",
     "downloadImg":"https://i.postimg.cc/R48k439g/bogota2675.webp?dl=1",
-    "imgAlt": "Seco Bogotá 2675, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2675, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2496,7 +2496,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/3w9tPfCJ/bogota2674.webp",
     "imgThumbnail": "https://i.postimg.cc/ydWSW-Wnw/Bogota-Thumb2674.webp",
     "downloadImg":"https://i.postimg.cc/yVC23wD9/bogota2674.webp?dl=1",
-    "imgAlt": "Seco Bogotá 2674, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2674, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2506,7 +2506,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/bN2FsT83/bogota2673.webp",
     "imgThumbnail": "https://i.postimg.cc/YSdWpQN6/Bogota-Thumb2673.webp",
     "downloadImg":"https://i.postimg.cc/51PcK7rd/bogota2673.webp?dl=1",
-    "imgAlt": "Seco Bogotá 2673, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2673, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   },
@@ -2516,7 +2516,7 @@ export const bogota = [
     "img": "https://i.postimg.cc/zBBx5w0w/bogota2672.webp",
     "imgThumbnail": "https://i.postimg.cc/FKrS5TSF/Bogota-Thumb2672.webp",
     "downloadImg":"https://i.postimg.cc/p2Q4fqjS/bogota2672.webp?dl=1",
-    "imgAlt": "Seco Bogotá 2672, lotería de colombia, ultimo drawingNumber de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2672, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": false
   }
@@ -2527,7 +2527,7 @@ export const quindio = [
     "fecha": "17-08-2023",
     "img": "https://i.postimg.cc/qqsgQDfx/quindio2874.jpg",
     "downloadImg":"https://i.postimg.cc/sj8Sjbwq/quindio2874.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2874, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2874, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": true
   },
@@ -2536,7 +2536,7 @@ export const quindio = [
     "fecha": "10-08-2023",
     "img": "https://i.postimg.cc/RCd1DqnZ/quindio2873.jpg",
     "downloadImg":"https://i.postimg.cc/yB4fWZ1c/quindio2873.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2873, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2873, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2545,7 +2545,7 @@ export const quindio = [
     "fecha": "03-08-2023",
     "img": "https://i.postimg.cc/Bt91kV5Q/quindio2872.jpg",
     "downloadImg":"https://i.postimg.cc/T2hqL8pm/quindio2872.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2872, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2872, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2554,7 +2554,7 @@ export const quindio = [
     "fecha": "27-07-2023",
     "img": "https://i.postimg.cc/7LTXdkZX/quindio2871.jpg",
     "downloadImg":"https://i.postimg.cc/Km0VKcSX/quindio2871.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2871, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2871, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2563,7 +2563,7 @@ export const quindio = [
     "fecha": "22-07-2023",
     "img": "https://i.postimg.cc/kgYDhGYP/quindio2870.jpg",
     "downloadImg":"https://i.postimg.cc/9cCT0qG0/quindio2870.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2870, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2870, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2572,7 +2572,7 @@ export const quindio = [
     "fecha": "13-07-2023",
     "img": "https://i.postimg.cc/jdfcVKtM/quindio2869.jpg",
     "downloadImg":"https://i.postimg.cc/wHfGmTPY/quindio2869.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2869, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2869, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2581,7 +2581,7 @@ export const quindio = [
     "fecha": "06-07-2023",
     "img": "https://i.postimg.cc/g0J6LWDk/quindio2868.jpg",
     "downloadImg":"https://i.postimg.cc/x9GG7jNH/quindio2868.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2868, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2868, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2590,7 +2590,7 @@ export const quindio = [
     "fecha": "29-06-2023",
     "img": "https://i.postimg.cc/0jbDtH8K/quindio2867.jpg",
     "downloadImg":"https://i.postimg.cc/HYtzkfRz/quindio2867.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2867, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2867, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2599,7 +2599,7 @@ export const quindio = [
     "fecha": "22-06-2023",
     "img": "https://i.postimg.cc/wjHzbWRP/quindio2866.jpg",
     "downloadImg":"https://i.postimg.cc/pR5dr4W2/quindio2866.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2866, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2866, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2608,7 +2608,7 @@ export const quindio = [
     "fecha": "15-06-2023",
     "img": "https://i.postimg.cc/3xxc3YH9/quindio2865.jpg",
     "downloadImg":"https://i.postimg.cc/HdwD4kvG/quindio2865.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2865, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2865, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2617,7 +2617,7 @@ export const quindio = [
     "fecha": "08-06-2023",
     "img": "https://i.postimg.cc/bwG54kjZ/quindio2864.jpg",
     "downloadImg":"https://i.postimg.cc/CSJVBsPs/quindio2864.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2864, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2864, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2626,7 +2626,7 @@ export const quindio = [
     "fecha": "01-06-2023",
     "img": "https://i.postimg.cc/28tYJxwg/quindio2863.jpg",
     "downloadImg":"https://i.postimg.cc/6tWQ8jG6/quindio2863.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2863 , lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2863 , lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2636,7 +2636,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/MHYFF6Fm/quindio2862.jpg",
     "imgThumbnail": "",
     "downloadImg":"https://i.postimg.cc/T28vhhjF/quindio2862.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2862, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2862, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2646,7 +2646,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/m2smz6pr/quindio2861.jpg",
     "imgThumbnail": "",
     "downloadImg":"https://i.postimg.cc/8DF9Y2hL/quindio2861.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2861, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2861, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2656,7 +2656,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/sgVBXqqh/quindio2860.jpg",
     "imgThumbnail": "",
     "downloadImg":"https://i.postimg.cc/vbn5Pdv3/quindio2860.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2860, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2860, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2666,7 +2666,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/pdX5Myp0/quindio2859.jpg",
     "imgThumbnail": "",
     "downloadImg":"https://i.postimg.cc/bq1xbt8j/quindio2859.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2859, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2859, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2676,7 +2676,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/Dfg8wnXm/quindio2858.jpg",
     "imgThumbnail": "",
     "downloadImg":"https://i.postimg.cc/9V3T1fXP/quindio2858.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2858, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2858, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2686,7 +2686,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/J7GMb4FW/quindio2857.jpg",
     "imgThumbnail": "",
     "downloadImg":"https://i.postimg.cc/J7GMb4FW/quindio2857.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2857, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2857, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2696,7 +2696,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/4d1hCVQF/quindio2856.jpg",
     "imgThumbnail": "",
     "downloadImg":"https://i.postimg.cc/QX2gTq9s/quindio2856.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2856, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2856, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2706,7 +2706,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/rpD7mnh7/quindio2855.webp",
     "imgThumbnail": "https://i.postimg.cc/wx08zVGf/Quindio-Thumb2855.webp",
     "downloadImg":"https://i.postimg.cc/QjmDfvcN/quindio2855.webp?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2855, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2855, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2716,7 +2716,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/j2Sg6gZ1/quindio2854.jpg",
     "imgThumbnail": "https://i.postimg.cc/Wz9Q7NZL/Quindio-Thumb2854.webp",
     "downloadImg":"https://i.postimg.cc/pWDwH38P/quindio2854.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2854, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2854, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2726,7 +2726,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/HsZnxz0y/quindio2853.jpg",
     "imgThumbnail": "https://i.postimg.cc/90X6TRrY/Quindio-Thumb2853.webp",
     "downloadImg":"https://i.postimg.cc/kq9bThBf/quindio2853.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2853, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2853, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2736,7 +2736,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/wMXHJzcq/quindio2852.jpg",
     "imgThumbnail": "https://i.postimg.cc/SsG0J7NK/Quindio-Thumb2852.webp",
     "downloadImg":"https://i.postimg.cc/PXcqgrCw/quindio2852.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2852, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2852, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2746,7 +2746,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/fWmM174G/quindio2851.jpg",
     "imgThumbnail": "https://i.postimg.cc/7YKxBD4L/Quindio-Thumb2851.webp",
     "downloadImg":"https://i.postimg.cc/0vHrMZVy/quindio2851.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2851, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2851, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2756,7 +2756,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/bJ2qykZ2/quindio2850.jpg",
     "imgThumbnail": "https://i.postimg.cc/zGMqrjVZ/Quindio-Thumb2850.webp",
     "downloadImg":"https://i.postimg.cc/W25z77jS/quindio2850.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2850, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2850, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2766,7 +2766,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/0Nj84Lxn/quindio2849.jpg",
     "imgThumbnail": "https://i.postimg.cc/cHGZKLRF/Quindio-Thumb2849.webp",
     "downloadImg":"https://i.postimg.cc/w9c71pGC/quindio2849.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2849, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2849, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2776,7 +2776,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/FK69XDH4/quindio2848.jpg",
     "imgThumbnail": "https://i.postimg.cc/GtcCQgSY/Quindio-Thumb2848.webp",
     "downloadImg":"https://i.postimg.cc/p2Wy8SNp/quindio2848.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2848, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2848, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2786,7 +2786,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/nhHV4XP6/quindio2847.jpg",
     "imgThumbnail": "https://i.postimg.cc/0QGv71ZP/Quindio-Thumb2847.webp",
     "downloadImg":"https://i.postimg.cc/xnmkSHyT/quindio2847.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2847, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2847, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2796,7 +2796,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/L8N9NHdh/quindio2846.jpg",
     "imgThumbnail": "https://i.postimg.cc/6Qvt5vv7/Quindio-Thumb2846.webp",
     "downloadImg":"https://i.postimg.cc/TTXK2wCj/quindio2846.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2846, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2846, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2806,7 +2806,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/7Y1YJ3m3/quindio2845.jpg",
     "imgThumbnail": "https://i.postimg.cc/Dwm7HDfP/Quindio-Thumb2845.webp",
     "downloadImg":"https://i.postimg.cc/xYhk7gm4/quindio2845.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2845, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2845, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   },
@@ -2816,7 +2816,7 @@ export const quindio = [
     "img": "https://i.postimg.cc/mkfBtk9p/quindio2844.jpg",
     "imgThumbnail": "https://i.postimg.cc/7YHHMhpc/Quindio-Thumb2844.webp",
     "downloadImg":"https://i.postimg.cc/HYjxv7km/quindio2844.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2844, lotería de colombia, ultimo drawingNumber de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2844, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": false
   }
@@ -3783,13 +3783,22 @@ export const santander = [
 ]
 export const boyaca = [
   {
+    "drawingNumber": "4481",
+    "fecha": "19-08-2023",
+    "img": "https://i.postimg.cc/L8KHRsW-v/boyaca4481.jpg",
+    "downloadImg":"https://i.postimg.cc/pRyyfhJN/boyaca4481.jpg?dl=1",
+    "imgAlt": "Seco Boyacá 4481",
+    "lotteryName": "Boyacá",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4480",
     "fecha": "12-08-2023",
     "img": "https://i.postimg.cc/cJ5Lg18p/boyaca4480.jpg",
     "downloadImg":"https://i.postimg.cc/jsRw1LqS/boyaca4480.jpg?dl=1",
     "imgAlt": "Seco Boyacá 4480",
     "lotteryName": "Boyacá",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4479",
@@ -4094,13 +4103,22 @@ export const boyaca = [
 ]
 export const cauca = [
   {
+    "drawingNumber": "2468",
+    "fecha": "19-08-2023",
+    "img": "https://i.postimg.cc/Sx1j44WK/cauca2468.jpg",
+    "downloadImg":"https://i.postimg.cc/k7qSxXGW/cauca2468.jpg?dl=1",
+    "imgAlt": "Seco Cauca 2468",
+    "lotteryName": "Cauca",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "2467",
     "fecha": "12-08-2023",
     "img": "https://i.postimg.cc/rpByqn4W/cauca2447.jpg",
     "downloadImg":"https://i.postimg.cc/CF1RH9Lv/cauca2447.jpg?dl=1",
     "imgAlt": "Seco Cauca 2467",
     "lotteryName": "Cauca",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2466",
