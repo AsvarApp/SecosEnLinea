@@ -2276,13 +2276,22 @@ export const valle = [
 ]
 export const bogota = [
   {
+    "drawingNumber": "2704",
+    "fecha": "24-08-2023",
+    "img": "https://i.postimg.cc/Ghvh8Yjg/bogota2704.jpg",
+    "downloadImg":"https://i.postimg.cc/37cyqF0h/bogota2704.jpg?dl=1",
+    "imgAlt": "Seco Bogotá 2704, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "lotteryName": "Bogotá",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "2703",
     "fecha": "17-08-2023",
     "img": "https://i.postimg.cc/B6CXB1c8/bogota2703.jpg",
     "downloadImg":"https://i.postimg.cc/MWCVx7nY/bogota2703.jpg?dl=1",
     "imgAlt": "Seco Bogotá 2703, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2702",
@@ -2586,13 +2595,22 @@ export const bogota = [
 ]
 export const quindio = [
   {
+    "drawingNumber": "2875",
+    "fecha": "24-08-2023",
+    "img": "https://i.postimg.cc/tTrBp2J1/quindio3875.jpg",
+    "downloadImg":"https://i.postimg.cc/dsFpRfK9/quindio3875.jpg?dl=1",
+    "imgAlt": "Seco Quindio drawingNumber 2875, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "lotteryName": "Quindio",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "2874",
     "fecha": "17-08-2023",
     "img": "https://i.postimg.cc/qqsgQDfx/quindio2874.jpg",
     "downloadImg":"https://i.postimg.cc/sj8Sjbwq/quindio2874.jpg?dl=1",
     "imgAlt": "Seco Quindio drawingNumber 2874, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2873",
