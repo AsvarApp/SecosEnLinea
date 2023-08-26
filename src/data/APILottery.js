@@ -2904,13 +2904,22 @@ export const quindio = [
 ]
 export const medellin = [
   {
+    "drawingNumber": "4693",
+    "fecha": "25-08-2023",
+    "img": "https://i.postimg.cc/brwLJtqN/medellin4693.jpg",
+    "downloadImg":"https://i.postimg.cc/rVSHf1bW/medellin4693.jpg?dl=1",
+    "imgAlt": "Seco Medellín 4693 ",
+    "lotteryName": "Medellín",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4692",
     "fecha": "18-08-2023",
     "img": "https://i.postimg.cc/GmLndmvn/medellin4692.jpg",
     "downloadImg":"https://i.postimg.cc/dwdsR713/medellin4692.jpg?dl=1",
     "imgAlt": "Seco Medellín 4692 ",
     "lotteryName": "Medellín",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4691",
@@ -3224,13 +3233,22 @@ export const medellin = [
 ]
 export const risaralda = [
   {
+    "drawingNumber": "2810",
+    "fecha": "25-08-2023",
+    "img": "https://i.postimg.cc/Kv4JhB90/risaralda2810.jpg",
+    "downloadImg":"https://i.postimg.cc/rcNbW952/risaralda2810.jpg?dl=1",
+    "imgAlt": "Seco Risaralda 2810",
+    "lotteryName": "Risaralda",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "2809",
     "fecha": "18-08-2023",
     "img": "https://i.postimg.cc/x8DB7f97/risaralda2809.jpg",
     "downloadImg":"https://i.postimg.cc/fzJZVypw/risaralda2809.jpg?dl=1",
     "imgAlt": "Seco Risaralda 2809",
     "lotteryName": "Risaralda",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2808",
@@ -3545,12 +3563,21 @@ export const risaralda = [
 export const santander = [
   {
     "drawingNumber": "4927",
+    "fecha": "25-08-2023",
+    "img": "https://i.postimg.cc/85tBqzL8/santander4928.jpg",
+    "downloadImg":"https://i.postimg.cc/Q8r4KBtM/santander4928.jpg?dl=1",
+    "imgAlt": "Seco Santander 4927",
+    "lotteryName": "Santander",
+    "lastDraw": true
+  },
+  {
+    "drawingNumber": "4927",
     "fecha": "18-08-2023",
     "img": "https://i.postimg.cc/0jy79m5J/santander4927.jpg",
     "downloadImg":"https://i.postimg.cc/PXmyzzBK/santander4927.jpg?dl=1",
     "imgAlt": "Seco Santander 4927",
     "lotteryName": "Santander",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4926",
