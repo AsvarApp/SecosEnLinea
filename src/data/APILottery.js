@@ -3891,13 +3891,22 @@ export const santander = [
 ]
 export const boyaca = [
   {
+    "drawingNumber": "4482",
+    "fecha": "26-08-2023",
+    "img": "https://i.postimg.cc/63vQCyvx/boyaca4482.jpg",
+    "downloadImg":"https://i.postimg.cc/dqWTPCQ3/boyaca4482.jpg?dl=1",
+    "imgAlt": "Seco Boyacá 4482",
+    "lotteryName": "Boyacá",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4481",
     "fecha": "19-08-2023",
     "img": "https://i.postimg.cc/L8KHRsW-v/boyaca4481.jpg",
     "downloadImg":"https://i.postimg.cc/pRyyfhJN/boyaca4481.jpg?dl=1",
     "imgAlt": "Seco Boyacá 4481",
     "lotteryName": "Boyacá",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4480",
@@ -4212,12 +4221,21 @@ export const boyaca = [
 export const cauca = [
   {
     "drawingNumber": "2468",
+    "fecha": "26-08-2023",
+    "img": "https://i.postimg.cc/vZfX2zw4/cauca2469.jpg",
+    "downloadImg":"https://i.postimg.cc/ysr5dQfy/cauca2469.jpg?dl=1",
+    "imgAlt": "Seco Cauca 2468",
+    "lotteryName": "Cauca",
+    "lastDraw": true
+  },
+  {
+    "drawingNumber": "2468",
     "fecha": "19-08-2023",
     "img": "https://i.postimg.cc/Sx1j44WK/cauca2468.jpg",
     "downloadImg":"https://i.postimg.cc/k7qSxXGW/cauca2468.jpg?dl=1",
     "imgAlt": "Seco Cauca 2468",
     "lotteryName": "Cauca",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2467",
@@ -4531,13 +4549,22 @@ export const cauca = [
 ]
 export const extraColombia = [
   {
+    "drawingNumber": "2218",
+    "fecha": "26-08-2023",
+    "img": "https://i.postimg.cc/qMzpKtVb/extracolombia2218.jpg",
+    "downloadImg":"https://i.postimg.cc/Ykx0JgXH/extracolombia2218.jpg?dl=1",
+    "imgAlt": "Seco Extra de Colombia 2218",
+    "lotteryName": "Extra de Colombia",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "2217",
     "fecha": "29-07-2023",
     "img": "https://i.postimg.cc/nVQpKsCz/extracolombia2217.jpg",
     "downloadImg":"https://i.postimg.cc/0vVjsDvp/extracolombia2217.jpg?dl=1",
     "imgAlt": "Seco Extra de Colombia 2217",
     "lotteryName": "Extra de Colombia",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2216",
