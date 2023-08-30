@@ -676,13 +676,22 @@ export const tolima = [
 ]
 export const cruzRoja = [
   {
+    "drawingNumber": "3012",
+    "fecha": "29-08-2023",
+    "img": "https://i.postimg.cc/CMCD7G58/cruzroja3012.jpg",
+    "downloadImg":"https://i.postimg.cc/NtS4gbwd/cruzroja3012.jpg?dl=1",
+    "imgAlt": "Seco Cruz Roja 3012",
+    "lotteryName": "Cruz Roja",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "3011",
     "fecha": "22-08-2023",
     "img": "https://i.postimg.cc/MHknqWhB/cruzroja3011.jpg",
     "downloadImg":"https://i.postimg.cc/4fyVvyPW/cruzroja3011.jpg?dl=1",
     "imgAlt": "Seco Cruz Roja 3011",
     "lotteryName": "Cruz Roja",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "3010",
@@ -1005,6 +1014,15 @@ export const cruzRoja = [
   }
 ]
 export const huila = [
+  {
+    "drawingNumber": "4614",
+    "fecha": "29-08-2023",
+    "img": "https://i.postimg.cc/50hhtcLX/huila4614.jpg",
+    "downloadImg":"https://i.postimg.cc/Ch5SmSKs/huila4614.jpg?dl=1",
+    "imgAlt": "Seco Huila 4614",
+    "lotteryName": "Huila",
+    "lastDraw": true
+  },
   {
     "drawingNumber": "4613",
     "fecha": "22-08-2023",
