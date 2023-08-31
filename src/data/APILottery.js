@@ -1324,6 +1324,7 @@ export const huila = [
 ]
 // cambiamos el nombre de meta a metalottery porque genera conflicto con algún método interno que lleva el mismo nombre.
 export const metalottery = [
+  {
     "drawingNumber": "3157",
     "fecha": "30-08-2023",
     "img": "https://i.postimg.cc/PrPd40q6/meta3157.jpg",
