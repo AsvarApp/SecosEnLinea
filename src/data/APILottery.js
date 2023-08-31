@@ -1661,6 +1661,7 @@ export const metalottery = [
   }
 ]
 export const manizales = [
+  {
     "drawingNumber": "4814",
     "fecha": "30-08-2023",
     "img": "https://i.postimg.cc/28V34S31/manizales4814.jpg",
