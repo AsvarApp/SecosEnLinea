@@ -2343,7 +2343,7 @@ export const bogota = [
     "fecha": "31-08-2023",
     "img": "https://i.postimg.cc/139hh5sc/bogota2705.jpg",
     "downloadImg":"https://i.postimg.cc/z8hJhVQM/bogota2705.jpg?dl=1",
-    "imgAlt": "Seco Bogotá 2705, lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "imgAlt": "Seco Bogotá 2705,lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
     "lastDraw": true
   },
