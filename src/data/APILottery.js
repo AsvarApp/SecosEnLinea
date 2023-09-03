@@ -2985,13 +2985,22 @@ export const quindio = [
 ]
 export const medellin = [
   {
+    "drawingNumber": "4694",
+    "fecha": "01-09-2023",
+    "img": "https://i.postimg.cc/L8L8Lhzr/medellin4694.jpg",
+    "downloadImg":"https://i.postimg.cc/Z4Dvkd0K/medellin4694.jpg?dl=1",
+    "imgAlt": "Seco Medellín 4694 ",
+    "lotteryName": "Medellín",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4693",
     "fecha": "25-08-2023",
     "img": "https://i.postimg.cc/brwLJtqN/medellin4693.jpg",
     "downloadImg":"https://i.postimg.cc/rVSHf1bW/medellin4693.jpg?dl=1",
     "imgAlt": "Seco Medellín 4693 ",
     "lotteryName": "Medellín",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4692",
@@ -3314,13 +3323,22 @@ export const medellin = [
 ]
 export const risaralda = [
   {
+    "drawingNumber": "2811",
+    "fecha": "01-09-2023",
+    "img": "https://i.postimg.cc/bvMP5hHQ/risaralda2811.jpg",
+    "downloadImg":"https://i.postimg.cc/bzYvsYZF/risaralda2811.jpg?dl=1",
+    "imgAlt": "Seco Risaralda 2811",
+    "lotteryName": "Risaralda",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "2810",
     "fecha": "25-08-2023",
     "img": "https://i.postimg.cc/Kv4JhB90/risaralda2810.jpg",
     "downloadImg":"https://i.postimg.cc/rcNbW952/risaralda2810.jpg?dl=1",
     "imgAlt": "Seco Risaralda 2810",
     "lotteryName": "Risaralda",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2809",
@@ -3643,13 +3661,22 @@ export const risaralda = [
 ]
 export const santander = [
   {
-    "drawingNumber": "4927",
+    "drawingNumber": "4929",
+    "fecha": "01-09-2023",
+    "img": "https://i.postimg.cc/mDGXkpTv/santander4929.jpg",
+    "downloadImg":"https://i.postimg.cc/2z1PHgMS/santander4929.jpg?dl=1",
+    "imgAlt": "Seco Santander 4929",
+    "lotteryName": "Santander",
+    "lastDraw": true
+  },
+  {
+    "drawingNumber": "4928",
     "fecha": "25-08-2023",
     "img": "https://i.postimg.cc/85tBqzL8/santander4928.jpg",
     "downloadImg":"https://i.postimg.cc/Q8r4KBtM/santander4928.jpg?dl=1",
-    "imgAlt": "Seco Santander 4927",
+    "imgAlt": "Seco Santander 4928",
     "lotteryName": "Santander",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4927",
@@ -3972,13 +3999,22 @@ export const santander = [
 ]
 export const boyaca = [
   {
+    "drawingNumber": "4483",
+    "fecha": "02-09-2023",
+    "img": "https://i.postimg.cc/HsBktFKt/boyaca4483.jpg",
+    "downloadImg":"https://i.postimg.cc/7wyJqknj/boyaca4483.jpg?dl=1",
+    "imgAlt": "Seco Boyacá 4483",
+    "lotteryName": "Boyacá",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4482",
     "fecha": "26-08-2023",
     "img": "https://i.postimg.cc/63vQCyvx/boyaca4482.jpg",
     "downloadImg":"https://i.postimg.cc/dqWTPCQ3/boyaca4482.jpg?dl=1",
     "imgAlt": "Seco Boyacá 4482",
     "lotteryName": "Boyacá",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4481",
@@ -4301,13 +4337,22 @@ export const boyaca = [
 ]
 export const cauca = [
   {
-    "drawingNumber": "2468",
+    "drawingNumber": "2470",
+    "fecha": "02-09-2023",
+    "img": "https://i.postimg.cc/t4spNJFX/cauca2470.jpg",
+    "downloadImg":"https://i.postimg.cc/bpTr82J2/cauca2470.jpg?dl=1",
+    "imgAlt": "Seco Cauca 2470",
+    "lotteryName": "Cauca",
+    "lastDraw": true
+  },
+  {
+    "drawingNumber": "2469",
     "fecha": "26-08-2023",
     "img": "https://i.postimg.cc/vZfX2zw4/cauca2469.jpg",
     "downloadImg":"https://i.postimg.cc/ysr5dQfy/cauca2469.jpg?dl=1",
-    "imgAlt": "Seco Cauca 2468",
+    "imgAlt": "Seco Cauca 2469",
     "lotteryName": "Cauca",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2468",
@@ -4321,8 +4366,8 @@ export const cauca = [
   {
     "drawingNumber": "2467",
     "fecha": "12-08-2023",
-    "img": "https://i.postimg.cc/rpByqn4W/cauca2447.jpg",
-    "downloadImg":"https://i.postimg.cc/CF1RH9Lv/cauca2447.jpg?dl=1",
+    "img": "https://i.postimg.cc/rpByqn4W/cauca2467.jpg",
+    "downloadImg":"https://i.postimg.cc/CF1RH9Lv/cauca2467.jpg?dl=1",
     "imgAlt": "Seco Cauca 2467",
     "lotteryName": "Cauca",
     "lastDraw": false
