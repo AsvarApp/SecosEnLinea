@@ -4879,3 +4879,15 @@ export const extraBogota = [
     "lastDraw": false
   }
 ]
+export const extraManizales = [
+  {
+    "drawingNumber": "003",
+    "fecha": "04-09-2023",
+    "img": "https://i.postimg.cc/8CG7xj5D/extramanizales003.jpg",
+    "downloadImg":"https://i.postimg.cc/x9JLJmVk/extramanizales003.jpg?dl=1",
+    "imgAlt": "Seco Extra de Manizales 2218",
+    "lotteryName": "Extra de Manizales",
+    "lastDraw": true
+  },
+  
+]
