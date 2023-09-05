@@ -1,12 +1,21 @@
 export const cundinamarca = [
   {
+    "drawingNumber": "4662",
+    "fecha": "04-09-2023",
+    "img": "https://i.postimg.cc/jjCwbDPJ/cundinamarca4662.jpg",
+    "downloadImg": "https://i.postimg.cc/PdQm1ZqK/cundinamarca4662.jpg?dl=1",
+    "imgAlt": "Seco Cundinamarca 4662",
+    "lotteryName": "Cundinamarca",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4661",
     "fecha": "28-08-2023",
     "img": "https://i.postimg.cc/4Nhb0LtM/cundinamarca4661.jpg",
     "downloadImg": "https://i.postimg.cc/2m0cVg5z/cundinamarca4661.jpg?dl=1",
     "imgAlt": "Seco Cundinamarca 4661",
     "lotteryName": "Cundinamarca",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4660",
@@ -338,13 +347,22 @@ export const cundinamarca = [
 ]
 export const tolima = [
   {
+    "drawingNumber": "4029",
+    "fecha": "04-09-2023",
+    "img": "https://i.postimg.cc/nzgwk9YK/tolima4029.jpg",
+    "downloadImg":"https://i.postimg.cc/VfkQzjJh/tolima4029.jpg?dl=1",
+    "imgAlt": "Seco Tolima 4029",
+    "lotteryName":"Tolima",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4028",
     "fecha": "28-08-2023",
     "img": "https://i.postimg.cc/qB61fvHj/tolima4028.jpg",
     "downloadImg":"https://i.postimg.cc/4GBq9YLk/tolima4028.jpg?dl=1",
     "imgAlt": "Seco Tolima 4028",
     "lotteryName":"Tolima",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4027",
