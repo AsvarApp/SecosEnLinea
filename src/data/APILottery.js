@@ -694,13 +694,22 @@ export const tolima = [
 ]
 export const cruzRoja = [
   {
+    "drawingNumber": "3013",
+    "fecha": "05-09-2023",
+    "img": "https://i.postimg.cc/J0qxPf9V/cruzroja3013.jpg",
+    "downloadImg":"https://i.postimg.cc/jqV1dKc5/cruzroja3013.jpg?dl=1",
+    "imgAlt": "Seco Cruz Roja 3013",
+    "lotteryName": "Cruz Roja",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "3012",
     "fecha": "29-08-2023",
     "img": "https://i.postimg.cc/CMCD7G58/cruzroja3012.jpg",
     "downloadImg":"https://i.postimg.cc/NtS4gbwd/cruzroja3012.jpg?dl=1",
     "imgAlt": "Seco Cruz Roja 3012",
     "lotteryName": "Cruz Roja",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "3011",
@@ -1033,13 +1042,22 @@ export const cruzRoja = [
 ]
 export const huila = [
   {
+    "drawingNumber": "4615",
+    "fecha": "05-09-2023",
+    "img": "https://i.postimg.cc/0yWm5Ygs/huila4615.jpg",
+    "downloadImg":"https://i.postimg.cc/BJsCgpMX/huila4615.jpg?dl=1",
+    "imgAlt": "Seco Huila 4615",
+    "lotteryName": "Huila",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4614",
     "fecha": "29-08-2023",
     "img": "https://i.postimg.cc/50hhtcLX/huila4614.jpg",
     "downloadImg":"https://i.postimg.cc/Ch5SmSKs/huila4614.jpg?dl=1",
     "imgAlt": "Seco Huila 4614",
     "lotteryName": "Huila",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4613",
@@ -1048,7 +1066,7 @@ export const huila = [
     "downloadImg":"https://i.postimg.cc/qJN6hYBY/huila4613.jpg?dl=1",
     "imgAlt": "Seco Huila 4613",
     "lotteryName": "Huila",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4612",
