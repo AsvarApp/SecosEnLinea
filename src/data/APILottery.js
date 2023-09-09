@@ -2402,13 +2402,22 @@ export const valle = [
 ]
 export const bogota = [
   {
+    "drawingNumber": "2706",
+    "fecha": "07-09-2023",
+    "img": "https://i.postimg.cc/prCK87hM/bogota2706.jpg",
+    "downloadImg":"https://i.postimg.cc/c1yTqGdC/bogota2706.jpg?dl=1",
+    "imgAlt": "Seco Bogotá 2706,lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "lotteryName": "Bogotá",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "2705",
     "fecha": "31-08-2023",
     "img": "https://i.postimg.cc/139hh5sc/bogota2705.jpg",
     "downloadImg":"https://i.postimg.cc/z8hJhVQM/bogota2705.jpg?dl=1",
     "imgAlt": "Seco Bogotá 2705,lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2704",
@@ -2731,12 +2740,21 @@ export const bogota = [
 export const quindio = [
   {
     "drawingNumber": "2876",
+    "fecha": "07-09-2023",
+    "img": "https://i.postimg.cc/MZ3TMqXK/quindio2877.jpg",
+    "downloadImg":"https://i.postimg.cc/jKtJ1jbN/quindio2877.jpg?dl=1",
+    "imgAlt": "Seco Quindio drawingNumber 2876, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "lotteryName": "Quindio",
+    "lastDraw": true
+  },
+  {
+    "drawingNumber": "2876",
     "fecha": "31-08-2023",
     "img": "https://i.postimg.cc/MTcgb98v/quindio2876.jpg",
     "downloadImg":"https://i.postimg.cc/r8gcTHnC/quindio2876.jpg?dl=1",
     "imgAlt": "Seco Quindio drawingNumber 2876, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2875",
@@ -3048,13 +3066,22 @@ export const quindio = [
 ]
 export const medellin = [
   {
+    "drawingNumber": "4695",
+    "fecha": "08-09-2023",
+    "img": "https://i.postimg.cc/kX5TsFnv/medellin4695.jpg",
+    "downloadImg":"https://i.postimg.cc/Yk6TpbZZ/medellin4695.jpg?dl=1",
+    "imgAlt": "Seco Medellín 4695 ",
+    "lotteryName": "Medellín",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4694",
     "fecha": "01-09-2023",
     "img": "https://i.postimg.cc/L8L8Lhzr/medellin4694.jpg",
     "downloadImg":"https://i.postimg.cc/Z4Dvkd0K/medellin4694.jpg?dl=1",
     "imgAlt": "Seco Medellín 4694 ",
     "lotteryName": "Medellín",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4693",
@@ -3386,13 +3413,22 @@ export const medellin = [
 ]
 export const risaralda = [
   {
+    "drawingNumber": "2812",
+    "fecha": "07-09-2023",
+    "img": "https://i.postimg.cc/J07CPDnH/risaralda2812.jpg",
+    "downloadImg":"https://i.postimg.cc/Q81NNcZm/risaralda2812.jpg?dl=1",
+    "imgAlt": "Seco Risaralda 2812",
+    "lotteryName": "Risaralda",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "2811",
     "fecha": "01-09-2023",
     "img": "https://i.postimg.cc/bvMP5hHQ/risaralda2811.jpg",
     "downloadImg":"https://i.postimg.cc/bzYvsYZF/risaralda2811.jpg?dl=1",
     "imgAlt": "Seco Risaralda 2811",
     "lotteryName": "Risaralda",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2810",
@@ -3724,13 +3760,22 @@ export const risaralda = [
 ]
 export const santander = [
   {
+    "drawingNumber": "4930",
+    "fecha": "08-09-2023",
+    "img": "https://i.postimg.cc/tTMNm8Rd/santander4930.jpg",
+    "downloadImg":"https://i.postimg.cc/wq643dSr/santander4930.jpg?dl=1",
+    "imgAlt": "Seco Santander 4930",
+    "lotteryName": "Santander",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4929",
     "fecha": "01-09-2023",
     "img": "https://i.postimg.cc/mDGXkpTv/santander4929.jpg",
     "downloadImg":"https://i.postimg.cc/2z1PHgMS/santander4929.jpg?dl=1",
     "imgAlt": "Seco Santander 4929",
     "lotteryName": "Santander",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4928",
