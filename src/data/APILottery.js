@@ -2465,13 +2465,22 @@ export const valle = [
 ]
 export const bogota = [
   {
+    "drawingNumber": "2707",
+    "fecha": "14-09-2023",
+    "img": "https://i.postimg.cc/Zq5YW2cH/bogota2707.jpg",
+    "downloadImg":"https://i.postimg.cc/gGvxTPLC/bogota2707.jpg?dl=1",
+    "imgAlt": "Seco Bogotá 2707,lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "lotteryName": "Bogotá",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "2706",
     "fecha": "07-09-2023",
     "img": "https://i.postimg.cc/prCK87hM/bogota2706.jpg",
     "downloadImg":"https://i.postimg.cc/c1yTqGdC/bogota2706.jpg?dl=1",
     "imgAlt": "Seco Bogotá 2706,lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2705",
@@ -2802,13 +2811,22 @@ export const bogota = [
 ]
 export const quindio = [
   {
-    "drawingNumber": "2876",
+    "drawingNumber": "2878",
+    "fecha": "14-09-2023",
+    "img": "https://i.postimg.cc/sXBnKPyS/quindio2878.jpg",
+    "downloadImg":"https://i.postimg.cc/cshVxTbD/quindio2878.jpg?dl=1",
+    "imgAlt": "Seco Quindio drawingNumber 2878, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "lotteryName": "Quindio",
+    "lastDraw": true
+  },
+  {
+    "drawingNumber": "2877",
     "fecha": "07-09-2023",
     "img": "https://i.postimg.cc/MZ3TMqXK/quindio2877.jpg",
     "downloadImg":"https://i.postimg.cc/jKtJ1jbN/quindio2877.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2876, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2877, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2876",
@@ -3129,13 +3147,22 @@ export const quindio = [
 ]
 export const medellin = [
   {
+    "drawingNumber": "4696",
+    "fecha": "15-09-2023",
+    "img": "https://i.postimg.cc/909wx0rJ/medellin4696.jpg",
+    "downloadImg":"https://i.postimg.cc/M6P0pjx2/medellin4696.jpg?dl=1",
+    "imgAlt": "Seco Medellín 4696 ",
+    "lotteryName": "Medellín",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4695",
     "fecha": "08-09-2023",
     "img": "https://i.postimg.cc/kX5TsFnv/medellin4695.jpg",
     "downloadImg":"https://i.postimg.cc/Yk6TpbZZ/medellin4695.jpg?dl=1",
     "imgAlt": "Seco Medellín 4695 ",
     "lotteryName": "Medellín",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4694",
@@ -3476,13 +3503,22 @@ export const medellin = [
 ]
 export const risaralda = [
   {
+    "drawingNumber": "2813",
+    "fecha": "15-09-2023",
+    "img": "https://i.postimg.cc/FRdx49YJ/risaralda2813.jpg",
+    "downloadImg":"https://i.postimg.cc/qkQD2q0Q/risaralda2813.jpg?dl=1",
+    "imgAlt": "Seco Risaralda 2813",
+    "lotteryName": "Risaralda",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "2812",
     "fecha": "07-09-2023",
     "img": "https://i.postimg.cc/J07CPDnH/risaralda2812.jpg",
     "downloadImg":"https://i.postimg.cc/Q81NNcZm/risaralda2812.jpg?dl=1",
     "imgAlt": "Seco Risaralda 2812",
     "lotteryName": "Risaralda",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2811",
@@ -3823,13 +3859,22 @@ export const risaralda = [
 ]
 export const santander = [
   {
+    "drawingNumber": "4931",
+    "fecha": "15-09-2023",
+    "img": "https://i.postimg.cc/MHR2v2Fn/santander4931.jpg",
+    "downloadImg":"https://i.postimg.cc/7Htxtq1n/santander4931.jpg?dl=1",
+    "imgAlt": "Seco Santander 4931",
+    "lotteryName": "Santander",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4930",
     "fecha": "08-09-2023",
     "img": "https://i.postimg.cc/tTMNm8Rd/santander4930.jpg",
     "downloadImg":"https://i.postimg.cc/wq643dSr/santander4930.jpg?dl=1",
     "imgAlt": "Seco Santander 4930",
     "lotteryName": "Santander",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4929",
@@ -4170,13 +4215,22 @@ export const santander = [
 ]
 export const boyaca = [
   {
+    "drawingNumber": "4485",
+    "fecha": "16-09-2023",
+    "img": "https://i.postimg.cc/rFcYSrdn/boyaca4485.jpg",
+    "downloadImg":"https://i.postimg.cc/ZZytzPJS/boyaca4485.jpg?dl=1",
+    "imgAlt": "Seco Boyacá 4485",
+    "lotteryName": "Boyacá",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4484",
     "fecha": "09-09-2023",
     "img": "https://i.postimg.cc/TYvSLfQ8/boyaca4484.jpg",
     "downloadImg":"https://i.postimg.cc/QsFrzMTM/boyaca4484.jpg?dl=1",
     "imgAlt": "Seco Boyacá 4484",
     "lotteryName": "Boyacá",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4483",
@@ -4517,13 +4571,22 @@ export const boyaca = [
 ]
 export const cauca = [
   {
+    "drawingNumber": "2472",
+    "fecha": "16-09-2023",
+    "img": "https://i.postimg.cc/nh97rdH6/cauca2472.jpg",
+    "downloadImg":"https://i.postimg.cc/ysvTf52Y/cauca2472.jpg?dl=1",
+    "imgAlt": "Seco Cauca 2472",
+    "lotteryName": "Cauca",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "2471",
     "fecha": "09-09-2023",
     "img": "https://i.postimg.cc/2yyMDNpH/cauca2471.jpg",
     "downloadImg":"https://i.postimg.cc/vYts5G0d/cauca2471.jpg?dl=1",
     "imgAlt": "Seco Cauca 2471",
     "lotteryName": "Cauca",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2470",
