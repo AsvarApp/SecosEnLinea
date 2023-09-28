@@ -748,13 +748,22 @@ export const tolima = [
 ]
 export const cruzRoja = [
   {
+    "drawingNumber": "3016",
+    "fecha": "26-09-2023",
+    "img": "https://i.postimg.cc/FKwZF1wX/cruzroja3016.jpg",
+    "downloadImg":"https://i.postimg.cc/D2wYgXg0/cruzroja3016.jpg?dl=1",
+    "imgAlt": "Seco Cruz Roja 3016",
+    "lotteryName": "Cruz Roja",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "3015",
     "fecha": "19-09-2023",
     "img": "https://i.postimg.cc/cLgHBqXW/cruzroja3015.jpg",
     "downloadImg":"https://i.postimg.cc/CSJqYS8R/cruzroja3015.jpg?dl=1",
     "imgAlt": "Seco Cruz Roja 3015",
     "lotteryName": "Cruz Roja",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "3014",
@@ -1114,13 +1123,22 @@ export const cruzRoja = [
 ]
 export const huila = [
   {
+    "drawingNumber": "4618",
+    "fecha": "26-09-2023",
+    "img": "https://i.postimg.cc/pLpz9RfW/huila4618.jpg",
+    "downloadImg":"https://i.postimg.cc/np1kPLMD/huila4618.jpg?dl=1",
+    "imgAlt": "Seco Huila 4618",
+    "lotteryName": "Huila",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4617",
     "fecha": "19-09-2023",
     "img": "https://i.postimg.cc/x8fGXjGn/huila4617.jpg",
     "downloadImg":"https://i.postimg.cc/M6R9rvvM/huila4617.jpg?dl=1",
     "imgAlt": "Seco Huila 4617",
     "lotteryName": "Huila",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4616",
@@ -1451,13 +1469,22 @@ export const huila = [
 // cambiamos el nombre de meta a metalottery porque genera conflicto con algún método interno que lleva el mismo nombre.
 export const metalottery = [
   {
-    "drawingNumber": "3160",
-    "fecha": "20-09-2023",
-    "img": "https://i.postimg.cc/v8tCn5ny/meta3159.jpg",
-    "downloadImg":"https://i.postimg.cc/Kb6bdNv1/meta3159.jpg?dl=1",
-    "imgAlt": "Seco Meta 3160",
+    "drawingNumber": "3161",
+    "fecha": "27-09-2023",
+    "img": "https://i.postimg.cc/fRnDdvXV/meta3161.jpg",
+    "downloadImg":"https://i.postimg.cc/MqXThPpm/meta3161.jpg?dl=1",
+    "imgAlt": "Seco Meta 3161",
     "lotteryName": "Meta",
     "lastDraw": true
+  },
+  {
+    "drawingNumber": "3160",
+    "fecha": "20-09-2023",
+    "img": "https://i.postimg.cc/qBw3jzQB/meta3160.jpg",
+    "downloadImg":"https://i.postimg.cc/tyQNR6x6/meta3160.jpg?dl=1",
+    "imgAlt": "Seco Meta 3160",
+    "lotteryName": "Meta",
+    "lastDraw": false
   },
   {
     "drawingNumber": "3159",
@@ -1816,13 +1843,22 @@ export const metalottery = [
 ]
 export const manizales = [
   {
+    "drawingNumber": "4818",
+    "fecha": "27-09-2023",
+    "img": "https://i.postimg.cc/qqrbxzJH/manizales4818.jpg",
+    "downloadImg":"https://i.postimg.cc/TdLzGDB1/manizales4818.jpg?dl=1",
+    "imgAlt": "Seco Manizales 4818",
+    "lotteryName": "Manizales",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4817",
     "fecha": "20-09-2023",
     "img": "https://i.postimg.cc/8zpCxJp1/manizales4817.jpg",
     "downloadImg":"https://i.postimg.cc/6tRG2nFG/manizales4817.jpg?dl=1",
     "imgAlt": "Seco Manizales 4817",
     "lotteryName": "Manizales",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4816",
@@ -2180,6 +2216,15 @@ export const manizales = [
   }
 ]
 export const valle = [
+  {
+    "drawingNumber": "4711",
+    "fecha": "27-09-2023",
+    "img": "https://i.postimg.cc/63rtY4X9/valle4711.jpg",
+    "downloadImg":"https://i.postimg.cc/zJMvDT2R/valle4711.jpg?dl=1",
+    "imgAlt": "Seco Valle 4711",
+    "lotteryName": "Valle",
+    "lastDraw": true
+  },
   {
     "drawingNumber": "4710",
     "fecha": "20-09-2023",
