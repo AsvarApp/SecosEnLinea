@@ -1,13 +1,4 @@
 export const cundinamarca = [
-{
-    "drawingNumber": "4667",
-    "fecha": "09-10-2023",
-    "img": "https://i.postimg.cc/R0QFPYF0/Cundinamarca4667.jpg",
-    "downloadImg": "https://i.postimg.cc/LmG1sKFj/Cundinamarca4667.jpg?dl=1",
-    "imgAlt": "Seco Cundinamarca 4667",
-    "lotteryName": "Cundinamarca",
-    "lastDraw": true
-  },
   {
     "drawingNumber": "4667",
     "fecha": "09-10-2023",
@@ -400,15 +391,6 @@ export const cundinamarca = [
   }
 ]
 export const tolima = [
-{
-    "drawingNumber": "4034",
-    "fecha": "09-10-2023",
-    "img": "https://i.postimg.cc/Z5XfnBY3/tolima4034.jpg",
-    "downloadImg":"https://i.postimg.cc/qpvWmy9m/tolima4034.jpg?dl=1",
-    "imgAlt": "Seco Tolima 4034",
-    "lotteryName":"Tolima",
-    "lastDraw": true
-  },
   {
     "drawingNumber": "4034",
     "fecha": "09-10-2023",
@@ -2735,13 +2717,22 @@ export const valle = [
 ]
 export const bogota = [
   {
+    "drawingNumber": "2711",
+    "fecha": "12-10-2023",
+    "img": "https://i.postimg.cc/2yNLv9BK/bogota2711.jpg",
+    "downloadImg":"https://i.postimg.cc/mLtYv0ZB/bogota2711.jpg?dl=1",
+    "imgAlt": "Seco Bogotá 2711,lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "lotteryName": "Bogotá",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "2710",
     "fecha": "05-10-2023",
     "img": "https://i.postimg.cc/cJRZXjHY/bogota2710.jpg",
     "downloadImg":"https://i.postimg.cc/Pdcxrnn6/bogota2710.jpg?dl=1",
     "imgAlt": "Seco Bogotá 2710,lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2709",
@@ -3107,6 +3098,15 @@ export const bogota = [
   }
 ]
 export const quindio = [
+  {
+    "drawingNumber": "2882",
+    "fecha": "12-10-2023",
+    "img": "https://i.postimg.cc/GpRf7bnL/quindio2882.jpg",
+    "downloadImg":"https://i.postimg.cc/zqH1ffdg/quindio2882.jpg?dl=1",
+    "imgAlt": "Seco Quindio drawingNumber 2882, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "lotteryName": "Quindio",
+    "lastDraw": true
+  },
   {
     "drawingNumber": "2881",
     "fecha": "05-10-2023",
