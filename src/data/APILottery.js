@@ -1577,13 +1577,22 @@ export const huila = [
 // cambiamos el nombre de meta a metalottery porque genera conflicto con algún método interno que lleva el mismo nombre.
 export const metalottery = [
   {
+    "drawingNumber": "3164",
+    "fecha": "18-10-2023",
+    "img": "https://i.postimg.cc/K4S8YGGG/meta3164.jpg",
+    "downloadImg":"https://i.postimg.cc/FF1dDzwL/meta3164.jpg?dl=1",
+    "imgAlt": "Seco Meta 3164",
+    "lotteryName": "Meta",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "3163",
     "fecha": "11-10-2023",
     "img": "https://i.postimg.cc/85Kq5Z5Q/meta3163.jpg",
     "downloadImg":"https://i.postimg.cc/rVMcfb2m/meta3163.jpg?dl=1",
     "imgAlt": "Seco Meta 3163",
     "lotteryName": "Meta",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "3162",
@@ -1969,13 +1978,22 @@ export const metalottery = [
 ]
 export const manizales = [
   {
+    "drawingNumber": "4821",
+    "fecha": "18-10-2023",
+    "img": "https://i.postimg.cc/2jXHKqyR/manizales4821.jpg",
+    "downloadImg":"https://i.postimg.cc/KFmd4Byz/manizales4821.jpg?dl=1",
+    "imgAlt": "Seco Manizales 4821",
+    "lotteryName": "Manizales",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4820",
     "fecha": "11-10-2023",
     "img": "https://i.postimg.cc/qMsY9BTC/manizales4820.jpg",
     "downloadImg":"https://i.postimg.cc/q0ST6gDQ/manizales4820.jpg?dl=1",
     "imgAlt": "Seco Manizales 4820",
     "lotteryName": "Manizales",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4819",
@@ -2361,13 +2379,22 @@ export const manizales = [
 ]
 export const valle = [
   {
+    "drawingNumber": "4714",
+    "fecha": "18-10-2023",
+    "img": "https://i.postimg.cc/qRqssL8t/valle4714.jpg",
+    "downloadImg":"https://i.postimg.cc/CFHcVr54/valle4714.jpg?dl=1",
+    "imgAlt": "Seco Valle 4714",
+    "lotteryName": "Valle",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4713",
     "fecha": "11-10-2023",
     "img": "https://i.postimg.cc/sgVVL0ts/valle4713.jpg",
     "downloadImg":"https://i.postimg.cc/DnG8896J/valle4713.jpg?dl=1",
     "imgAlt": "Seco Valle 4713",
     "lotteryName": "Valle",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4712",
