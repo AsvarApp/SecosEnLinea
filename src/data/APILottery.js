@@ -1,12 +1,21 @@
 export const cundinamarca = [
   {
+    "drawingNumber": "4670",
+    "fecha": "30-10-2023",
+    "img": "https://i.postimg.cc/nhp3cP2D/cundinamarca4670.jpg",
+    "downloadImg": "https://i.postimg.cc/2rBMTpB2/cundinamarca4670.jpg?dl=1",
+    "imgAlt": "Seco Cundinamarca 4670",
+    "lotteryName": "Cundinamarca",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4669",
     "fecha": "23-10-2023",
     "img": "https://i.postimg.cc/HsZqvLRr/cundinamarca4669.jpg",
     "downloadImg": "https://i.postimg.cc/6ttB32hf/cundinamarca4669.jpg?dl=1",
     "imgAlt": "Seco Cundinamarca 4669",
     "lotteryName": "Cundinamarca",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4668",
@@ -410,13 +419,22 @@ export const cundinamarca = [
 ]
 export const tolima = [
   {
+    "drawingNumber": "4037",
+    "fecha": "30-10-2023",
+    "img": "https://i.postimg.cc/BQH9CP1s/tolima4037.jpg",
+    "downloadImg":"https://i.postimg.cc/wHbqghqt/tolima4037.jpg?dl=1",
+    "imgAlt": "Seco Tolima 4037",
+    "lotteryName":"Tolima",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4036",
     "fecha": "23-10-2023",
     "img": "https://i.postimg.cc/fTBxYL5y/tolima4036.jpg",
     "downloadImg":"https://i.postimg.cc/VmcDQ0Cq/tolima4036.jpg?dl=1",
     "imgAlt": "Seco Tolima 4036",
     "lotteryName":"Tolima",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4035",
@@ -4872,6 +4890,15 @@ export const santander = [
 ]
 export const boyaca = [
   {
+    "drawingNumber": "4492",
+    "fecha": "04-11-2023",
+    "img": "https://i.postimg.cc/xCvpzM4F/boyaca4492.jpg",
+    "downloadImg":"https://i.postimg.cc/YpV5Txfk/boyaca4492.jpg?dl=1",
+    "imgAlt": "Seco Boyacá 4492",
+    "lotteryName": "Boyacá",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4491",
     "fecha": "28-10-2023",
     "img": "https://i.postimg.cc/KcTpkYnD/boyaca4491.jpg",
@@ -5281,6 +5308,15 @@ export const boyaca = [
   }
 ]
 export const cauca = [
+  {
+    "drawingNumber": "2479",
+    "fecha": "04-11-2023",
+    "img": "https://i.postimg.cc/bN0T91pQ/cauca2479.jpg",
+    "downloadImg": "https://i.postimg.cc/k9zp9yHh/cauca2479.jpg?dl=1",
+    "imgAlt": "Seco Cauca 2479",
+    "lotteryName": "Cauca",
+    "lastDraw": true
+  },
   {
     "drawingNumber": "2478",
     "fecha": "28-10-2023",
