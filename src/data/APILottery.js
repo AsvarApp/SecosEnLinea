@@ -847,13 +847,22 @@ export const tolima = [
 ]
 export const cruzRoja = [
   {
+    "drawingNumber": "3021",
+    "fecha": "31-10-2023",
+    "img": "",
+    "downloadImg":"",
+    "imgAlt": "Seco Cruz Roja 3021",
+    "lotteryName": "Cruz Roja",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "3020",
     "fecha": "24-10-2023",
     "img": "https://i.postimg.cc/CMf8z7nv/cruzroja3020.jpg",
     "downloadImg":"https://i.postimg.cc/Y7dzDyrw/cruzroja3020.jpg?dl=1",
     "imgAlt": "Seco Cruz Roja 3020",
     "lotteryName": "Cruz Roja",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "3019",
@@ -1258,6 +1267,15 @@ export const cruzRoja = [
 ]
 export const huila = [
   {
+    "drawingNumber": "4623",
+    "fecha": "31-10-2023",
+    "img": "https://i.postimg.cc/zG3XMNbD/huila4623.jpg",
+    "downloadImg":"https://i.postimg.cc/YMzGvqtF/huila4623.jpg?dl=1",
+    "imgAlt": "Seco Huila 4623",
+    "lotteryName": "Huila",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4622",
     "fecha": "24-10-2023",
     "img": "https://i.postimg.cc/GtVw8rBp/huila4622.jpg",
@@ -1640,13 +1658,22 @@ export const huila = [
 // cambiamos el nombre de meta a metalottery porque genera conflicto con algún método interno que lleva el mismo nombre.
 export const metalottery = [
   {
+    "drawingNumber": "3166",
+    "fecha": "01-11-2023",
+    "img": "https://i.postimg.cc/rmfP7Btc/meta3166.jpg",
+    "downloadImg":"https://i.postimg.cc/ZbmzvZb9/meta3166.jpg?dl=1",
+    "imgAlt": "Seco Meta 3166",
+    "lotteryName": "Meta",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "3165",
     "fecha": "25-10-2023",
     "img": "https://i.postimg.cc/sDz0CRtf/meta3165.jpg",
     "downloadImg":"https://i.postimg.cc/b8SXbygn/meta3165.jpg?dl=1",
     "imgAlt": "Seco Meta 3165",
     "lotteryName": "Meta",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "3164",
@@ -2050,13 +2077,22 @@ export const metalottery = [
 ]
 export const manizales = [
   {
+    "drawingNumber": "4823",
+    "fecha": "01-11-2023",
+    "img": "https://i.postimg.cc/vZX21R3n/manizales4823.jpg",
+    "downloadImg":"https://i.postimg.cc/1y1kjsFv/manizales4823.jpg?dl=1",
+    "imgAlt": "Seco Manizales 4823",
+    "lotteryName": "Manizales",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4822",
     "fecha": "25-10-2023",
     "img": "https://i.postimg.cc/fRrKy4g9/manizales4822.jpg",
     "downloadImg":"https://i.postimg.cc/nnHwdp40/manizales4822.jpg?dl=1",
     "imgAlt": "Seco Manizales 4822",
     "lotteryName": "Manizales",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4821",
@@ -2460,13 +2496,22 @@ export const manizales = [
 ]
 export const valle = [
   {
+    "drawingNumber": "4716",
+    "fecha": "01-11-2023",
+    "img": "https://i.postimg.cc/3xt76k76/valle4716.jpg",
+    "downloadImg":"https://i.postimg.cc/D7TZSGN2/valle4716.jpg?dl=1",
+    "imgAlt": "Seco Valle 4716",
+    "lotteryName": "Valle",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4715",
     "fecha": "25-10-2023",
     "img": "https://i.postimg.cc/Vvh6MRyD/valle4715.jpg",
     "downloadImg":"https://i.postimg.cc/CMhf3PcT/valle4715.jpg?dl=1",
     "imgAlt": "Seco Valle 4715",
     "lotteryName": "Valle",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4714",
@@ -2870,13 +2915,22 @@ export const valle = [
 ]
 export const bogota = [
   {
+    "drawingNumber": "2714",
+    "fecha": "02-11-2023",
+    "img": "https://i.postimg.cc/MZ7CNnmD/bogota2714.jpg",
+    "downloadImg":"https://i.postimg.cc/LSw-mqfqr/bogota2714.jpg?dl=1",
+    "imgAlt": "Seco Bogotá 2714,lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
+    "lotteryName": "Bogotá",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "2713",
     "fecha": "26-10-2023",
     "img": "https://i.postimg.cc/3xst95CH/bogota2713.jpg",
     "downloadImg":"https://i.postimg.cc/XnJtjnrX/bogota2713.jpg?dl=1",
     "imgAlt": "Seco Bogotá 2713,lotería de colombia, ultimo sorteo de la lotería lotería de Bogotá, secos en linea, premios y secos de la lotería de Bogotá",
     "lotteryName": "Bogotá",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2712",
@@ -3270,11 +3324,20 @@ export const bogota = [
 ]
 export const quindio = [
   {
-    "drawingNumber": "2883",
+    "drawingNumber": "2885",
+    "fecha": "02-11-2023",
+    "img": "https://i.postimg.cc/cLS2m0nz/quindio2885.jpg",
+    "downloadImg":"https://i.postimg.cc/ysgK7NY7/quindio2885.jpg?dl=1",
+    "imgAlt": "Seco Quindio drawingNumber 2885, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "lotteryName": "Quindio",
+    "lastDraw": true
+  },
+  {
+    "drawingNumber": "2884",
     "fecha": "26-10-2023",
     "img": "https://i.postimg.cc/y8HPSXVV/quindio2884.jpg",
     "downloadImg":"https://i.postimg.cc/tp1mw2wV/quindio2884.jpg?dl=1",
-    "imgAlt": "Seco Quindio drawingNumber 2883, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
+    "imgAlt": "Seco Quindio drawingNumber 2884, lotería de colombia, ultimo sorteo de la lotería lotería del quindio, secos en linea, premios y secos de la lotería del Quindio",
     "lotteryName": "Quindio",
     "lastDraw": true
   },
@@ -3660,13 +3723,22 @@ export const quindio = [
 ]
 export const medellin = [
   {
+    "drawingNumber": "4703",
+    "fecha": "03-11-2023",
+    "img": "https://i.postimg.cc/9MwKFM9L/medellin4703.jpg",
+    "downloadImg":"https://i.postimg.cc/J1pLxHzC/medellin4703.jpg?dl=1",
+    "imgAlt": "Seco Medellín 4703 ",
+    "lotteryName": "Medellín",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4702",
     "fecha": "27-10-2023",
     "img": "https://i.postimg.cc/W3vjByVB/medellin4702.jpg",
     "downloadImg":"https://i.postimg.cc/9W4M73nQ/medellin4702.jpg?dl=1",
     "imgAlt": "Seco Medellín 4702 ",
     "lotteryName": "Medellín",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "4701",
@@ -4070,13 +4142,22 @@ export const medellin = [
 ]
 export const risaralda = [
   {
+    "drawingNumber": "2820",
+    "fecha": "03-11-2023",
+    "img": "https://i.postimg.cc/262RV68v/risaralda2820.jpg",
+    "downloadImg":"https://i.postimg.cc/HYCpvcqS/risaralda2820.jpg?dl=1",
+    "imgAlt": "Seco Risaralda 2820",
+    "lotteryName": "Risaralda",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "2819",
     "fecha": "27-10-2023",
     "img": "https://i.postimg.cc/rsZBwZ6F/risaralda2819.jpg",
     "downloadImg":"https://i.postimg.cc/jqRtvBZN/risaralda2819.jpg?dl=1",
     "imgAlt": "Seco Risaralda 2819",
     "lotteryName": "Risaralda",
-    "lastDraw": true
+    "lastDraw": false
   },
   {
     "drawingNumber": "2818",
@@ -4479,6 +4560,15 @@ export const risaralda = [
   }
 ]
 export const santander = [
+  {
+    "drawingNumber": "4938",
+    "fecha": "03-11-2023",
+    "img": "https://i.postimg.cc/HW9RWjPk/santander4938.jpg",
+    "downloadImg":"https://i.postimg.cc/zNsrjgCK/santander4938.jpg?dl=1",
+    "imgAlt": "Seco Santander 4938",
+    "lotteryName": "Santander",
+    "lastDraw": true
+  },
   {
     "drawingNumber": "4937",
     "fecha": "27-10-2023",
