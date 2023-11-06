@@ -849,8 +849,8 @@ export const cruzRoja = [
   {
     "drawingNumber": "3021",
     "fecha": "31-10-2023",
-    "img": "",
-    "downloadImg":"",
+    "img": "https://i.postimg.cc/BnRSNLX2/cruzroja3021.jpg",
+    "downloadImg":"https://i.postimg.cc/1y38mDS7/cruzroja3021.jpg?dl=1",
     "imgAlt": "Seco Cruz Roja 3021",
     "lotteryName": "Cruz Roja",
     "lastDraw": true
