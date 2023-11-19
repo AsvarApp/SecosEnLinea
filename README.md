@@ -58,4 +58,4 @@ Este espacio solo se utiliza para una sección de la web donde se muestran los �
 Así como el anterior punto también se usa para mostrar en esta sección de últimos resultados, al ser un valor boolean se deja el último resultado en true y los otros en false para que la lógica de la web tome este último y sepa qué objeto debe mostrar en la sección de últimos resultados.
 
 #### Contribución
-[Carlos Andrés Segura](https://www.linkedin.com/in/casvaru/)3
+[Carlos Andrés Segura](https://www.linkedin.com/in/casvaru/)
