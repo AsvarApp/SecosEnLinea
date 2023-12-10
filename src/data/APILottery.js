@@ -5421,6 +5421,15 @@ export const santander = [
 ]
 export const boyaca = [
   {
+    "drawingNumber": "4497",
+    "fecha": "09-12-2023",
+    "img": "https://i.postimg.cc/qvb22cQS/boyaca4497.jpg",
+    "downloadImg":"https://i.postimg.cc/D7F5kBGv/boyaca4497.jpg?dl=1",
+    "imgAlt": "Seco Boyacá 4497",
+    "lotteryName": "Boyacá",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4496",
     "fecha": "02-12-2023",
     "img": "https://i.postimg.cc/C1P6Jx8T/boyaca4496.jpg",
@@ -5875,6 +5884,15 @@ export const boyaca = [
   }
 ]
 export const cauca = [
+  {
+    "drawingNumber": "2484",
+    "fecha": "09-12-2023",
+    "img": "https://i.postimg.cc/XqPmmBgv/cauca2484.jpg",
+    "downloadImg": "https://i.postimg.cc/T22xyrLn/cauca2484.jpg?dl=1",
+    "imgAlt": "Seco Cauca 2484",
+    "lotteryName": "Cauca",
+    "lastDraw": true
+  },
   {
     "drawingNumber": "2483",
     "fecha": "02-12-2023",
