@@ -5637,6 +5637,15 @@ export const santander = [
 ]
 export const boyaca = [
   {
+    "drawingNumber": "4499",
+    "fecha": "23-12-2023",
+    "img": "https://i.postimg.cc/tCQDMdtY/boyaca4499.jpg",
+    "downloadImg":"https://i.postimg.cc/QsVPV0Fk/boyaca4499.jpg?dl=1",
+    "imgAlt": "Seco Boyacá 4499",
+    "lotteryName": "Boyacá",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4498",
     "fecha": "16-12-2023",
     "img": "https://i.postimg.cc/3xHZMGDm/boyaca4498.jpg",
@@ -6109,6 +6118,15 @@ export const boyaca = [
   }
 ]
 export const cauca = [
+  {
+    "drawingNumber": "2486",
+    "fecha": "23-12-2023",
+    "img": "https://i.postimg.cc/dt5kyw1w/cauca2486.jpg",
+    "downloadImg": "https://i.postimg.cc/dwY8g0ck/cauca2486.jpg?dl=1",
+    "imgAlt": "Seco Cauca 2486",
+    "lotteryName": "Cauca",
+    "lastDraw": true
+  },
   {
     "drawingNumber": "2485",
     "fecha": "16-12-2023",
@@ -6827,6 +6845,15 @@ export const extraManizales = [
   
 ]
 export const extraNavidad = [
+  {
+    "drawingNumber": "0014",
+    "fecha": "22-12-2023",
+    "img": "https://i.postimg.cc/8P9XNQSP/extranavidad0014.jpg",
+    "downloadImg": "https://i.postimg.cc/B4Qr547D/extranavidad0014.jpg?dl=1",
+    "imgAlt": "Seco Extra del Navidad 0014",
+    "lotteryName": "Extra del Navidad",
+    "lastDraw": true
+  },
   {
     "drawingNumber": "0013",
     "fecha": "15-12-2023",
