@@ -1,0 +1,57 @@
+---
+import Layout from "../../components/Layout.astro";
+import TemplatePageLottery from "../../components/CardLotery/TemplatePageLottery.astro";
+import { extraColombia, extraNavidad } from "../../data/APILottery";
+import { Picture } from "@astrojs/image/components";
+import ButtonSecondary from "../../components/buttonSecondary.astro";
+---
+
+<Layout pageTitle={'Extra de Colombia'}>
+  <TemplatePageLottery pageTitle={'Extra de Colombia'} nameLotery={'extracolombia'}>
+    {extraNavidad === undefined ? <h5>Error al cargar</h5> :  extraNavidad.map((lotery: any) => (
+      <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+        <a
+          target="_blank"
+          href={lotery.img}
+          class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16 "
+        >
+          <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+            <Picture
+              width={300}
+              sizes="300"
+              format={"webp"}
+              widths={[200, 300, 400]}
+              aspectRatio="16:9"
+              fit="inside"
+              class="bg-slate-200 w-44 h-48 object-cover"
+              loading=""
+              src={`${lotery.img}`}
+              alt={lotery.imgAlt}
+              title={lotery.drawingNumber}
+            />
+          </div>
+          <footer class="mt-4">
+            <h2 class="text-gray-400">
+              <span class="text-white">Sorteo:</span>
+              {lotery.drawingNumber}
+            </h2>
+            <h3>
+              <p class="text-white">
+                Fecha:{" "}
+                <time class="text-gray-400" datetime={lotery.fecha}>
+                  {lotery.fecha}
+                </time>
+              </p>
+            </h3>
+          </footer>
+        </a>
+        <div class="flex mt-2 justify-center lg:absolute lg:w-full lg:mt-[280px]">
+          <ButtonSecondary
+                  linkButton={lotery.downloadImg}
+                  titleButton='Descargar'
+                />
+        </div>
+      </article>
+    ))}
+  </TemplatePageLottery>
+</Layout>
