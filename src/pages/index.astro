@@ -22,6 +22,7 @@ import {
 } from '../data/APILottery'
 import LastDraw from "../components/lastDraw.astro";
 import { Picture } from "@astrojs/image/components";
+import * as Icon from '@astropub/icons'
 ---
 <Layout pageTitle={'Inicio'}>
   <Welcome/>
@@ -31,661 +32,633 @@ import { Picture } from "@astrojs/image/components";
   </div>
   <section class="px-5 w-full lg:w-full lg:px-0">
     <LastDraw/>
-    <CardLoteryIndex titleLotery={'Cundinamarca'} nameLotery={'cundinamarca'} loading={''}>
-      {cundinamarca === undefined ? <h5>Error al cargar</h5> : cundinamarca.slice(0, 5).map((lotery: any) => (
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+    <CardLoteryIndex titleLotery={'Cundinamarca'} nameLotery={'cundinamarca'} loading={''} mapLottery={cundinamarca}>
+      {cundinamarca === undefined ? <h5>Error al cargar</h5> : cundinamarca.slice(0, 4).map((lotery: any) => (
+        <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+            <a
+            href={lotery.downloadImg}
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            >
+              <Icon.Download fill="white" size="30" title="Descargar" />
+            </a>
+            <h2 class=" font-bold text-2xl text-white mb-2">{lotery.lotteryName}</h2>
+            <div class="flex gap-3 items-center">
+              <h3 class="font-bold text-lg text-white top-0 bg-colorPrimary px-2 py-[2px] rounded-lg ">{lotery.drawingNumber}</h3>
+              <h3 class="">
+                  <p class="">
+                    <time class="bg-white px-2 py-[5px] rounded-lg" datetime={lotery.fecha}>
+                      {lotery.fecha}
+                    </time>
+                  </p>
+                </h3>
+            </div>
+          </div>
           <a
+            class=""
             target="_blank"
-            href={lotery.img}
-            class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16 "
-          >
-            <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+            href={lotery.img}>
+          <div class="relative after:absolute after:z-10 after:top-0 after:h-full after:w-full after:content-[''] after:bg-gradient-to-t from-black/100">
               <Picture
-                width={300}
-                sizes="300"
-                format={"webp"}
-                widths={[200, 300, 400]}
-                aspectRatio="16:9"
-                fit="inside"
-                class="bg-slate-200 w-44 h-48 object-cover"
-                loading=""
-                src={`${lotery.img}`}
-                alt={lotery.imgAlt}
-                title={lotery.drawingNumber}
+              width={300}
+              sizes="300"
+              format={"webp"}
+              widths={[200, 400, 400]}
+              aspectRatio="16:9"
+              fit="inside"
+              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              loading=""
+              src={`${lotery.img}`}
+              alt={lotery.imgAlt}
+              title={lotery.drawingNumber}
               />
             </div>
-            <footer class="mt-4">
-              <h2 class="text-gray-400">
-                <span class="text-white">Sorteo:</span>
-                {lotery.drawingNumber}
-              </h2>
-              <h3>
-                <p class="text-white">
-                  Fecha:{" "}
-                  <time class="text-gray-400" datetime={lotery.fecha}>
-                    {lotery.fecha}
-                  </time>
-                </p>
-              </h3>
-            </footer>
           </a>
-          <div class="flex mt-2 justify-center lg:absolute lg:w-full lg:mt-[280px]">
-            <ButtonSecondary
-              linkButton={lotery.downloadImg}
-              titleButton='Descargar'
-              />
-          </div>
         </article>
       ))}
     </CardLoteryIndex>
     <CardLoteryIndex titleLotery={'Tolima'} nameLotery={'tolima'} loading={''}>
-      {tolima === undefined ? <h5>Error al cargar</h5> : tolima.slice(0, 5).map((lotery: any) => (
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+      {tolima === undefined ? <h5>Error al cargar</h5> : tolima.slice(0, 4).map((lotery: any) => (
+        <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+            <a
+            href={lotery.downloadImg}
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            >
+              <Icon.Download fill="white" size="30" title="Descargar" />
+            </a>
+            <h2 class=" font-bold text-2xl text-white mb-2">{lotery.lotteryName}</h2>
+            <div class="flex gap-3 items-center">
+              <h3 class="font-bold text-lg text-white top-0 bg-colorPrimary px-2 py-[2px] rounded-lg ">{lotery.drawingNumber}</h3>
+              <h3 class="">
+                  <p class="">
+                    <time class="bg-white px-2 py-[5px] rounded-lg" datetime={lotery.fecha}>
+                      {lotery.fecha}
+                    </time>
+                  </p>
+                </h3>
+            </div>
+          </div>
           <a
+            class=""
             target="_blank"
-            href={lotery.img}
-            class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16 "
-          >
-            <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+            href={lotery.img}>
+          <div class="relative after:absolute after:z-10 after:top-0 after:h-full after:w-full after:content-[''] after:bg-gradient-to-t from-black/100">
               <Picture
-                width={300}
-                sizes="300"
-                format={"webp"}
-                widths={[200, 300, 400]}
-                aspectRatio="16:9"
-                fit="inside"
-                class="bg-slate-200 w-44 h-48 object-cover"
-                loading=""
-                src={`${lotery.img}`}
-                alt={lotery.imgAlt}
-                title={lotery.drawingNumber}
+              width={300}
+              sizes="300"
+              format={"webp"}
+              widths={[200, 400, 400]}
+              aspectRatio="16:9"
+              fit="inside"
+              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              loading=""
+              src={`${lotery.img}`}
+              alt={lotery.imgAlt}
+              title={lotery.drawingNumber}
               />
             </div>
-            <footer class="mt-4">
-              <h2 class="text-gray-400">
-                <span class="text-white">Sorteo:</span>
-                {lotery.drawingNumber}
-              </h2>
-              <h3>
-                <p class="text-white">
-                  Fecha:{" "}
-                  <time class="text-gray-400" datetime={lotery.fecha}>
-                    {lotery.fecha}
-                  </time>
-                </p>
-              </h3>
-            </footer>
           </a>
-          <div class="flex mt-2 justify-center lg:absolute lg:w-full lg:mt-[280px]">
-            <ButtonSecondary
-              linkButton={lotery.downloadImg}
-              titleButton='Descargar'
-              />
-          </div>
         </article>
       ))}
     </CardLoteryIndex>
     <CardLoteryIndex titleLotery={'Cruz Roja'} nameLotery={'cruzroja'} loading={''}>
-      {cruzRoja === undefined ? <h5>Error al cargar</h5> : cruzRoja.slice(0, 5).map((lotery: any) => (
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+      {cruzRoja === undefined ? <h5>Error al cargar</h5> : cruzRoja.slice(0, 4).map((lotery: any) => (
+        <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+            <a
+            href={lotery.downloadImg}
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            >
+              <Icon.Download fill="white" size="30" title="Descargar" />
+            </a>
+            <h2 class=" font-bold text-2xl text-white mb-2">{lotery.lotteryName}</h2>
+            <div class="flex gap-3 items-center">
+              <h3 class="font-bold text-lg text-white top-0 bg-colorPrimary px-2 py-[2px] rounded-lg ">{lotery.drawingNumber}</h3>
+              <h3 class="">
+                  <p class="">
+                    <time class="bg-white px-2 py-[5px] rounded-lg" datetime={lotery.fecha}>
+                      {lotery.fecha}
+                    </time>
+                  </p>
+                </h3>
+            </div>
+          </div>
           <a
+            class=""
             target="_blank"
-            href={lotery.img}
-            class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16 "
-          >
-            <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+            href={lotery.img}>
+          <div class="relative after:absolute after:z-10 after:top-0 after:h-full after:w-full after:content-[''] after:bg-gradient-to-t from-black/100">
               <Picture
-                width={300}
-                sizes="300"
-                format={"webp"}
-                widths={[200, 300, 400]}
-                aspectRatio="16:9"
-                fit="inside"
-                class="bg-slate-200 w-44 h-48 object-cover"
-                loading=""
-                src={`${lotery.img}`}
-                alt={lotery.imgAlt}
-                title={lotery.drawingNumber}
+              width={300}
+              sizes="300"
+              format={"webp"}
+              widths={[200, 400, 400]}
+              aspectRatio="16:9"
+              fit="inside"
+              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              loading=""
+              src={`${lotery.img}`}
+              alt={lotery.imgAlt}
+              title={lotery.drawingNumber}
               />
             </div>
-            <footer class="mt-4">
-              <h2 class="text-gray-400">
-                <span class="text-white">Sorteo:</span>
-                {lotery.drawingNumber}
-              </h2>
-              <h3>
-                <p class="text-white">
-                  Fecha:{" "}
-                  <time class="text-gray-400" datetime={lotery.fecha}>
-                    {lotery.fecha}
-                  </time>
-                </p>
-              </h3>
-            </footer>
           </a>
-          <div class="flex mt-2 justify-center lg:absolute lg:w-full lg:mt-[280px]">
-            <ButtonSecondary
-              linkButton={lotery.downloadImg}
-              titleButton='Descargar'
-              />
-          </div>
         </article>
       ))}
     </CardLoteryIndex>
     <CardLoteryIndex titleLotery={'Huila'} nameLotery={'huila'} loading={'lazy'}>
-      {huila === undefined ? <h5>Error al cargar</h5> : huila.slice(0, 5).map((lotery: any) => (
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+      {huila === undefined ? <h5>Error al cargar</h5> : huila.slice(0, 4).map((lotery: any) => (
+        <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+            <a
+            href={lotery.downloadImg}
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            >
+              <Icon.Download fill="white" size="30" title="Descargar" />
+            </a>
+            <h2 class=" font-bold text-2xl text-white mb-2">{lotery.lotteryName}</h2>
+            <div class="flex gap-3 items-center">
+              <h3 class="font-bold text-lg text-white top-0 bg-colorPrimary px-2 py-[2px] rounded-lg ">{lotery.drawingNumber}</h3>
+              <h3 class="">
+                  <p class="">
+                    <time class="bg-white px-2 py-[5px] rounded-lg" datetime={lotery.fecha}>
+                      {lotery.fecha}
+                    </time>
+                  </p>
+                </h3>
+            </div>
+          </div>
           <a
+            class=""
             target="_blank"
-            href={lotery.img}
-            class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16 "
-          >
-            <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+            href={lotery.img}>
+          <div class="relative after:absolute after:z-10 after:top-0 after:h-full after:w-full after:content-[''] after:bg-gradient-to-t from-black/100">
               <Picture
-                width={300}
-                sizes="300"
-                format={"webp"}
-                widths={[200, 300, 400]}
-                aspectRatio="16:9"
-                fit="inside"
-                class="bg-slate-200 w-44 h-48 object-cover"
-                loading=""
-                src={`${lotery.img}`}
-                alt={lotery.imgAlt}
-                title={lotery.drawingNumber}
+              width={300}
+              sizes="300"
+              format={"webp"}
+              widths={[200, 400, 400]}
+              aspectRatio="16:9"
+              fit="inside"
+              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              loading=""
+              src={`${lotery.img}`}
+              alt={lotery.imgAlt}
+              title={lotery.drawingNumber}
               />
             </div>
-            <footer class="mt-4">
-              <h2 class="text-gray-400">
-                <span class="text-white">Sorteo:</span>
-                {lotery.drawingNumber}
-              </h2>
-              <h3>
-                <p class="text-white">
-                  Fecha:{" "}
-                  <time class="text-gray-400" datetime={lotery.fecha}>
-                    {lotery.fecha}
-                  </time>
-                </p>
-              </h3>
-            </footer>
           </a>
-          <div class="flex mt-2 justify-center lg:absolute lg:w-full lg:mt-[280px]">
-            <ButtonSecondary
-              linkButton={lotery.downloadImg}
-              titleButton='Descargar'
-              />
-          </div>
         </article>
       ))}
     </CardLoteryIndex>
     <CardLoteryIndex titleLotery={'Meta'} nameLotery={'meta'} loading={'lazy'}>
-      {metalottery.slice(0, 5).map((lotery: any) => (
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+      {metalottery.slice(0, 4).map((lotery: any) => (
+        <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+            <a
+            href={lotery.downloadImg}
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            >
+              <Icon.Download fill="white" size="30" title="Descargar" />
+            </a>
+            <h2 class=" font-bold text-2xl text-white mb-2">{lotery.lotteryName}</h2>
+            <div class="flex gap-3 items-center">
+              <h3 class="font-bold text-lg text-white top-0 bg-colorPrimary px-2 py-[2px] rounded-lg ">{lotery.drawingNumber}</h3>
+              <h3 class="">
+                  <p class="">
+                    <time class="bg-white px-2 py-[5px] rounded-lg" datetime={lotery.fecha}>
+                      {lotery.fecha}
+                    </time>
+                  </p>
+                </h3>
+            </div>
+          </div>
           <a
+            class=""
             target="_blank"
-            href={lotery.img}
-            class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16 "
-          >
-            <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+            href={lotery.img}>
+          <div class="relative after:absolute after:z-10 after:top-0 after:h-full after:w-full after:content-[''] after:bg-gradient-to-t from-black/100">
               <Picture
-                width={300}
-                sizes="300"
-                format={"webp"}
-                widths={[200, 300, 400]}
-                aspectRatio="16:9"
-                fit="inside"
-                class="bg-slate-200 w-44 h-48 object-cover"
-                loading=""
-                src={`${lotery.img}`}
-                alt={lotery.imgAlt}
-                title={lotery.drawingNumber}
+              width={300}
+              sizes="300"
+              format={"webp"}
+              widths={[200, 400, 400]}
+              aspectRatio="16:9"
+              fit="inside"
+              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              loading=""
+              src={`${lotery.img}`}
+              alt={lotery.imgAlt}
+              title={lotery.drawingNumber}
               />
             </div>
-            <footer class="mt-4">
-              <h2 class="text-gray-400">
-                <span class="text-white">Sorteo:</span>
-                {lotery.drawingNumber}
-              </h2>
-              <h3>
-                <p class="text-white">
-                  Fecha:{" "}
-                  <time class="text-gray-400" datetime={lotery.fecha}>
-                    {lotery.fecha}
-                  </time>
-                </p>
-              </h3>
-            </footer>
           </a>
-          <div class="flex mt-2 justify-center lg:absolute lg:w-full lg:mt-[280px]">
-            <ButtonSecondary
-              linkButton={lotery.downloadImg}
-              titleButton='Descargar'
-              />
-          </div>
         </article>
       ))}
     </CardLoteryIndex>
     <CardLoteryIndex titleLotery={'Manizales'} nameLotery={'manizales'} loading={'lazy'}>
-      {manizales === undefined ? <h5>Error al cargar</h5> : manizales.slice(0, 5).map((lotery: any) => (
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+      {manizales === undefined ? <h5>Error al cargar</h5> : manizales.slice(0, 4).map((lotery: any) => (
+        <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+            <a
+            href={lotery.downloadImg}
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            >
+              <Icon.Download fill="white" size="30" title="Descargar" />
+            </a>
+            <h2 class=" font-bold text-2xl text-white mb-2">{lotery.lotteryName}</h2>
+            <div class="flex gap-3 items-center">
+              <h3 class="font-bold text-lg text-white top-0 bg-colorPrimary px-2 py-[2px] rounded-lg ">{lotery.drawingNumber}</h3>
+              <h3 class="">
+                  <p class="">
+                    <time class="bg-white px-2 py-[5px] rounded-lg" datetime={lotery.fecha}>
+                      {lotery.fecha}
+                    </time>
+                  </p>
+                </h3>
+            </div>
+          </div>
           <a
+            class=""
             target="_blank"
-            href={lotery.img}
-            class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16 "
-          >
-            <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+            href={lotery.img}>
+          <div class="relative after:absolute after:z-10 after:top-0 after:h-full after:w-full after:content-[''] after:bg-gradient-to-t from-black/100">
               <Picture
-                width={300}
-                sizes="300"
-                format={"webp"}
-                widths={[200, 300, 400]}
-                aspectRatio="16:9"
-                fit="inside"
-                class="bg-slate-200 w-44 h-48 object-cover"
-                loading=""
-                src={`${lotery.img}`}
-                alt={lotery.imgAlt}
-                title={lotery.drawingNumber}
+              width={300}
+              sizes="300"
+              format={"webp"}
+              widths={[200, 400, 400]}
+              aspectRatio="16:9"
+              fit="inside"
+              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              loading=""
+              src={`${lotery.img}`}
+              alt={lotery.imgAlt}
+              title={lotery.drawingNumber}
               />
             </div>
-            <footer class="mt-4">
-              <h2 class="text-gray-400">
-                <span class="text-white">Sorteo:</span>
-                {lotery.drawingNumber}
-              </h2>
-              <h3>
-                <p class="text-white">
-                  Fecha:{" "}
-                  <time class="text-gray-400" datetime={lotery.fecha}>
-                    {lotery.fecha}
-                  </time>
-                </p>
-              </h3>
-            </footer>
           </a>
-          <div class="flex mt-2 justify-center lg:absolute lg:w-full lg:mt-[280px]">
-            <ButtonSecondary
-              linkButton={lotery.downloadImg}
-              titleButton='Descargar'
-              />
-          </div>
         </article>
       ))}
     </CardLoteryIndex>
     <CardLoteryIndex titleLotery={'Valle'} nameLotery={'valle'} loading={'lazy'}>
-      {valle === undefined ? <h5>Error al cargar</h5> : valle.slice(0, 5).map((lotery: any) => (
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+      {valle === undefined ? <h5>Error al cargar</h5> : valle.slice(0, 4).map((lotery: any) => (
+        <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+            <a
+            href={lotery.downloadImg}
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            >
+              <Icon.Download fill="white" size="30" title="Descargar" />
+            </a>
+            <h2 class=" font-bold text-2xl text-white mb-2">{lotery.lotteryName}</h2>
+            <div class="flex gap-3 items-center">
+              <h3 class="font-bold text-lg text-white top-0 bg-colorPrimary px-2 py-[2px] rounded-lg ">{lotery.drawingNumber}</h3>
+              <h3 class="">
+                  <p class="">
+                    <time class="bg-white px-2 py-[5px] rounded-lg" datetime={lotery.fecha}>
+                      {lotery.fecha}
+                    </time>
+                  </p>
+                </h3>
+            </div>
+          </div>
           <a
+            class=""
             target="_blank"
-            href={lotery.img}
-            class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16 "
-          >
-            <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+            href={lotery.img}>
+          <div class="relative after:absolute after:z-10 after:top-0 after:h-full after:w-full after:content-[''] after:bg-gradient-to-t from-black/100">
               <Picture
-                width={300}
-                sizes="300"
-                format={"webp"}
-                widths={[200, 300, 400]}
-                aspectRatio="16:9"
-                fit="inside"
-                class="bg-slate-200 w-44 h-48 object-cover"
-                loading=""
-                src={`${lotery.img}`}
-                alt={lotery.imgAlt}
-                title={lotery.drawingNumber}
+              width={300}
+              sizes="300"
+              format={"webp"}
+              widths={[200, 400, 400]}
+              aspectRatio="16:9"
+              fit="inside"
+              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              loading=""
+              src={`${lotery.img}`}
+              alt={lotery.imgAlt}
+              title={lotery.drawingNumber}
               />
             </div>
-            <footer class="mt-4">
-              <h2 class="text-gray-400">
-                <span class="text-white">Sorteo:</span>
-                {lotery.drawingNumber}
-              </h2>
-              <h3>
-                <p class="text-white">
-                  Fecha:{" "}
-                  <time class="text-gray-400" datetime={lotery.fecha}>
-                    {lotery.fecha}
-                  </time>
-                </p>
-              </h3>
-            </footer>
           </a>
-          <div class="flex mt-2 justify-center lg:absolute lg:w-full lg:mt-[280px]">
-            <ButtonSecondary
-              linkButton={lotery.downloadImg}
-              titleButton='Descargar'
-              />
-          </div>
         </article>
       ))}
     </CardLoteryIndex>
     <CardLoteryIndex titleLotery={'Bogotá'} nameLotery={'bogota'} loading={'lazy'}>
-      {bogota === undefined ? <h5>Error al cargar</h5> : bogota.slice(0, 5).map((lotery: any) => (
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+      {bogota === undefined ? <h5>Error al cargar</h5> : bogota.slice(0, 4).map((lotery: any) => (
+        <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+            <a
+            href={lotery.downloadImg}
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            >
+              <Icon.Download fill="white" size="30" title="Descargar" />
+            </a>
+            <h2 class=" font-bold text-2xl text-white mb-2">{lotery.lotteryName}</h2>
+            <div class="flex gap-3 items-center">
+              <h3 class="font-bold text-lg text-white top-0 bg-colorPrimary px-2 py-[2px] rounded-lg ">{lotery.drawingNumber}</h3>
+              <h3 class="">
+                  <p class="">
+                    <time class="bg-white px-2 py-[5px] rounded-lg" datetime={lotery.fecha}>
+                      {lotery.fecha}
+                    </time>
+                  </p>
+                </h3>
+            </div>
+          </div>
           <a
+            class=""
             target="_blank"
-            href={lotery.img}
-            class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16 "
-          >
-            <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+            href={lotery.img}>
+          <div class="relative after:absolute after:z-10 after:top-0 after:h-full after:w-full after:content-[''] after:bg-gradient-to-t from-black/100">
               <Picture
-                width={300}
-                sizes="300"
-                format={"webp"}
-                widths={[200, 300, 400]}
-                aspectRatio="16:9"
-                fit="inside"
-                class="bg-slate-200 w-44 h-48 object-cover"
-                loading=""
-                src={`${lotery.img}`}
-                alt={lotery.imgAlt}
-                title={lotery.drawingNumber}
+              width={300}
+              sizes="300"
+              format={"webp"}
+              widths={[200, 400, 400]}
+              aspectRatio="16:9"
+              fit="inside"
+              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              loading=""
+              src={`${lotery.img}`}
+              alt={lotery.imgAlt}
+              title={lotery.drawingNumber}
               />
             </div>
-            <footer class="mt-4">
-              <h2 class="text-gray-400">
-                <span class="text-white">Sorteo:</span>
-                {lotery.drawingNumber}
-              </h2>
-              <h3>
-                <p class="text-white">
-                  Fecha:{" "}
-                  <time class="text-gray-400" datetime={lotery.fecha}>
-                    {lotery.fecha}
-                  </time>
-                </p>
-              </h3>
-            </footer>
           </a>
-          <div class="flex mt-2 justify-center lg:absolute lg:w-full lg:mt-[280px]">
-            <ButtonSecondary
-              linkButton={lotery.downloadImg}
-              titleButton='Descargar'
-              />
-          </div>
         </article>
       ))}
     </CardLoteryIndex>
     <CardLoteryIndex titleLotery={'Quindio'} nameLotery={'quindio'} loading={'lazy'}>
-      {quindio === undefined ? <h5>Error al cargar</h5> : quindio.slice(0, 5).map((lotery: any) => (
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+      {quindio === undefined ? <h5>Error al cargar</h5> : quindio.slice(0, 4).map((lotery: any) => (
+        <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+            <a
+            href={lotery.downloadImg}
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            >
+              <Icon.Download fill="white" size="30" title="Descargar" />
+            </a>
+            <h2 class=" font-bold text-2xl text-white mb-2">{lotery.lotteryName}</h2>
+            <div class="flex gap-3 items-center">
+              <h3 class="font-bold text-lg text-white top-0 bg-colorPrimary px-2 py-[2px] rounded-lg ">{lotery.drawingNumber}</h3>
+              <h3 class="">
+                  <p class="">
+                    <time class="bg-white px-2 py-[5px] rounded-lg" datetime={lotery.fecha}>
+                      {lotery.fecha}
+                    </time>
+                  </p>
+                </h3>
+            </div>
+          </div>
           <a
+            class=""
             target="_blank"
-            href={lotery.img}
-            class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16 "
-          >
-            <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+            href={lotery.img}>
+          <div class="relative after:absolute after:z-10 after:top-0 after:h-full after:w-full after:content-[''] after:bg-gradient-to-t from-black/100">
               <Picture
-                width={300}
-                sizes="300"
-                format={"webp"}
-                widths={[200, 300, 400]}
-                aspectRatio="16:9"
-                fit="inside"
-                class="bg-slate-200 w-44 h-48 object-cover"
-                loading=""
-                src={`${lotery.img}`}
-                alt={lotery.imgAlt}
-                title={lotery.drawingNumber}
+              width={300}
+              sizes="300"
+              format={"webp"}
+              widths={[200, 400, 400]}
+              aspectRatio="16:9"
+              fit="inside"
+              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              loading=""
+              src={`${lotery.img}`}
+              alt={lotery.imgAlt}
+              title={lotery.drawingNumber}
               />
             </div>
-            <footer class="mt-4">
-              <h2 class="text-gray-400">
-                <span class="text-white">Sorteo:</span>
-                {lotery.drawingNumber}
-              </h2>
-              <h3>
-                <p class="text-white">
-                  Fecha:{" "}
-                  <time class="text-gray-400" datetime={lotery.fecha}>
-                    {lotery.fecha}
-                  </time>
-                </p>
-              </h3>
-            </footer>
           </a>
-          <div class="flex mt-2 justify-center lg:absolute lg:w-full lg:mt-[280px]">
-            <ButtonSecondary
-              linkButton={lotery.downloadImg}
-              titleButton='Descargar'
-              />
-          </div>
         </article>
       ))}
     </CardLoteryIndex>
     <CardLoteryIndex titleLotery={'Medellín'} nameLotery={'medellin'} loading={'lazy'}>
-      {medellin === undefined ? <h5>Error al cargar</h5> : medellin.slice(0, 5).map((lotery: any) => (
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+      {medellin === undefined ? <h5>Error al cargar</h5> : medellin.slice(0, 4).map((lotery: any) => (
+        <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+            <a
+            href={lotery.downloadImg}
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            >
+              <Icon.Download fill="white" size="30" title="Descargar" />
+            </a>
+            <h2 class=" font-bold text-2xl text-white mb-2">{lotery.lotteryName}</h2>
+            <div class="flex gap-3 items-center">
+              <h3 class="font-bold text-lg text-white top-0 bg-colorPrimary px-2 py-[2px] rounded-lg ">{lotery.drawingNumber}</h3>
+              <h3 class="">
+                  <p class="">
+                    <time class="bg-white px-2 py-[5px] rounded-lg" datetime={lotery.fecha}>
+                      {lotery.fecha}
+                    </time>
+                  </p>
+                </h3>
+            </div>
+          </div>
           <a
+            class=""
             target="_blank"
-            href={lotery.img}
-            class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16 "
-          >
-            <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+            href={lotery.img}>
+          <div class="relative after:absolute after:z-10 after:top-0 after:h-full after:w-full after:content-[''] after:bg-gradient-to-t from-black/100">
               <Picture
-                width={300}
-                sizes="300"
-                format={"webp"}
-                widths={[200, 300, 400]}
-                aspectRatio="16:9"
-                fit="inside"
-                class="bg-slate-200 w-44 h-48 object-cover"
-                loading=""
-                src={`${lotery.img}`}
-                alt={lotery.imgAlt}
-                title={lotery.drawingNumber}
+              width={300}
+              sizes="300"
+              format={"webp"}
+              widths={[200, 400, 400]}
+              aspectRatio="16:9"
+              fit="inside"
+              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              loading=""
+              src={`${lotery.img}`}
+              alt={lotery.imgAlt}
+              title={lotery.drawingNumber}
               />
             </div>
-            <footer class="mt-4">
-              <h2 class="text-gray-400">
-                <span class="text-white">Sorteo:</span>
-                {lotery.drawingNumber}
-              </h2>
-              <h3>
-                <p class="text-white">
-                  Fecha:{" "}
-                  <time class="text-gray-400" datetime={lotery.fecha}>
-                    {lotery.fecha}
-                  </time>
-                </p>
-              </h3>
-            </footer>
           </a>
-          <div class="flex mt-2 justify-center lg:absolute lg:w-full lg:mt-[280px]">
-            <ButtonSecondary
-              linkButton={lotery.downloadImg}
-              titleButton='Descargar'
-              />
-          </div>
         </article>
       ))}
     </CardLoteryIndex>
     <CardLoteryIndex titleLotery={'Risaralda'} nameLotery={'risaralda'} loading={'lazy'}>
-      {risaralda === undefined ? <h5>Error al cargar</h5> : risaralda.slice(0, 5).map((lotery: any) => (
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+      {risaralda === undefined ? <h5>Error al cargar</h5> : risaralda.slice(0, 4).map((lotery: any) => (
+        <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+            <a
+            href={lotery.downloadImg}
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            >
+              <Icon.Download fill="white" size="30" title="Descargar" />
+            </a>
+            <h2 class=" font-bold text-2xl text-white mb-2">{lotery.lotteryName}</h2>
+            <div class="flex gap-3 items-center">
+              <h3 class="font-bold text-lg text-white top-0 bg-colorPrimary px-2 py-[2px] rounded-lg ">{lotery.drawingNumber}</h3>
+              <h3 class="">
+                  <p class="">
+                    <time class="bg-white px-2 py-[5px] rounded-lg" datetime={lotery.fecha}>
+                      {lotery.fecha}
+                    </time>
+                  </p>
+                </h3>
+            </div>
+          </div>
           <a
+            class=""
             target="_blank"
-            href={lotery.img}
-            class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16 "
-          >
-            <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+            href={lotery.img}>
+          <div class="relative after:absolute after:z-10 after:top-0 after:h-full after:w-full after:content-[''] after:bg-gradient-to-t from-black/100">
               <Picture
-                width={300}
-                sizes="300"
-                format={"webp"}
-                widths={[200, 300, 400]}
-                aspectRatio="16:9"
-                fit="inside"
-                class="bg-slate-200 w-44 h-48 object-cover"
-                loading=""
-                src={`${lotery.img}`}
-                alt={lotery.imgAlt}
-                title={lotery.drawingNumber}
+              width={300}
+              sizes="300"
+              format={"webp"}
+              widths={[200, 400, 400]}
+              aspectRatio="16:9"
+              fit="inside"
+              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              loading=""
+              src={`${lotery.img}`}
+              alt={lotery.imgAlt}
+              title={lotery.drawingNumber}
               />
             </div>
-            <footer class="mt-4">
-              <h2 class="text-gray-400">
-                <span class="text-white">Sorteo:</span>
-                {lotery.drawingNumber}
-              </h2>
-              <h3>
-                <p class="text-white">
-                  Fecha:{" "}
-                  <time class="text-gray-400" datetime={lotery.fecha}>
-                    {lotery.fecha}
-                  </time>
-                </p>
-              </h3>
-            </footer>
           </a>
-          <div class="flex mt-2 justify-center lg:absolute lg:w-full lg:mt-[280px]">
-            <ButtonSecondary
-              linkButton={lotery.downloadImg}
-              titleButton='Descargar'
-              />
-          </div>
         </article>
       ))}
     </CardLoteryIndex>
     <CardLoteryIndex titleLotery={'Santander'} nameLotery={'santander'} loading={'lazy'}>
-      {santander === undefined ? <h5>Error al cargar</h5> : santander.slice(0, 5).map((lotery: any) => (
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+      {santander === undefined ? <h5>Error al cargar</h5> : santander.slice(0, 4).map((lotery: any) => (
+        <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+            <a
+            href={lotery.downloadImg}
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            >
+              <Icon.Download fill="white" size="30" title="Descargar" />
+            </a>
+            <h2 class=" font-bold text-2xl text-white mb-2">{lotery.lotteryName}</h2>
+            <div class="flex gap-3 items-center">
+              <h3 class="font-bold text-lg text-white top-0 bg-colorPrimary px-2 py-[2px] rounded-lg ">{lotery.drawingNumber}</h3>
+              <h3 class="">
+                  <p class="">
+                    <time class="bg-white px-2 py-[5px] rounded-lg" datetime={lotery.fecha}>
+                      {lotery.fecha}
+                    </time>
+                  </p>
+                </h3>
+            </div>
+          </div>
           <a
+            class=""
             target="_blank"
-            href={lotery.img}
-            class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16 "
-          >
-            <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+            href={lotery.img}>
+          <div class="relative after:absolute after:z-10 after:top-0 after:h-full after:w-full after:content-[''] after:bg-gradient-to-t from-black/100">
               <Picture
-                width={300}
-                sizes="300"
-                format={"webp"}
-                widths={[200, 300, 400]}
-                aspectRatio="16:9"
-                fit="inside"
-                class="bg-slate-200 w-44 h-48 object-cover"
-                loading=""
-                src={`${lotery.img}`}
-                alt={lotery.imgAlt}
-                title={lotery.drawingNumber}
+              width={300}
+              sizes="300"
+              format={"webp"}
+              widths={[200, 400, 400]}
+              aspectRatio="16:9"
+              fit="inside"
+              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              loading=""
+              src={`${lotery.img}`}
+              alt={lotery.imgAlt}
+              title={lotery.drawingNumber}
               />
             </div>
-            <footer class="mt-4">
-              <h2 class="text-gray-400">
-                <span class="text-white">Sorteo:</span>
-                {lotery.drawingNumber}
-              </h2>
-              <h3>
-                <p class="text-white">
-                  Fecha:{" "}
-                  <time class="text-gray-400" datetime={lotery.fecha}>
-                    {lotery.fecha}
-                  </time>
-                </p>
-              </h3>
-            </footer>
           </a>
-          <div class="flex mt-2 justify-center lg:absolute lg:w-full lg:mt-[280px]">
-            <ButtonSecondary
-              linkButton={lotery.downloadImg}
-              titleButton='Descargar'
-              />
-          </div>
         </article>
       ))}
     </CardLoteryIndex>
     <CardLoteryIndex titleLotery={'Boyacá'} nameLotery={'boyaca'} loading={'lazy'}>
-      {boyaca === undefined ? <h5>Error al cargar</h5> : boyaca.slice(0, 5).map((lotery: any) => (
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+      {boyaca === undefined ? <h5>Error al cargar</h5> : boyaca.slice(0, 4).map((lotery: any) => (
+        <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+            <a
+            href={lotery.downloadImg}
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            >
+              <Icon.Download fill="white" size="30" title="Descargar" />
+            </a>
+            <h2 class=" font-bold text-2xl text-white mb-2">{lotery.lotteryName}</h2>
+            <div class="flex gap-3 items-center">
+              <h3 class="font-bold text-lg text-white top-0 bg-colorPrimary px-2 py-[2px] rounded-lg ">{lotery.drawingNumber}</h3>
+              <h3 class="">
+                  <p class="">
+                    <time class="bg-white px-2 py-[5px] rounded-lg" datetime={lotery.fecha}>
+                      {lotery.fecha}
+                    </time>
+                  </p>
+                </h3>
+            </div>
+          </div>
           <a
+            class=""
             target="_blank"
-            href={lotery.img}
-            class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16 "
-          >
-            <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+            href={lotery.img}>
+          <div class="relative after:absolute after:z-10 after:top-0 after:h-full after:w-full after:content-[''] after:bg-gradient-to-t from-black/100">
               <Picture
-                width={300}
-                sizes="300"
-                format={"webp"}
-                widths={[200, 300, 400]}
-                aspectRatio="16:9"
-                fit="inside"
-                class="bg-slate-200 w-44 h-48 object-cover"
-                loading=""
-                src={`${lotery.img}`}
-                alt={lotery.imgAlt}
-                title={lotery.drawingNumber}
+              width={300}
+              sizes="300"
+              format={"webp"}
+              widths={[200, 400, 400]}
+              aspectRatio="16:9"
+              fit="inside"
+              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              loading=""
+              src={`${lotery.img}`}
+              alt={lotery.imgAlt}
+              title={lotery.drawingNumber}
               />
             </div>
-            <footer class="mt-4">
-              <h2 class="text-gray-400">
-                <span class="text-white">Sorteo:</span>
-                {lotery.drawingNumber}
-              </h2>
-              <h3>
-                <p class="text-white">
-                  Fecha:{" "}
-                  <time class="text-gray-400" datetime={lotery.fecha}>
-                    {lotery.fecha}
-                  </time>
-                </p>
-              </h3>
-            </footer>
           </a>
-          <div class="flex mt-2 justify-center lg:absolute lg:w-full lg:mt-[280px]">
-            <ButtonSecondary
-              linkButton={lotery.downloadImg}
-              titleButton='Descargar'
-              />
-          </div>
         </article>
       ))}
     </CardLoteryIndex>
     <CardLoteryIndex titleLotery={'Cauca'} nameLotery={'cauca'} loading={'lazy'}>
-      {cauca === undefined ? <h5>Error al cargar</h5> : cauca.slice(0, 5).map((lotery: any) => (
-        <article class="inline-grid rounded-2xl snap-center shrink-0 m-auto transition-all hover:scale-105 hover:bg-gradient-to-b from-purple-900/60 lg:relative pb-5">
+      {cauca === undefined ? <h5>Error al cargar</h5> : cauca.slice(0, 4).map((lotery: any) => (
+        <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+            <a
+            href={lotery.downloadImg}
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            >
+              <Icon.Download fill="white" size="30" title="Descargar" />
+            </a>
+            <h2 class=" font-bold text-2xl text-white mb-2">{lotery.lotteryName}</h2>
+            <div class="flex gap-3 items-center">
+              <h3 class="font-bold text-lg text-white top-0 bg-colorPrimary px-2 py-[2px] rounded-lg ">{lotery.drawingNumber}</h3>
+              <h3 class="">
+                  <p class="">
+                    <time class="bg-white px-2 py-[5px] rounded-lg" datetime={lotery.fecha}>
+                      {lotery.fecha}
+                    </time>
+                  </p>
+                </h3>
+            </div>
+          </div>
           <a
+            class=""
             target="_blank"
-            href={lotery.img}
-            class="gap-5 min-w-[200px] pl-3 pt-3 lg:pb-16 "
-          >
-            <div class="h-48 w-44 object-cover overflow-hidden rounded-2xl">
+            href={lotery.img}>
+          <div class="relative after:absolute after:z-10 after:top-0 after:h-full after:w-full after:content-[''] after:bg-gradient-to-t from-black/100">
               <Picture
-                width={300}
-                sizes="300"
-                format={"webp"}
-                widths={[200, 300, 400]}
-                aspectRatio="16:9"
-                fit="inside"
-                class="bg-slate-200 w-44 h-48 object-cover"
-                loading=""
-                src={`${lotery.img}`}
-                alt={lotery.imgAlt}
-                title={lotery.drawingNumber}
+              width={300}
+              sizes="300"
+              format={"webp"}
+              widths={[200, 400, 400]}
+              aspectRatio="16:9"
+              fit="inside"
+              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              loading=""
+              src={`${lotery.img}`}
+              alt={lotery.imgAlt}
+              title={lotery.drawingNumber}
               />
             </div>
-            <footer class="mt-4">
-              <h2 class="text-gray-400">
-                <span class="text-white">Sorteo:</span>
-                {lotery.drawingNumber}
-              </h2>
-              <h3>
-                <p class="text-white">
-                  Fecha:{" "}
-                  <time class="text-gray-400" datetime={lotery.fecha}>
-                    {lotery.fecha}
-                  </time>
-                </p>
-              </h3>
-            </footer>
           </a>
-          <div class="flex mt-2 justify-center lg:absolute lg:w-full lg:mt-[280px]">
-            <ButtonSecondary
-              linkButton={lotery.downloadImg}
-              titleButton='Descargar'
-              />
-          </div>
         </article>
       ))}
     </CardLoteryIndex>

@@ -1,16 +1,19 @@
 ---
  import MenuMobile from "./MenuMobile";
+ import * as Icon from '@astropub/icons'
 ---
 
-<div class="bg-bgColor/90 h-[59px] w-full z-10 text-white justify-between place-content-center flex border-b border-purple-600 sticky top-0 mb-8 lg:h-12">
+<div class="bg-bgColor/90 h-[59px] w-full z-40 text-white justify-between place-content-center flex border-b border-purple-600 sticky top-0 mb-8 lg:h-12">
  <div class="lg:hidden">
   <MenuMobile client:load>
 </div>
  <div class="flex">
   <a class="hover:text-purple-600" href="/"><h1 class="py-2 text-2xl font-bold inline-flex">Secosenlinea</h1><span>.com</span></a>
  </div>
- <ul class="flex gap-x-2">
+ <ul class="flex gap-x-2 justify-center items-center">
   <li><a class="hidden py-3 px-4 lg:flex-1 transition-all hover:bg-gradient-to-t from-purple-900/50 lg:flex" href="piramide">Pirámide</a></li>
   <li><a class="hidden py-3 px-4 lg:flex-1 transition-all hover:bg-gradient-to-t from-purple-900/50 lg:flex" href="sobrenosotros">Sobre nosotros</a></li>
+  <li><a class="hover:opacity-50" target="_blank" href="https://github.com/AsvarApp/SecosEnLinea"><Icon.GitHubLogo fill="white" size="25" title="GitHub" /></a></li>
+  <li><a class="hover:opacity-50" target="_blank" href="https://www.casvaru.com/"><Icon.Globe fill="white" title="Web" size="25" /></a></li>
  </ul>
 </div>

@@ -2,8 +2,9 @@ import { defineConfig } from 'astro/config';
 import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
-
 import image from "@astrojs/image";
+
+import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
@@ -11,5 +12,5 @@ export default defineConfig({
     filter: page => page !== 'https://stargazers.club/secret-vip-lounge'
   }), image({
     serviceEntryPoint: '@astrojs/image/sharp'
-  })]
+  }), icon()]
 });
