@@ -35,10 +35,10 @@ import * as Icon from '@astropub/icons'
     <CardLoteryIndex titleLotery={'Cundinamarca'} nameLotery={'cundinamarca'} loading={''} mapLottery={cundinamarca}>
       {cundinamarca === undefined ? <h5>Error al cargar</h5> : cundinamarca.slice(0, 4).map((lotery: any) => (
         <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
-          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-52 duration-150 transition-transform">
             <a
             href={lotery.downloadImg}
-            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[385px] translate-y-8 duration-150 hover:bg-purple-400"
             >
               <Icon.Download fill="white" size="30" title="Descargar" />
             </a>
@@ -66,7 +66,7 @@ import * as Icon from '@astropub/icons'
               widths={[200, 400, 400]}
               aspectRatio="16:9"
               fit="inside"
-              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              class="bg-slate-200 h-full w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
               loading=""
               src={`${lotery.img}`}
               alt={lotery.imgAlt}
@@ -80,10 +80,10 @@ import * as Icon from '@astropub/icons'
     <CardLoteryIndex titleLotery={'Tolima'} nameLotery={'tolima'} loading={''}>
       {tolima === undefined ? <h5>Error al cargar</h5> : tolima.slice(0, 4).map((lotery: any) => (
         <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
-          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-52 duration-150 transition-transform">
             <a
             href={lotery.downloadImg}
-            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[385px] translate-y-8 duration-150 hover:bg-purple-400"
             >
               <Icon.Download fill="white" size="30" title="Descargar" />
             </a>
@@ -111,7 +111,7 @@ import * as Icon from '@astropub/icons'
               widths={[200, 400, 400]}
               aspectRatio="16:9"
               fit="inside"
-              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              class="bg-slate-200 h-full w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
               loading=""
               src={`${lotery.img}`}
               alt={lotery.imgAlt}
@@ -125,10 +125,10 @@ import * as Icon from '@astropub/icons'
     <CardLoteryIndex titleLotery={'Cruz Roja'} nameLotery={'cruzroja'} loading={''}>
       {cruzRoja === undefined ? <h5>Error al cargar</h5> : cruzRoja.slice(0, 4).map((lotery: any) => (
         <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
-          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-52 duration-150 transition-transform">
             <a
             href={lotery.downloadImg}
-            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[385px] translate-y-8 duration-150 hover:bg-purple-400"
             >
               <Icon.Download fill="white" size="30" title="Descargar" />
             </a>
@@ -156,7 +156,7 @@ import * as Icon from '@astropub/icons'
               widths={[200, 400, 400]}
               aspectRatio="16:9"
               fit="inside"
-              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              class="bg-slate-200 h-full w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
               loading=""
               src={`${lotery.img}`}
               alt={lotery.imgAlt}
@@ -170,10 +170,10 @@ import * as Icon from '@astropub/icons'
     <CardLoteryIndex titleLotery={'Huila'} nameLotery={'huila'} loading={'lazy'}>
       {huila === undefined ? <h5>Error al cargar</h5> : huila.slice(0, 4).map((lotery: any) => (
         <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
-          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-52 duration-150 transition-transform">
             <a
             href={lotery.downloadImg}
-            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[385px] translate-y-8 duration-150 hover:bg-purple-400"
             >
               <Icon.Download fill="white" size="30" title="Descargar" />
             </a>
@@ -201,7 +201,7 @@ import * as Icon from '@astropub/icons'
               widths={[200, 400, 400]}
               aspectRatio="16:9"
               fit="inside"
-              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              class="bg-slate-200 h-full w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
               loading=""
               src={`${lotery.img}`}
               alt={lotery.imgAlt}
@@ -215,10 +215,10 @@ import * as Icon from '@astropub/icons'
     <CardLoteryIndex titleLotery={'Meta'} nameLotery={'meta'} loading={'lazy'}>
       {metalottery.slice(0, 4).map((lotery: any) => (
         <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
-          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-52 duration-150 transition-transform">
             <a
             href={lotery.downloadImg}
-            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[385px] translate-y-8 duration-150 hover:bg-purple-400"
             >
               <Icon.Download fill="white" size="30" title="Descargar" />
             </a>
@@ -246,7 +246,7 @@ import * as Icon from '@astropub/icons'
               widths={[200, 400, 400]}
               aspectRatio="16:9"
               fit="inside"
-              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              class="bg-slate-200 h-full w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
               loading=""
               src={`${lotery.img}`}
               alt={lotery.imgAlt}
@@ -260,10 +260,10 @@ import * as Icon from '@astropub/icons'
     <CardLoteryIndex titleLotery={'Manizales'} nameLotery={'manizales'} loading={'lazy'}>
       {manizales === undefined ? <h5>Error al cargar</h5> : manizales.slice(0, 4).map((lotery: any) => (
         <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
-          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-52 duration-150 transition-transform">
             <a
             href={lotery.downloadImg}
-            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[385px] translate-y-8 duration-150 hover:bg-purple-400"
             >
               <Icon.Download fill="white" size="30" title="Descargar" />
             </a>
@@ -291,7 +291,7 @@ import * as Icon from '@astropub/icons'
               widths={[200, 400, 400]}
               aspectRatio="16:9"
               fit="inside"
-              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              class="bg-slate-200 h-full w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
               loading=""
               src={`${lotery.img}`}
               alt={lotery.imgAlt}
@@ -305,10 +305,10 @@ import * as Icon from '@astropub/icons'
     <CardLoteryIndex titleLotery={'Valle'} nameLotery={'valle'} loading={'lazy'}>
       {valle === undefined ? <h5>Error al cargar</h5> : valle.slice(0, 4).map((lotery: any) => (
         <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
-          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-52 duration-150 transition-transform">
             <a
             href={lotery.downloadImg}
-            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[385px] translate-y-8 duration-150 hover:bg-purple-400"
             >
               <Icon.Download fill="white" size="30" title="Descargar" />
             </a>
@@ -336,7 +336,7 @@ import * as Icon from '@astropub/icons'
               widths={[200, 400, 400]}
               aspectRatio="16:9"
               fit="inside"
-              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              class="bg-slate-200 h-full w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
               loading=""
               src={`${lotery.img}`}
               alt={lotery.imgAlt}
@@ -350,10 +350,10 @@ import * as Icon from '@astropub/icons'
     <CardLoteryIndex titleLotery={'Bogotá'} nameLotery={'bogota'} loading={'lazy'}>
       {bogota === undefined ? <h5>Error al cargar</h5> : bogota.slice(0, 4).map((lotery: any) => (
         <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
-          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-52 duration-150 transition-transform">
             <a
             href={lotery.downloadImg}
-            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[385px] translate-y-8 duration-150 hover:bg-purple-400"
             >
               <Icon.Download fill="white" size="30" title="Descargar" />
             </a>
@@ -381,7 +381,7 @@ import * as Icon from '@astropub/icons'
               widths={[200, 400, 400]}
               aspectRatio="16:9"
               fit="inside"
-              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              class="bg-slate-200 h-full w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
               loading=""
               src={`${lotery.img}`}
               alt={lotery.imgAlt}
@@ -395,10 +395,10 @@ import * as Icon from '@astropub/icons'
     <CardLoteryIndex titleLotery={'Quindio'} nameLotery={'quindio'} loading={'lazy'}>
       {quindio === undefined ? <h5>Error al cargar</h5> : quindio.slice(0, 4).map((lotery: any) => (
         <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
-          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-52 duration-150 transition-transform">
             <a
             href={lotery.downloadImg}
-            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[385px] translate-y-8 duration-150 hover:bg-purple-400"
             >
               <Icon.Download fill="white" size="30" title="Descargar" />
             </a>
@@ -426,7 +426,7 @@ import * as Icon from '@astropub/icons'
               widths={[200, 400, 400]}
               aspectRatio="16:9"
               fit="inside"
-              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              class="bg-slate-200 h-full w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
               loading=""
               src={`${lotery.img}`}
               alt={lotery.imgAlt}
@@ -440,10 +440,10 @@ import * as Icon from '@astropub/icons'
     <CardLoteryIndex titleLotery={'Medellín'} nameLotery={'medellin'} loading={'lazy'}>
       {medellin === undefined ? <h5>Error al cargar</h5> : medellin.slice(0, 4).map((lotery: any) => (
         <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
-          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-52 duration-150 transition-transform">
             <a
             href={lotery.downloadImg}
-            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[385px] translate-y-8 duration-150 hover:bg-purple-400"
             >
               <Icon.Download fill="white" size="30" title="Descargar" />
             </a>
@@ -471,7 +471,7 @@ import * as Icon from '@astropub/icons'
               widths={[200, 400, 400]}
               aspectRatio="16:9"
               fit="inside"
-              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              class="bg-slate-200 h-full w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
               loading=""
               src={`${lotery.img}`}
               alt={lotery.imgAlt}
@@ -485,10 +485,10 @@ import * as Icon from '@astropub/icons'
     <CardLoteryIndex titleLotery={'Risaralda'} nameLotery={'risaralda'} loading={'lazy'}>
       {risaralda === undefined ? <h5>Error al cargar</h5> : risaralda.slice(0, 4).map((lotery: any) => (
         <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
-          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-52 duration-150 transition-transform">
             <a
             href={lotery.downloadImg}
-            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[385px] translate-y-8 duration-150 hover:bg-purple-400"
             >
               <Icon.Download fill="white" size="30" title="Descargar" />
             </a>
@@ -516,7 +516,7 @@ import * as Icon from '@astropub/icons'
               widths={[200, 400, 400]}
               aspectRatio="16:9"
               fit="inside"
-              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              class="bg-slate-200 h-full w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
               loading=""
               src={`${lotery.img}`}
               alt={lotery.imgAlt}
@@ -530,10 +530,10 @@ import * as Icon from '@astropub/icons'
     <CardLoteryIndex titleLotery={'Santander'} nameLotery={'santander'} loading={'lazy'}>
       {santander === undefined ? <h5>Error al cargar</h5> : santander.slice(0, 4).map((lotery: any) => (
         <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
-          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-52 duration-150 transition-transform">
             <a
             href={lotery.downloadImg}
-            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[385px] translate-y-8 duration-150 hover:bg-purple-400"
             >
               <Icon.Download fill="white" size="30" title="Descargar" />
             </a>
@@ -561,7 +561,7 @@ import * as Icon from '@astropub/icons'
               widths={[200, 400, 400]}
               aspectRatio="16:9"
               fit="inside"
-              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              class="bg-slate-200 h-full w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
               loading=""
               src={`${lotery.img}`}
               alt={lotery.imgAlt}
@@ -575,10 +575,10 @@ import * as Icon from '@astropub/icons'
     <CardLoteryIndex titleLotery={'Boyacá'} nameLotery={'boyaca'} loading={'lazy'}>
       {boyaca === undefined ? <h5>Error al cargar</h5> : boyaca.slice(0, 4).map((lotery: any) => (
         <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
-          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-52 duration-150 transition-transform">
             <a
             href={lotery.downloadImg}
-            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[385px] translate-y-8 duration-150 hover:bg-purple-400"
             >
               <Icon.Download fill="white" size="30" title="Descargar" />
             </a>
@@ -606,7 +606,7 @@ import * as Icon from '@astropub/icons'
               widths={[200, 400, 400]}
               aspectRatio="16:9"
               fit="inside"
-              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              class="bg-slate-200 h-full w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
               loading=""
               src={`${lotery.img}`}
               alt={lotery.imgAlt}
@@ -620,10 +620,10 @@ import * as Icon from '@astropub/icons'
     <CardLoteryIndex titleLotery={'Cauca'} nameLotery={'cauca'} loading={'lazy'}>
       {cauca === undefined ? <h5>Error al cargar</h5> : cauca.slice(0, 4).map((lotery: any) => (
         <article class="inline-grid snap-center shrink-0 m-auto relative h-[298px] rounded-3xl overflow-hidden group">
-          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-48 duration-150 transition-transform">
+          <div class="absolute z-20 top-0 left-0 mt-52 pl-3 group-hover:-translate-x-52 duration-150 transition-transform">
             <a
             href={lotery.downloadImg}
-            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[370px] translate-y-8 duration-150 hover:bg-purple-400"
+            class="bg-colorPrimary absolute rounded-lg p-1 top-0 left-0 translate-x-[385px] translate-y-8 duration-150 hover:bg-purple-400"
             >
               <Icon.Download fill="white" size="30" title="Descargar" />
             </a>
@@ -651,7 +651,7 @@ import * as Icon from '@astropub/icons'
               widths={[200, 400, 400]}
               aspectRatio="16:9"
               fit="inside"
-              class="bg-slate-200 w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
+              class="bg-slate-200 h-full w-56 max-h-[298px] aspect-[9/12] object-cover opacity-70 group-hover:opacity-100 group-hover:contrast-125 transition-opacity duration-100"
               loading=""
               src={`${lotery.img}`}
               alt={lotery.imgAlt}
