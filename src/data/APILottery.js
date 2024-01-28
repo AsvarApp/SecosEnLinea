@@ -1,5 +1,14 @@
 export const cundinamarca = [
   {
+    "drawingNumber": "4682",
+    "fecha": "22-01-2024",
+    "img": "https://i.postimg.cc/L8HTQrs8/cundinamarca4682.jpg",
+    "downloadImg": "https://i.postimg.cc/9C9n025Z/cundinamarca4682.jpg?dl=1",
+    "imgAlt": "Seco Cundinamarca 4682",
+    "lotteryName": "Cundinamarca",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4681",
     "fecha": "15-01-2024",
     "img": "https://i.postimg.cc/sgyMPKdv/cundinamarca4681.jpg",
@@ -517,6 +526,15 @@ export const cundinamarca = [
   }
 ]
 export const tolima = [
+  {
+    "drawingNumber": "4049",
+    "fecha": "22-01-2024",
+    "img": "https://i.postimg.cc/LXwSNtBm/tolima4049.jpg",
+    "downloadImg":"https://i.postimg.cc/pWXdVkm5/tolima4049.jpg?dl=1",
+    "imgAlt": "Seco Tolima 4049",
+    "lotteryName":"Tolima",
+    "lastDraw": true
+  },
   {
     "drawingNumber": "4048",
     "fecha": "15-01-2024",
@@ -1045,6 +1063,15 @@ export const tolima = [
 ]
 export const cruzRoja = [
   {
+    "drawingNumber": "3033",
+    "fecha": "23-01-2024",
+    "img": "https://i.postimg.cc/3xxKrxR5/cruzroja3033.jpg",
+    "downloadImg":"https://i.postimg.cc/PTmN4Lnx/cruzroja3033.jpg?dl=1",
+    "imgAlt": "Seco Cruz Roja 3033",
+    "lotteryName": "Cruz Roja",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "3032",
     "fecha": "16-01-2024",
     "img": "https://i.postimg.cc/NjMWn9XB/cruz-roja3032.jpg",
@@ -1572,6 +1599,15 @@ export const cruzRoja = [
   }
 ]
 export const huila = [
+  {
+    "drawingNumber": "4635",
+    "fecha": "23-01-2024",
+    "img": "https://i.postimg.cc/pdnyxLGV/huila4635.jpg",
+    "downloadImg":"https://i.postimg.cc/9cL9d4y9/huila4635.jpg?dl=1",
+    "imgAlt": "Seco Huila 4635",
+    "lotteryName": "Huila",
+    "lastDraw": true
+  },
   {
     "drawingNumber": "4634",
     "fecha": "16-01-2024",
@@ -6185,6 +6221,15 @@ export const santander = [
   }
 ]
 export const boyaca = [
+  {
+    "drawingNumber": "4504",
+    "fecha": "27-01-2024",
+    "img": "https://i.postimg.cc/cJ4JPJQb/boyaca4504.jpg",
+    "downloadImg":"https://i.postimg.cc/D71bJJmn/boyaca4504.jpg?dl=1",
+    "imgAlt": "Seco Boyacá 4504",
+    "lotteryName": "Boyacá",
+    "lastDraw": true
+  },
   {
     "drawingNumber": "4503",
     "fecha": "20-01-2024",
