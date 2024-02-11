@@ -1,5 +1,14 @@
 export const cundinamarca = [
   {
+    "drawingNumber": "4684",
+    "fecha": "05-02-2024",
+    "img": "https://i.postimg.cc/htbMPgfc/cundinamarca4684.jpg",
+    "downloadImg": "https://i.postimg.cc/4sj0PxG7/cundinamarca4684.jpg?dl=1",
+    "imgAlt": "Seco Cundinamarca 4684",
+    "lotteryName": "Cundinamarca",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4683",
     "fecha": "29-01-2024",
     "img": "https://i.postimg.cc/VvYyxgDM/cundinamarca4683.jpg",
@@ -6402,6 +6411,15 @@ export const santander = [
 ]
 export const boyaca = [
   {
+    "drawingNumber": "4506",
+    "fecha": "10-02-2024",
+    "img": "https://i.postimg.cc/1RnQgN9M/boyaca4506.jpg",
+    "downloadImg":"https://i.postimg.cc/6Kz5mdFs/boyaca4506.jpg?dl=1",
+    "imgAlt": "Seco Boyacá 4506",
+    "lotteryName": "Boyacá",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4505",
     "fecha": "05-02-2024",
     "img": "https://i.postimg.cc/9Q596XSG/boyaca4505.jpg",
@@ -6937,6 +6955,15 @@ export const boyaca = [
   }
 ]
 export const cauca = [
+  {
+    "drawingNumber": "2492",
+    "fecha": "10-02-2024",
+    "img": "https://i.postimg.cc/R0SmqsFn/cauca2493.jpg",
+    "downloadImg": "https://i.postimg.cc/bqbwC4fL/cauca2493.jpg?dl=1",
+    "imgAlt": "Seco Cauca 2492",
+    "lotteryName": "Cauca",
+    "lastDraw": true
+  },
   {
     "drawingNumber": "2491",
     "fecha": "03-02-2024",
