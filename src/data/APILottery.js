@@ -6411,6 +6411,15 @@ export const santander = [
 ]
 export const boyaca = [
   {
+    "drawingNumber": "4508",
+    "fecha": "24-02-2024",
+    "img": "https://i.postimg.cc/4d8RJ3jq/boyaca4508.jpg",
+    "downloadImg":"https://i.postimg.cc/DvhvPJ6v/boyaca4508.jpg?dl=1",
+    "imgAlt": "Seco Boyacá 4508",
+    "lotteryName": "Boyacá",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4507",
     "fecha": "17-02-2024",
     "img": "https://i.postimg.cc/MTv4ZnHC/boyaca4507.jpg",
@@ -7501,8 +7510,17 @@ export const cauca = [
 ]
 export const extraColombia = [
   {
+    "drawingNumber": "2224",
+    "fecha": "24-02-2023",
+    "img": "https://i.postimg.cc/P5LWyFtw/extracolombia2224.jpg",
+    "downloadImg":"https://i.postimg.cc/bpgmzKW3/extracolombia2224.jpg?dl=1",
+    "imgAlt": "Seco Extra de Colombia 2224",
+    "lotteryName": "Extra de Colombia",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "2223",
-    "fecha": "30-12-2023",
+    "fecha": "27-01-2023",
     "img": "https://i.postimg.cc/JnxjDdy4/extracolombia2223.jpg",
     "downloadImg":"https://i.postimg.cc/WNL8yBTr/extracolombia2223.jpg?dl=1",
     "imgAlt": "Seco Extra de Colombia 2223",
