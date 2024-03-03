@@ -6411,6 +6411,15 @@ export const santander = [
 ]
 export const boyaca = [
   {
+    "drawingNumber": "4509",
+    "fecha": "02-03-2024",
+    "img": "https://i.postimg.cc/Wzdbvnms/boyaca4509.jpg",
+    "downloadImg":"https://i.postimg.cc/kJcVWYBR/boyaca4509.jpg?dl=1",
+    "imgAlt": "Seco Boyacá 4509",
+    "lotteryName": "Boyacá",
+    "lastDraw": true
+  },
+  {
     "drawingNumber": "4508",
     "fecha": "24-02-2024",
     "img": "https://i.postimg.cc/4d8RJ3jq/boyaca4508.jpg",
